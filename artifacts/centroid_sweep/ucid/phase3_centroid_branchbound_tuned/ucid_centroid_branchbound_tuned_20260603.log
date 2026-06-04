@@ -1,0 +1,8 @@
+[TunedBBLaunch] Wed Jun  3 04:49:17 AM UTC 2026 dataset=ucid gpu=3
+[TunedBB] building centroids ds=ucid c=512
+[TunedBB] dataset=ucid store=4500/850 centroids=512
+[TunedBB] ucid q=100
+[TunedBB] ucid q=100 attack 01/26 original
+[TunedBB] ucid q=100 attack 02/26 rotate_m5
+[TunedBB] ucid q=100 attack 03/26 rotate_m10
+[TunedBB] ucid q=100 attack 04/26 rotate5

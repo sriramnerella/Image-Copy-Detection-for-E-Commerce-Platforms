@@ -1,0 +1,6 @@
+[TunedBBLaunch] Wed Jun  3 04:49:17 AM UTC 2026 dataset=flickr gpu=2
+[TunedBB] building centroids ds=flickr c=512
+[TunedBB] dataset=flickr store=10000/5000 centroids=512
+[TunedBB] flickr q=100
+[TunedBB] flickr q=100 attack 01/26 original
+[TunedBB] flickr q=100 attack 02/26 rotate_m5

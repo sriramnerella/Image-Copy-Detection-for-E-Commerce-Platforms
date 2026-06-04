@@ -1,0 +1,723 @@
+
+[CppBBLaunch] Wed Jun  3 08:03:23 AM UTC 2026 dataset=cifar gpu=1
+[CppBB] cifar q=100 c=128 attacks=5
+[CppBB] cifar q=100 c=128 attack 01/5 original
+[CppBB] cifar q=100 c=128 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=128 attack 03/5 crop40
+[CppBB] cifar q=100 c=128 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=128 attack 05/5 contrast
+[CppBBCal] cifar c=128 valid=False row={'direct_avg': 88.3, 'direct_ms': 8.722278, 'hnsw_avg': 88.3, 'hnsw_ms': 1.465043, 'hnsw_min_match': 100.0, 'hnsw_recall': 82.3, 'hnsw_seen': 2272.3, 'erng_avg': 88.3, 'erng_ms': 1.465043, 'erng_min_match': 100.0, 'erng_recall': 82.3, 'erng_seen': 2272.3, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c128.npz', 'valid': False}
+[CppBB] cifar q=100 c=192 attacks=5
+[CppBB] cifar q=100 c=192 attack 01/5 original
+[CppBB] cifar q=100 c=192 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=192 attack 03/5 crop40
+[CppBB] cifar q=100 c=192 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=192 attack 05/5 contrast
+[CppBBCal] cifar c=192 valid=False row={'direct_avg': 89.3, 'direct_ms': 7.949999, 'hnsw_avg': 89.3, 'hnsw_ms': 1.075687, 'hnsw_min_match': 100.0, 'hnsw_recall': 79.8, 'hnsw_seen': 1594.3, 'erng_avg': 89.3, 'erng_ms': 1.075687, 'erng_min_match': 100.0, 'erng_recall': 79.8, 'erng_seen': 1594.3, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] cifar q=100 c=256 attacks=5
+[CppBB] cifar q=100 c=256 attack 01/5 original
+[CppBB] cifar q=100 c=256 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=256 attack 03/5 crop40
+[CppBB] cifar q=100 c=256 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=256 attack 05/5 contrast
+[CppBBCal] cifar c=256 valid=False row={'direct_avg': 89.8, 'direct_ms': 8.312556, 'hnsw_avg': 89.8, 'hnsw_ms': 0.866616, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.2, 'hnsw_seen': 1268.9, 'erng_avg': 89.8, 'erng_ms': 0.866616, 'erng_min_match': 100.0, 'erng_recall': 80.2, 'erng_seen': 1268.9, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] build centroids cifar c=384
+[CppBB] cifar q=100 c=384 attacks=5
+[CppBB] cifar q=100 c=384 attack 01/5 original
+[CppBB] cifar q=100 c=384 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=384 attack 03/5 crop40
+[CppBB] cifar q=100 c=384 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=384 attack 05/5 contrast
+[CppBBCal] cifar c=384 valid=False row={'direct_avg': 89.2, 'direct_ms': 9.980821, 'hnsw_avg': 89.2, 'hnsw_ms': 0.949974, 'hnsw_min_match': 100.0, 'hnsw_recall': 81.1, 'hnsw_seen': 1040.0, 'erng_avg': 89.2, 'erng_ms': 0.949974, 'erng_min_match': 100.0, 'erng_recall': 81.1, 'erng_seen': 1040.0, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] build centroids cifar c=512
+[CppBB] cifar q=100 c=512 attacks=5
+[CppBB] cifar q=100 c=512 attack 01/5 original
+[CppBB] cifar q=100 c=512 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=512 attack 03/5 crop40
+[CppBB] cifar q=100 c=512 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=512 attack 05/5 contrast
+[CppBBCal] cifar c=512 valid=False row={'direct_avg': 90.4, 'direct_ms': 8.959642, 'hnsw_avg': 90.4, 'hnsw_ms': 0.730904, 'hnsw_min_match': 100.0, 'hnsw_recall': 79.4, 'hnsw_seen': 856.0, 'erng_avg': 90.4, 'erng_ms': 0.730904, 'erng_min_match': 100.0, 'erng_recall': 79.4, 'erng_seen': 856.0, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] cifar q=100 c=768 attacks=5
+[CppBB] cifar q=100 c=768 attack 01/5 original
+[CppBB] cifar q=100 c=768 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=768 attack 03/5 crop40
+[CppBB] cifar q=100 c=768 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=768 attack 05/5 contrast
+[CppBBCal] cifar c=768 valid=False row={'direct_avg': 89.9, 'direct_ms': 9.282577, 'hnsw_avg': 89.9, 'hnsw_ms': 0.837323, 'hnsw_min_match': 100.0, 'hnsw_recall': 77.8, 'hnsw_seen': 639.1, 'erng_avg': 89.9, 'erng_ms': 0.837323, 'erng_min_match': 100.0, 'erng_recall': 77.8, 'erng_seen': 639.1, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] build centroids cifar c=1024
+[CppBB] cifar q=100 c=1024 attacks=5
+[CppBB] cifar q=100 c=1024 attack 01/5 original
+[CppBB] cifar q=100 c=1024 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=1024 attack 03/5 crop40
+[CppBB] cifar q=100 c=1024 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=1024 attack 05/5 contrast
+[CppBBCal] cifar c=1024 valid=False row={'direct_avg': 90.1, 'direct_ms': 10.30623, 'hnsw_avg': 90.1, 'hnsw_ms': 1.078984, 'hnsw_min_match': 100.0, 'hnsw_recall': 78.1, 'hnsw_seen': 543.5, 'erng_avg': 90.1, 'erng_ms': 1.078984, 'erng_min_match': 100.0, 'erng_recall': 78.1, 'erng_seen': 543.5, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c1024.npz', 'valid': False}
+[CppBB] build centroids cifar c=1536
+[CppBB] cifar q=100 c=1536 attacks=5
+[CppBB] cifar q=100 c=1536 attack 01/5 original
+[CppBB] cifar q=100 c=1536 attack 02/5 rotate_m10
+[CppBB] cifar q=100 c=1536 attack 03/5 crop40
+[CppBB] cifar q=100 c=1536 attack 04/5 watermark_asset
+[CppBB] cifar q=100 c=1536 attack 05/5 contrast
+[CppBBCal] cifar c=1536 valid=False row={'direct_avg': 88.7, 'direct_ms': 10.809771, 'hnsw_avg': 88.7, 'hnsw_ms': 1.222367, 'hnsw_min_match': 100.0, 'hnsw_recall': 78.1, 'hnsw_seen': 405.9, 'erng_avg': 88.7, 'erng_ms': 1.222367, 'erng_min_match': 100.0, 'erng_recall': 78.1, 'erng_seen': 405.9, 'centroids': 1536, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c1536.npz', 'valid': False}
+[CppBB] selected ds=cifar c=128
+[CppBB] cifar q=100 c=128 attacks=26
+[CppBB] cifar q=100 c=128 attack 01/26 original
+[CppBB] cifar q=100 c=128 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=128 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=128 attack 04/26 rotate5
+[CppBB] cifar q=100 c=128 attack 05/26 rotate15
+[CppBB] cifar q=100 c=128 attack 06/26 rotate30
+[CppBB] cifar q=100 c=128 attack 07/26 rotate40
+[CppBB] cifar q=100 c=128 attack 08/26 crop5
+[CppBB] cifar q=100 c=128 attack 09/26 crop10
+[CppBB] cifar q=100 c=128 attack 10/26 crop20
+[CppBB] cifar q=100 c=128 attack 11/26 crop40
+[CppBB] cifar q=100 c=128 attack 12/26 bright_light
+[CppBB] cifar q=100 c=128 attack 13/26 bright
+[CppBB] cifar q=100 c=128 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=128 attack 15/26 flip_h
+[CppBB] cifar q=100 c=128 attack 16/26 flip_v
+[CppBB] cifar q=100 c=128 attack 17/26 flip
+[CppBB] cifar q=100 c=128 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=128 attack 19/26 resize
+[CppBB] cifar q=100 c=128 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=128 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=128 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=128 attack 25/26 blur
+[CppBB] cifar q=100 c=128 attack 26/26 contrast
+[CppBBLaunch] Wed Jun  3 08:45:29 AM UTC 2026 dataset=cifar gpu=1
+[CppBB] cifar q=100 c=128 attacks=26
+[CppBB] cifar q=100 c=128 attack 01/26 original
+[CppBB] cifar q=100 c=128 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=128 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=128 attack 04/26 rotate5
+[CppBB] cifar q=100 c=128 attack 05/26 rotate15
+[CppBB] cifar q=100 c=128 attack 06/26 rotate30
+[CppBB] cifar q=100 c=128 attack 07/26 rotate40
+[CppBB] cifar q=100 c=128 attack 08/26 crop5
+[CppBB] cifar q=100 c=128 attack 09/26 crop10
+[CppBB] cifar q=100 c=128 attack 10/26 crop20
+[CppBB] cifar q=100 c=128 attack 11/26 crop40
+[CppBB] cifar q=100 c=128 attack 12/26 bright_light
+[CppBB] cifar q=100 c=128 attack 13/26 bright
+[CppBB] cifar q=100 c=128 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=128 attack 15/26 flip_h
+[CppBB] cifar q=100 c=128 attack 16/26 flip_v
+[CppBB] cifar q=100 c=128 attack 17/26 flip
+[CppBB] cifar q=100 c=128 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=128 attack 19/26 resize
+[CppBB] cifar q=100 c=128 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=128 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=128 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=128 attack 25/26 blur
+[CppBB] cifar q=100 c=128 attack 26/26 contrast
+[CppBBCal] cifar c=128 valid=False row={'direct_avg': 91.31, 'direct_ms': 8.401077, 'hnsw_avg': 91.31, 'hnsw_ms': 1.177677, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.31, 'hnsw_seen': 1976.8, 'erng_avg': 91.31, 'erng_ms': 1.177677, 'erng_min_match': 100.0, 'erng_recall': 80.31, 'erng_seen': 1976.8, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c128.npz', 'valid': False}
+[CppBB] cifar q=100 c=192 attacks=26
+[CppBB] cifar q=100 c=192 attack 01/26 original
+[CppBB] cifar q=100 c=192 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=192 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=192 attack 04/26 rotate5
+[CppBB] cifar q=100 c=192 attack 05/26 rotate15
+[CppBB] cifar q=100 c=192 attack 06/26 rotate30
+[CppBB] cifar q=100 c=192 attack 07/26 rotate40
+[CppBB] cifar q=100 c=192 attack 08/26 crop5
+[CppBB] cifar q=100 c=192 attack 09/26 crop10
+[CppBB] cifar q=100 c=192 attack 10/26 crop20
+[CppBB] cifar q=100 c=192 attack 11/26 crop40
+[CppBB] cifar q=100 c=192 attack 12/26 bright_light
+[CppBB] cifar q=100 c=192 attack 13/26 bright
+[CppBB] cifar q=100 c=192 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=192 attack 15/26 flip_h
+[CppBB] cifar q=100 c=192 attack 16/26 flip_v
+[CppBB] cifar q=100 c=192 attack 17/26 flip
+[CppBB] cifar q=100 c=192 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=192 attack 19/26 resize
+[CppBB] cifar q=100 c=192 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=192 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=192 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=192 attack 25/26 blur
+[CppBB] cifar q=100 c=192 attack 26/26 contrast
+[CppBBCal] cifar c=192 valid=False row={'direct_avg': 91.15, 'direct_ms': 8.340978, 'hnsw_avg': 91.15, 'hnsw_ms': 0.916634, 'hnsw_min_match': 100.0, 'hnsw_recall': 79.42, 'hnsw_seen': 1507.1, 'erng_avg': 91.15, 'erng_ms': 0.916634, 'erng_min_match': 100.0, 'erng_recall': 79.42, 'erng_seen': 1507.1, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] cifar q=100 c=256 attacks=26
+[CppBB] cifar q=100 c=256 attack 01/26 original
+[CppBB] cifar q=100 c=256 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=256 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=256 attack 04/26 rotate5
+[CppBB] cifar q=100 c=256 attack 05/26 rotate15
+[CppBB] cifar q=100 c=256 attack 06/26 rotate30
+[CppBB] cifar q=100 c=256 attack 07/26 rotate40
+[CppBB] cifar q=100 c=256 attack 08/26 crop5
+[CppBB] cifar q=100 c=256 attack 09/26 crop10
+[CppBB] cifar q=100 c=256 attack 10/26 crop20
+[CppBB] cifar q=100 c=256 attack 11/26 crop40
+[CppBB] cifar q=100 c=256 attack 12/26 bright_light
+[CppBB] cifar q=100 c=256 attack 13/26 bright
+[CppBB] cifar q=100 c=256 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=256 attack 15/26 flip_h
+[CppBB] cifar q=100 c=256 attack 16/26 flip_v
+[CppBB] cifar q=100 c=256 attack 17/26 flip
+[CppBB] cifar q=100 c=256 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=256 attack 19/26 resize
+[CppBB] cifar q=100 c=256 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=256 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=256 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=256 attack 25/26 blur
+[CppBB] cifar q=100 c=256 attack 26/26 contrast
+[CppBBCal] cifar c=256 valid=False row={'direct_avg': 91.25, 'direct_ms': 8.260618, 'hnsw_avg': 91.25, 'hnsw_ms': 0.809316, 'hnsw_min_match': 100.0, 'hnsw_recall': 79.88, 'hnsw_seen': 1188.6, 'erng_avg': 91.25, 'erng_ms': 0.809316, 'erng_min_match': 100.0, 'erng_recall': 79.88, 'erng_seen': 1188.6, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] cifar q=100 c=384 attacks=26
+[CppBB] cifar q=100 c=384 attack 01/26 original
+[CppBB] cifar q=100 c=384 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=384 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=384 attack 04/26 rotate5
+[CppBB] cifar q=100 c=384 attack 05/26 rotate15
+[CppBB] cifar q=100 c=384 attack 06/26 rotate30
+[CppBB] cifar q=100 c=384 attack 07/26 rotate40
+[CppBB] cifar q=100 c=384 attack 08/26 crop5
+[CppBB] cifar q=100 c=384 attack 09/26 crop10
+[CppBB] cifar q=100 c=384 attack 10/26 crop20
+[CppBB] cifar q=100 c=384 attack 11/26 crop40
+[CppBB] cifar q=100 c=384 attack 12/26 bright_light
+[CppBB] cifar q=100 c=384 attack 13/26 bright
+[CppBB] cifar q=100 c=384 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=384 attack 15/26 flip_h
+[CppBB] cifar q=100 c=384 attack 16/26 flip_v
+[CppBB] cifar q=100 c=384 attack 17/26 flip
+[CppBB] cifar q=100 c=384 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=384 attack 19/26 resize
+[CppBB] cifar q=100 c=384 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=384 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=384 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=384 attack 25/26 blur
+[CppBB] cifar q=100 c=384 attack 26/26 contrast
+[CppBBCal] cifar c=384 valid=False row={'direct_avg': 91.21, 'direct_ms': 8.399427, 'hnsw_avg': 91.21, 'hnsw_ms': 0.723876, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.58, 'hnsw_seen': 948.1, 'erng_avg': 91.21, 'erng_ms': 0.723876, 'erng_min_match': 100.0, 'erng_recall': 80.58, 'erng_seen': 948.1, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] cifar q=100 c=512 attacks=26
+[CppBB] cifar q=100 c=512 attack 01/26 original
+[CppBB] cifar q=100 c=512 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=512 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=512 attack 04/26 rotate5
+[CppBB] cifar q=100 c=512 attack 05/26 rotate15
+[CppBB] cifar q=100 c=512 attack 06/26 rotate30
+[CppBB] cifar q=100 c=512 attack 07/26 rotate40
+[CppBB] cifar q=100 c=512 attack 08/26 crop5
+[CppBB] cifar q=100 c=512 attack 09/26 crop10
+[CppBB] cifar q=100 c=512 attack 10/26 crop20
+[CppBB] cifar q=100 c=512 attack 11/26 crop40
+[CppBB] cifar q=100 c=512 attack 12/26 bright_light
+[CppBB] cifar q=100 c=512 attack 13/26 bright
+[CppBB] cifar q=100 c=512 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=512 attack 15/26 flip_h
+[CppBB] cifar q=100 c=512 attack 16/26 flip_v
+[CppBB] cifar q=100 c=512 attack 17/26 flip
+[CppBB] cifar q=100 c=512 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=512 attack 19/26 resize
+[CppBB] cifar q=100 c=512 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=512 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=512 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=512 attack 25/26 blur
+[CppBB] cifar q=100 c=512 attack 26/26 contrast
+[CppBBCal] cifar c=512 valid=False row={'direct_avg': 91.33, 'direct_ms': 8.202878, 'hnsw_avg': 91.33, 'hnsw_ms': 0.678371, 'hnsw_min_match': 100.0, 'hnsw_recall': 78.79, 'hnsw_seen': 757.7, 'erng_avg': 91.33, 'erng_ms': 0.678371, 'erng_min_match': 100.0, 'erng_recall': 78.79, 'erng_seen': 757.7, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] cifar q=100 c=768 attacks=26
+[CppBB] cifar q=100 c=768 attack 01/26 original
+[CppBB] cifar q=100 c=768 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=768 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=768 attack 04/26 rotate5
+[CppBB] cifar q=100 c=768 attack 05/26 rotate15
+[CppBB] cifar q=100 c=768 attack 06/26 rotate30
+[CppBB] cifar q=100 c=768 attack 07/26 rotate40
+[CppBB] cifar q=100 c=768 attack 08/26 crop5
+[CppBB] cifar q=100 c=768 attack 09/26 crop10
+[CppBB] cifar q=100 c=768 attack 10/26 crop20
+[CppBB] cifar q=100 c=768 attack 11/26 crop40
+[CppBB] cifar q=100 c=768 attack 12/26 bright_light
+[CppBB] cifar q=100 c=768 attack 13/26 bright
+[CppBB] cifar q=100 c=768 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=768 attack 15/26 flip_h
+[CppBB] cifar q=100 c=768 attack 16/26 flip_v
+[CppBB] cifar q=100 c=768 attack 17/26 flip
+[CppBB] cifar q=100 c=768 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=768 attack 19/26 resize
+[CppBB] cifar q=100 c=768 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=768 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=768 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=768 attack 25/26 blur
+[CppBB] cifar q=100 c=768 attack 26/26 contrast
+[CppBBCal] cifar c=768 valid=False row={'direct_avg': 91.0, 'direct_ms': 8.424693, 'hnsw_avg': 91.0, 'hnsw_ms': 0.774479, 'hnsw_min_match': 100.0, 'hnsw_recall': 77.75, 'hnsw_seen': 596.7, 'erng_avg': 91.0, 'erng_ms': 0.774479, 'erng_min_match': 100.0, 'erng_recall': 77.75, 'erng_seen': 596.7, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] cifar q=100 c=1024 attacks=26
+[CppBB] cifar q=100 c=1024 attack 01/26 original
+[CppBB] cifar q=100 c=1024 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=1024 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=1024 attack 04/26 rotate5
+[CppBB] cifar q=100 c=1024 attack 05/26 rotate15
+[CppBB] cifar q=100 c=1024 attack 06/26 rotate30
+[CppBB] cifar q=100 c=1024 attack 07/26 rotate40
+[CppBB] cifar q=100 c=1024 attack 08/26 crop5
+[CppBB] cifar q=100 c=1024 attack 09/26 crop10
+[CppBB] cifar q=100 c=1024 attack 10/26 crop20
+[CppBB] cifar q=100 c=1024 attack 11/26 crop40
+[CppBB] cifar q=100 c=1024 attack 12/26 bright_light
+[CppBB] cifar q=100 c=1024 attack 13/26 bright
+[CppBB] cifar q=100 c=1024 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=1024 attack 15/26 flip_h
+[CppBB] cifar q=100 c=1024 attack 16/26 flip_v
+[CppBB] cifar q=100 c=1024 attack 17/26 flip
+[CppBB] cifar q=100 c=1024 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=1024 attack 19/26 resize
+[CppBB] cifar q=100 c=1024 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=1024 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=1024 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=1024 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=1024 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=1024 attack 25/26 blur
+[CppBB] cifar q=100 c=1024 attack 26/26 contrast
+[CppBBCal] cifar c=1024 valid=False row={'direct_avg': 91.46, 'direct_ms': 8.326375, 'hnsw_avg': 91.46, 'hnsw_ms': 0.823942, 'hnsw_min_match': 100.0, 'hnsw_recall': 76.52, 'hnsw_seen': 466.2, 'erng_avg': 91.46, 'erng_ms': 0.823942, 'erng_min_match': 100.0, 'erng_recall': 76.52, 'erng_seen': 466.2, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c1024.npz', 'valid': False}
+[CppBB] cifar q=100 c=1536 attacks=26
+[CppBB] cifar q=100 c=1536 attack 01/26 original
+[CppBB] cifar q=100 c=1536 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=1536 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=1536 attack 04/26 rotate5
+[CppBB] cifar q=100 c=1536 attack 05/26 rotate15
+[CppBB] cifar q=100 c=1536 attack 06/26 rotate30
+[CppBB] cifar q=100 c=1536 attack 07/26 rotate40
+[CppBB] cifar q=100 c=1536 attack 08/26 crop5
+[CppBB] cifar q=100 c=1536 attack 09/26 crop10
+[CppBB] cifar q=100 c=1536 attack 10/26 crop20
+[CppBB] cifar q=100 c=1536 attack 11/26 crop40
+[CppBB] cifar q=100 c=1536 attack 12/26 bright_light
+[CppBB] cifar q=100 c=1536 attack 13/26 bright
+[CppBB] cifar q=100 c=1536 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=1536 attack 15/26 flip_h
+[CppBB] cifar q=100 c=1536 attack 16/26 flip_v
+[CppBB] cifar q=100 c=1536 attack 17/26 flip
+[CppBB] cifar q=100 c=1536 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=1536 attack 19/26 resize
+[CppBB] cifar q=100 c=1536 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=1536 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=1536 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=1536 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=1536 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=1536 attack 25/26 blur
+[CppBB] cifar q=100 c=1536 attack 26/26 contrast
+[CppBBCal] cifar c=1536 valid=False row={'direct_avg': 90.94, 'direct_ms': 8.343616, 'hnsw_avg': 90.94, 'hnsw_ms': 1.051859, 'hnsw_min_match': 100.0, 'hnsw_recall': 76.63, 'hnsw_seen': 355.2, 'erng_avg': 90.94, 'erng_ms': 1.051859, 'erng_min_match': 100.0, 'erng_recall': 76.63, 'erng_seen': 355.2, 'centroids': 1536, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c1536.npz', 'valid': False}
+[CppBB] selected ds=cifar c=384
+[CppBB] cifar q=100 c=384 attacks=26
+[CppBB] cifar q=100 c=384 attack 01/26 original
+[CppBB] cifar q=100 c=384 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=384 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=384 attack 04/26 rotate5
+[CppBB] cifar q=100 c=384 attack 05/26 rotate15
+[CppBB] cifar q=100 c=384 attack 06/26 rotate30
+[CppBB] cifar q=100 c=384 attack 07/26 rotate40
+[CppBB] cifar q=100 c=384 attack 08/26 crop5
+[CppBB] cifar q=100 c=384 attack 09/26 crop10
+[CppBB] cifar q=100 c=384 attack 10/26 crop20
+[CppBB] cifar q=100 c=384 attack 11/26 crop40
+[CppBB] cifar q=100 c=384 attack 12/26 bright_light
+[CppBB] cifar q=100 c=384 attack 13/26 bright
+[CppBB] cifar q=100 c=384 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=384 attack 15/26 flip_h
+[CppBB] cifar q=100 c=384 attack 16/26 flip_v
+[CppBB] cifar q=100 c=384 attack 17/26 flip
+[CppBB] cifar q=100 c=384 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=384 attack 19/26 resize
+[CppBB] cifar q=100 c=384 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=384 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=384 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=384 attack 25/26 blur
+[CppBB] cifar q=100 c=384 attack 26/26 contrast
+[CppBBSummary] cifar q=100 {'direct_avg': 91.21, 'direct_ms': 8.472227, 'hnsw_avg': 91.21, 'hnsw_ms': 0.728184, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.29, 'hnsw_seen': 963.2, 'erng_avg': 91.21, 'erng_ms': 0.728184, 'erng_min_match': 100.0, 'erng_recall': 80.29, 'erng_seen': 963.2}
+[CppBB] cifar q=200 c=384 attacks=26
+[CppBB] cifar q=200 c=384 attack 01/26 original
+[CppBB] cifar q=200 c=384 attack 02/26 rotate_m5
+[CppBB] cifar q=200 c=384 attack 03/26 rotate_m10
+[CppBB] cifar q=200 c=384 attack 04/26 rotate5
+[CppBB] cifar q=200 c=384 attack 05/26 rotate15
+[CppBB] cifar q=200 c=384 attack 06/26 rotate30
+[CppBB] cifar q=200 c=384 attack 07/26 rotate40
+[CppBB] cifar q=200 c=384 attack 08/26 crop5
+[CppBB] cifar q=200 c=384 attack 09/26 crop10
+[CppBB] cifar q=200 c=384 attack 10/26 crop20
+[CppBB] cifar q=200 c=384 attack 11/26 crop40
+[CppBB] cifar q=200 c=384 attack 12/26 bright_light
+[CppBB] cifar q=200 c=384 attack 13/26 bright
+[CppBB] cifar q=200 c=384 attack 14/26 heavy_bright
+[CppBB] cifar q=200 c=384 attack 15/26 flip_h
+[CppBB] cifar q=200 c=384 attack 16/26 flip_v
+[CppBB] cifar q=200 c=384 attack 17/26 flip
+[CppBB] cifar q=200 c=384 attack 18/26 resize_compress
+[CppBB] cifar q=200 c=384 attack 19/26 resize
+[CppBB] cifar q=200 c=384 attack 20/26 watermark_text
+[CppBB] cifar q=200 c=384 attack 21/26 watermark_asset
+[CppBB] cifar q=200 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=200 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=200 c=384 attack 24/26 bg_color_change
+[CppBB] cifar q=200 c=384 attack 25/26 blur
+[CppBB] cifar q=200 c=384 attack 26/26 contrast
+[CppBBSummary] cifar q=200 {'direct_avg': 90.98, 'direct_ms': 8.169985, 'hnsw_avg': 90.98, 'hnsw_ms': 0.721104, 'hnsw_min_match': 100.0, 'hnsw_recall': 79.95, 'hnsw_seen': 941.6, 'erng_avg': 90.98, 'erng_ms': 0.721104, 'erng_min_match': 100.0, 'erng_recall': 79.95, 'erng_seen': 941.6}
+[CppBB] cifar q=500 c=384 attacks=26
+[CppBB] cifar q=500 c=384 attack 01/26 original
+[CppBB] cifar q=500 c=384 attack 02/26 rotate_m5
+[CppBB] cifar q=500 c=384 attack 03/26 rotate_m10
+[CppBB] cifar q=500 c=384 attack 04/26 rotate5
+[CppBB] cifar q=500 c=384 attack 05/26 rotate15
+[CppBB] cifar q=500 c=384 attack 06/26 rotate30
+[CppBB] cifar q=500 c=384 attack 07/26 rotate40
+[CppBB] cifar q=500 c=384 attack 08/26 crop5
+[CppBB] cifar q=500 c=384 attack 09/26 crop10
+[CppBB] cifar q=500 c=384 attack 10/26 crop20
+[CppBB] cifar q=500 c=384 attack 11/26 crop40
+[CppBBLaunch] Wed Jun  3 10:21:01 AM UTC 2026 dataset=cifar gpu=1
+[CppBB] cifar q=100 c=128 attacks=26
+[CppBB] cifar q=100 c=128 attack 01/26 original
+[CppBB] cifar q=100 c=128 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=128 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=128 attack 04/26 rotate5
+[CppBB] cifar q=100 c=128 attack 05/26 rotate15
+[CppBB] cifar q=100 c=128 attack 06/26 rotate30
+[CppBB] cifar q=100 c=128 attack 07/26 rotate40
+[CppBB] cifar q=100 c=128 attack 08/26 crop5
+[CppBB] cifar q=100 c=128 attack 09/26 crop10
+[CppBB] cifar q=100 c=128 attack 10/26 crop20
+[CppBB] cifar q=100 c=128 attack 11/26 crop40
+[CppBB] cifar q=100 c=128 attack 12/26 bright_light
+[CppBB] cifar q=100 c=128 attack 13/26 bright
+[CppBB] cifar q=100 c=128 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=128 attack 15/26 flip_h
+[CppBB] cifar q=100 c=128 attack 16/26 flip_v
+[CppBB] cifar q=100 c=128 attack 17/26 flip
+[CppBB] cifar q=100 c=128 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=128 attack 19/26 resize
+[CppBB] cifar q=100 c=128 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=128 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=128 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=128 attack 25/26 blur
+[CppBB] cifar q=100 c=128 attack 26/26 contrast
+[CppBBCal] cifar c=128 valid=True row={'direct_avg': 91.38, 'direct_ms': 8.787794, 'hnsw_avg': 91.38, 'hnsw_ms': 1.090452, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.83, 'hnsw_seen': 1773.2, 'erng_avg': 91.38, 'erng_ms': 1.104515, 'erng_min_match': 100.0, 'erng_recall': 80.71, 'erng_seen': 1765.4, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c128.npz', 'valid': True, 'selection_score_ms': 1.104515}
+[CppBB] cifar q=100 c=192 attacks=26
+[CppBB] cifar q=100 c=192 attack 01/26 original
+[CppBB] cifar q=100 c=192 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=192 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=192 attack 04/26 rotate5
+[CppBB] cifar q=100 c=192 attack 05/26 rotate15
+[CppBB] cifar q=100 c=192 attack 06/26 rotate30
+[CppBB] cifar q=100 c=192 attack 07/26 rotate40
+[CppBB] cifar q=100 c=192 attack 08/26 crop5
+[CppBB] cifar q=100 c=192 attack 09/26 crop10
+[CppBB] cifar q=100 c=192 attack 10/26 crop20
+[CppBB] cifar q=100 c=192 attack 11/26 crop40
+[CppBB] cifar q=100 c=192 attack 12/26 bright_light
+[CppBB] cifar q=100 c=192 attack 13/26 bright
+[CppBB] cifar q=100 c=192 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=192 attack 15/26 flip_h
+[CppBB] cifar q=100 c=192 attack 16/26 flip_v
+[CppBB] cifar q=100 c=192 attack 17/26 flip
+[CppBB] cifar q=100 c=192 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=192 attack 19/26 resize
+[CppBB] cifar q=100 c=192 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=192 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=192 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=192 attack 25/26 blur
+[CppBB] cifar q=100 c=192 attack 26/26 contrast
+[CppBBCal] cifar c=192 valid=True row={'direct_avg': 90.79, 'direct_ms': 8.760381, 'hnsw_avg': 90.79, 'hnsw_ms': 0.933533, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.81, 'hnsw_seen': 1368.4, 'erng_avg': 90.79, 'erng_ms': 0.916865, 'erng_min_match': 100.0, 'erng_recall': 80.5, 'erng_seen': 1366.8, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c192.npz', 'valid': True, 'selection_score_ms': 0.933533}
+[CppBB] cifar q=100 c=256 attacks=26
+[CppBB] cifar q=100 c=256 attack 01/26 original
+[CppBB] cifar q=100 c=256 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=256 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=256 attack 04/26 rotate5
+[CppBB] cifar q=100 c=256 attack 05/26 rotate15
+[CppBB] cifar q=100 c=256 attack 06/26 rotate30
+[CppBB] cifar q=100 c=256 attack 07/26 rotate40
+[CppBB] cifar q=100 c=256 attack 08/26 crop5
+[CppBB] cifar q=100 c=256 attack 09/26 crop10
+[CppBB] cifar q=100 c=256 attack 10/26 crop20
+[CppBB] cifar q=100 c=256 attack 11/26 crop40
+[CppBB] cifar q=100 c=256 attack 12/26 bright_light
+[CppBB] cifar q=100 c=256 attack 13/26 bright
+[CppBB] cifar q=100 c=256 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=256 attack 15/26 flip_h
+[CppBB] cifar q=100 c=256 attack 16/26 flip_v
+[CppBB] cifar q=100 c=256 attack 17/26 flip
+[CppBB] cifar q=100 c=256 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=256 attack 19/26 resize
+[CppBB] cifar q=100 c=256 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=256 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=256 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=256 attack 25/26 blur
+[CppBB] cifar q=100 c=256 attack 26/26 contrast
+[CppBBCal] cifar c=256 valid=True row={'direct_avg': 91.08, 'direct_ms': 8.553811, 'hnsw_avg': 91.08, 'hnsw_ms': 0.779281, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.54, 'hnsw_seen': 1107.9, 'erng_avg': 91.08, 'erng_ms': 0.814745, 'erng_min_match': 100.0, 'erng_recall': 80.54, 'erng_seen': 1103.2, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c256.npz', 'valid': True, 'selection_score_ms': 0.814745}
+[CppBB] cifar q=100 c=384 attacks=26
+[CppBB] cifar q=100 c=384 attack 01/26 original
+[CppBB] cifar q=100 c=384 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=384 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=384 attack 04/26 rotate5
+[CppBB] cifar q=100 c=384 attack 05/26 rotate15
+[CppBB] cifar q=100 c=384 attack 06/26 rotate30
+[CppBB] cifar q=100 c=384 attack 07/26 rotate40
+[CppBB] cifar q=100 c=384 attack 08/26 crop5
+[CppBB] cifar q=100 c=384 attack 09/26 crop10
+[CppBB] cifar q=100 c=384 attack 10/26 crop20
+[CppBB] cifar q=100 c=384 attack 11/26 crop40
+[CppBB] cifar q=100 c=384 attack 12/26 bright_light
+[CppBB] cifar q=100 c=384 attack 13/26 bright
+[CppBB] cifar q=100 c=384 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=384 attack 15/26 flip_h
+[CppBB] cifar q=100 c=384 attack 16/26 flip_v
+[CppBB] cifar q=100 c=384 attack 17/26 flip
+[CppBB] cifar q=100 c=384 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=384 attack 19/26 resize
+[CppBB] cifar q=100 c=384 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=384 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=384 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=384 attack 25/26 blur
+[CppBB] cifar q=100 c=384 attack 26/26 contrast
+[CppBBCal] cifar c=384 valid=True row={'direct_avg': 91.08, 'direct_ms': 8.534175, 'hnsw_avg': 91.08, 'hnsw_ms': 0.743641, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.94, 'hnsw_seen': 880.0, 'erng_avg': 91.08, 'erng_ms': 0.726052, 'erng_min_match': 100.0, 'erng_recall': 80.96, 'erng_seen': 875.9, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c384.npz', 'valid': True, 'selection_score_ms': 0.743641}
+[CppBB] cifar q=100 c=512 attacks=26
+[CppBB] cifar q=100 c=512 attack 01/26 original
+[CppBB] cifar q=100 c=512 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=512 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=512 attack 04/26 rotate5
+[CppBB] cifar q=100 c=512 attack 05/26 rotate15
+[CppBB] cifar q=100 c=512 attack 06/26 rotate30
+[CppBB] cifar q=100 c=512 attack 07/26 rotate40
+[CppBB] cifar q=100 c=512 attack 08/26 crop5
+[CppBB] cifar q=100 c=512 attack 09/26 crop10
+[CppBB] cifar q=100 c=512 attack 10/26 crop20
+[CppBB] cifar q=100 c=512 attack 11/26 crop40
+[CppBB] cifar q=100 c=512 attack 12/26 bright_light
+[CppBB] cifar q=100 c=512 attack 13/26 bright
+[CppBB] cifar q=100 c=512 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=512 attack 15/26 flip_h
+[CppBB] cifar q=100 c=512 attack 16/26 flip_v
+[CppBB] cifar q=100 c=512 attack 17/26 flip
+[CppBB] cifar q=100 c=512 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=512 attack 19/26 resize
+[CppBB] cifar q=100 c=512 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=512 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=512 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=512 attack 25/26 blur
+[CppBB] cifar q=100 c=512 attack 26/26 contrast
+[CppBBCal] cifar c=512 valid=True row={'direct_avg': 91.17, 'direct_ms': 8.463841, 'hnsw_avg': 91.17, 'hnsw_ms': 0.71912, 'hnsw_min_match': 100.0, 'hnsw_recall': 79.38, 'hnsw_seen': 709.3, 'erng_avg': 91.17, 'erng_ms': 0.712509, 'erng_min_match': 100.0, 'erng_recall': 79.21, 'erng_seen': 706.8, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c512.npz', 'valid': True, 'selection_score_ms': 0.71912}
+[CppBB] cifar q=100 c=768 attacks=26
+[CppBB] cifar q=100 c=768 attack 01/26 original
+[CppBB] cifar q=100 c=768 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=768 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=768 attack 04/26 rotate5
+[CppBB] cifar q=100 c=768 attack 05/26 rotate15
+[CppBB] cifar q=100 c=768 attack 06/26 rotate30
+[CppBB] cifar q=100 c=768 attack 07/26 rotate40
+[CppBB] cifar q=100 c=768 attack 08/26 crop5
+[CppBB] cifar q=100 c=768 attack 09/26 crop10
+[CppBB] cifar q=100 c=768 attack 10/26 crop20
+[CppBB] cifar q=100 c=768 attack 11/26 crop40
+[CppBB] cifar q=100 c=768 attack 12/26 bright_light
+[CppBB] cifar q=100 c=768 attack 13/26 bright
+[CppBB] cifar q=100 c=768 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=768 attack 15/26 flip_h
+[CppBB] cifar q=100 c=768 attack 16/26 flip_v
+[CppBB] cifar q=100 c=768 attack 17/26 flip
+[CppBB] cifar q=100 c=768 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=768 attack 19/26 resize
+[CppBB] cifar q=100 c=768 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=768 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=768 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=768 attack 25/26 blur
+[CppBB] cifar q=100 c=768 attack 26/26 contrast
+[CppBBCal] cifar c=768 valid=True row={'direct_avg': 90.79, 'direct_ms': 8.612256, 'hnsw_avg': 90.79, 'hnsw_ms': 0.803457, 'hnsw_min_match': 100.0, 'hnsw_recall': 78.85, 'hnsw_seen': 553.1, 'erng_avg': 90.79, 'erng_ms': 0.81008, 'erng_min_match': 100.0, 'erng_recall': 79.29, 'erng_seen': 551.5, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c768.npz', 'valid': True, 'selection_score_ms': 0.81008}
+[CppBB] cifar q=100 c=1024 attacks=26
+[CppBB] cifar q=100 c=1024 attack 01/26 original
+[CppBB] cifar q=100 c=1024 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=1024 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=1024 attack 04/26 rotate5
+[CppBB] cifar q=100 c=1024 attack 05/26 rotate15
+[CppBB] cifar q=100 c=1024 attack 06/26 rotate30
+[CppBB] cifar q=100 c=1024 attack 07/26 rotate40
+[CppBB] cifar q=100 c=1024 attack 08/26 crop5
+[CppBB] cifar q=100 c=1024 attack 09/26 crop10
+[CppBB] cifar q=100 c=1024 attack 10/26 crop20
+[CppBB] cifar q=100 c=1024 attack 11/26 crop40
+[CppBB] cifar q=100 c=1024 attack 12/26 bright_light
+[CppBB] cifar q=100 c=1024 attack 13/26 bright
+[CppBB] cifar q=100 c=1024 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=1024 attack 15/26 flip_h
+[CppBB] cifar q=100 c=1024 attack 16/26 flip_v
+[CppBB] cifar q=100 c=1024 attack 17/26 flip
+[CppBB] cifar q=100 c=1024 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=1024 attack 19/26 resize
+[CppBB] cifar q=100 c=1024 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=1024 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=1024 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=1024 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=1024 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=1024 attack 25/26 blur
+[CppBB] cifar q=100 c=1024 attack 26/26 contrast
+[CppBBCal] cifar c=1024 valid=True row={'direct_avg': 91.02, 'direct_ms': 8.67789, 'hnsw_avg': 91.02, 'hnsw_ms': 0.888032, 'hnsw_min_match': 100.0, 'hnsw_recall': 78.31, 'hnsw_seen': 446.1, 'erng_avg': 91.02, 'erng_ms': 0.907124, 'erng_min_match': 100.0, 'erng_recall': 77.94, 'erng_seen': 444.1, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c1024.npz', 'valid': True, 'selection_score_ms': 0.907124}
+[CppBB] cifar q=100 c=1536 attacks=26
+[CppBB] cifar q=100 c=1536 attack 01/26 original
+[CppBB] cifar q=100 c=1536 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=1536 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=1536 attack 04/26 rotate5
+[CppBB] cifar q=100 c=1536 attack 05/26 rotate15
+[CppBB] cifar q=100 c=1536 attack 06/26 rotate30
+[CppBB] cifar q=100 c=1536 attack 07/26 rotate40
+[CppBB] cifar q=100 c=1536 attack 08/26 crop5
+[CppBB] cifar q=100 c=1536 attack 09/26 crop10
+[CppBB] cifar q=100 c=1536 attack 10/26 crop20
+[CppBB] cifar q=100 c=1536 attack 11/26 crop40
+[CppBB] cifar q=100 c=1536 attack 12/26 bright_light
+[CppBB] cifar q=100 c=1536 attack 13/26 bright
+[CppBB] cifar q=100 c=1536 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=1536 attack 15/26 flip_h
+[CppBB] cifar q=100 c=1536 attack 16/26 flip_v
+[CppBB] cifar q=100 c=1536 attack 17/26 flip
+[CppBB] cifar q=100 c=1536 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=1536 attack 19/26 resize
+[CppBB] cifar q=100 c=1536 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=1536 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=1536 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=1536 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=1536 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=1536 attack 25/26 blur
+[CppBB] cifar q=100 c=1536 attack 26/26 contrast
+[CppBBCal] cifar c=1536 valid=True row={'direct_avg': 90.88, 'direct_ms': 8.684693, 'hnsw_avg': 90.88, 'hnsw_ms': 1.21425, 'hnsw_min_match': 100.0, 'hnsw_recall': 77.96, 'hnsw_seen': 338.1, 'erng_avg': 90.88, 'erng_ms': 1.151161, 'erng_min_match': 100.0, 'erng_recall': 78.85, 'erng_seen': 337.0, 'centroids': 1536, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroids_c1536.npz', 'valid': True, 'selection_score_ms': 1.21425}
+[CppBB] selected ds=cifar c=512
+[CppBB] cifar q=100 c=512 attacks=26
+[CppBB] cifar q=100 c=512 attack 01/26 original
+[CppBB] cifar q=100 c=512 attack 02/26 rotate_m5
+[CppBB] cifar q=100 c=512 attack 03/26 rotate_m10
+[CppBB] cifar q=100 c=512 attack 04/26 rotate5
+[CppBB] cifar q=100 c=512 attack 05/26 rotate15
+[CppBB] cifar q=100 c=512 attack 06/26 rotate30
+[CppBB] cifar q=100 c=512 attack 07/26 rotate40
+[CppBB] cifar q=100 c=512 attack 08/26 crop5
+[CppBB] cifar q=100 c=512 attack 09/26 crop10
+[CppBB] cifar q=100 c=512 attack 10/26 crop20
+[CppBB] cifar q=100 c=512 attack 11/26 crop40
+[CppBB] cifar q=100 c=512 attack 12/26 bright_light
+[CppBB] cifar q=100 c=512 attack 13/26 bright
+[CppBB] cifar q=100 c=512 attack 14/26 heavy_bright
+[CppBB] cifar q=100 c=512 attack 15/26 flip_h
+[CppBB] cifar q=100 c=512 attack 16/26 flip_v
+[CppBB] cifar q=100 c=512 attack 17/26 flip
+[CppBB] cifar q=100 c=512 attack 18/26 resize_compress
+[CppBB] cifar q=100 c=512 attack 19/26 resize
+[CppBB] cifar q=100 c=512 attack 20/26 watermark_text
+[CppBB] cifar q=100 c=512 attack 21/26 watermark_asset
+[CppBB] cifar q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=100 c=512 attack 24/26 bg_color_change
+[CppBB] cifar q=100 c=512 attack 25/26 blur
+[CppBB] cifar q=100 c=512 attack 26/26 contrast
+[CppBBSummary] cifar q=100 {'direct_avg': 91.23, 'direct_ms': 8.638774, 'hnsw_avg': 91.23, 'hnsw_ms': 0.761997, 'hnsw_min_match': 100.0, 'hnsw_recall': 79.15, 'hnsw_seen': 710.7, 'erng_avg': 91.23, 'erng_ms': 0.775182, 'erng_min_match': 100.0, 'erng_recall': 79.02, 'erng_seen': 708.3}
+[CppBB] cifar q=200 c=512 attacks=26
+[CppBB] cifar q=200 c=512 attack 01/26 original
+[CppBB] cifar q=200 c=512 attack 02/26 rotate_m5
+[CppBB] cifar q=200 c=512 attack 03/26 rotate_m10
+[CppBB] cifar q=200 c=512 attack 04/26 rotate5
+[CppBB] cifar q=200 c=512 attack 05/26 rotate15
+[CppBB] cifar q=200 c=512 attack 06/26 rotate30
+[CppBB] cifar q=200 c=512 attack 07/26 rotate40
+[CppBB] cifar q=200 c=512 attack 08/26 crop5
+[CppBB] cifar q=200 c=512 attack 09/26 crop10
+[CppBB] cifar q=200 c=512 attack 10/26 crop20
+[CppBB] cifar q=200 c=512 attack 11/26 crop40
+[CppBB] cifar q=200 c=512 attack 12/26 bright_light
+[CppBB] cifar q=200 c=512 attack 13/26 bright
+[CppBB] cifar q=200 c=512 attack 14/26 heavy_bright
+[CppBB] cifar q=200 c=512 attack 15/26 flip_h
+[CppBB] cifar q=200 c=512 attack 16/26 flip_v
+[CppBB] cifar q=200 c=512 attack 17/26 flip
+[CppBB] cifar q=200 c=512 attack 18/26 resize_compress
+[CppBB] cifar q=200 c=512 attack 19/26 resize
+[CppBB] cifar q=200 c=512 attack 20/26 watermark_text
+[CppBB] cifar q=200 c=512 attack 21/26 watermark_asset
+[CppBB] cifar q=200 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=200 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=200 c=512 attack 24/26 bg_color_change
+[CppBB] cifar q=200 c=512 attack 25/26 blur
+[CppBB] cifar q=200 c=512 attack 26/26 contrast
+[CppBBSummary] cifar q=200 {'direct_avg': 90.68, 'direct_ms': 8.944191, 'hnsw_avg': 90.68, 'hnsw_ms': 0.788415, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.02, 'hnsw_seen': 723.7, 'erng_avg': 90.68, 'erng_ms': 0.790443, 'erng_min_match': 100.0, 'erng_recall': 80.0, 'erng_seen': 718.6}
+[CppBB] cifar q=500 c=512 attacks=26
+[CppBB] cifar q=500 c=512 attack 01/26 original
+[CppBB] cifar q=500 c=512 attack 02/26 rotate_m5
+[CppBB] cifar q=500 c=512 attack 03/26 rotate_m10
+[CppBB] cifar q=500 c=512 attack 04/26 rotate5
+[CppBB] cifar q=500 c=512 attack 05/26 rotate15
+[CppBB] cifar q=500 c=512 attack 06/26 rotate30
+[CppBB] cifar q=500 c=512 attack 07/26 rotate40
+[CppBB] cifar q=500 c=512 attack 08/26 crop5
+[CppBB] cifar q=500 c=512 attack 09/26 crop10
+[CppBB] cifar q=500 c=512 attack 10/26 crop20
+[CppBB] cifar q=500 c=512 attack 11/26 crop40
+[CppBB] cifar q=500 c=512 attack 12/26 bright_light
+[CppBB] cifar q=500 c=512 attack 13/26 bright
+[CppBB] cifar q=500 c=512 attack 14/26 heavy_bright
+[CppBB] cifar q=500 c=512 attack 15/26 flip_h
+[CppBB] cifar q=500 c=512 attack 16/26 flip_v
+[CppBB] cifar q=500 c=512 attack 17/26 flip
+[CppBB] cifar q=500 c=512 attack 18/26 resize_compress
+[CppBB] cifar q=500 c=512 attack 19/26 resize
+[CppBB] cifar q=500 c=512 attack 20/26 watermark_text
+[CppBB] cifar q=500 c=512 attack 21/26 watermark_asset
+[CppBB] cifar q=500 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=500 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=500 c=512 attack 24/26 bg_color_change
+[CppBB] cifar q=500 c=512 attack 25/26 blur
+[CppBB] cifar q=500 c=512 attack 26/26 contrast
+[CppBBSummary] cifar q=500 {'direct_avg': 91.13, 'direct_ms': 8.908493, 'hnsw_avg': 91.13, 'hnsw_ms': 0.72992, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.09, 'hnsw_seen': 722.8, 'erng_avg': 91.13, 'erng_ms': 0.759496, 'erng_min_match': 100.0, 'erng_recall': 80.07, 'erng_seen': 719.3}
+[CppBB] cifar q=1000 c=512 attacks=26
+[CppBB] cifar q=1000 c=512 attack 01/26 original
+[CppBB] cifar q=1000 c=512 attack 02/26 rotate_m5
+[CppBB] cifar q=1000 c=512 attack 03/26 rotate_m10
+[CppBB] cifar q=1000 c=512 attack 04/26 rotate5
+[CppBB] cifar q=1000 c=512 attack 05/26 rotate15
+[CppBB] cifar q=1000 c=512 attack 06/26 rotate30
+[CppBB] cifar q=1000 c=512 attack 07/26 rotate40
+[CppBB] cifar q=1000 c=512 attack 08/26 crop5
+[CppBB] cifar q=1000 c=512 attack 09/26 crop10
+[CppBB] cifar q=1000 c=512 attack 10/26 crop20
+[CppBB] cifar q=1000 c=512 attack 11/26 crop40
+[CppBB] cifar q=1000 c=512 attack 12/26 bright_light
+[CppBB] cifar q=1000 c=512 attack 13/26 bright
+[CppBB] cifar q=1000 c=512 attack 14/26 heavy_bright
+[CppBB] cifar q=1000 c=512 attack 15/26 flip_h
+[CppBB] cifar q=1000 c=512 attack 16/26 flip_v
+[CppBB] cifar q=1000 c=512 attack 17/26 flip
+[CppBB] cifar q=1000 c=512 attack 18/26 resize_compress
+[CppBB] cifar q=1000 c=512 attack 19/26 resize
+[CppBB] cifar q=1000 c=512 attack 20/26 watermark_text
+[CppBB] cifar q=1000 c=512 attack 21/26 watermark_asset
+[CppBB] cifar q=1000 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] cifar q=1000 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] cifar q=1000 c=512 attack 24/26 bg_color_change
+[CppBB] cifar q=1000 c=512 attack 25/26 blur
+[CppBB] cifar q=1000 c=512 attack 26/26 contrast
+[CppBBSummary] cifar q=1000 {'direct_avg': 91.19, 'direct_ms': 8.629968, 'hnsw_avg': 91.19, 'hnsw_ms': 0.725871, 'hnsw_min_match': 100.0, 'hnsw_recall': 80.23, 'hnsw_seen': 705.8, 'erng_avg': 91.19, 'erng_ms': 0.705625, 'erng_min_match': 100.0, 'erng_recall': 80.32, 'erng_seen': 702.6}
+[CppBB] saved /home/saketh/json/final_named_artifacts_20260601/cifar/phase3_cpp_centroid_branchbound/cifar_cpp_centroid_branchbound_timing.json

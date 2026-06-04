@@ -1,0 +1,127 @@
+[AutoBBLaunch] Wed Jun  3 04:54:58 AM UTC 2026 dataset=amazon gpu=2
+[AutoBB] building centroids ds=amazon c=256
+[AutoBB] amazon q=100 attack 01/5 original
+[AutoBB] amazon q=100 attack 02/5 rotate_m10
+[AutoBB] amazon q=100 attack 03/5 crop40
+[AutoBB] amazon q=100 attack 04/5 watermark_asset
+[AutoBB] amazon q=100 attack 05/5 contrast
+[AutoBBCal] amazon c=256 valid=True score=18.818700 row={'direct_avg': 81.4, 'direct_ms': 100.678163, 'hnsw_avg': 81.4, 'hnsw_ms': 7.385496, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2908.3, 'erng_avg': 81.4, 'erng_ms': 11.433204, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2908.3, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_centroid_branchbound_autotune/amazon_autotune_centroids_c256.npz'}
+[AutoBB] building centroids ds=amazon c=384
+[AutoBB] amazon q=100 attack 01/5 original
+[AutoBB] amazon q=100 attack 02/5 rotate_m10
+[AutoBB] amazon q=100 attack 03/5 crop40
+[AutoBB] amazon q=100 attack 04/5 watermark_asset
+[AutoBB] amazon q=100 attack 05/5 contrast
+[AutoBBCal] amazon c=384 valid=True score=21.555147 row={'direct_avg': 80.7, 'direct_ms': 106.94998, 'hnsw_avg': 80.7, 'hnsw_ms': 7.853255, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2455.4, 'erng_avg': 80.7, 'erng_ms': 13.701892, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2455.4, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_centroid_branchbound_autotune/amazon_autotune_centroids_c384.npz'}
+[AutoBB] building centroids ds=amazon c=512
+[AutoBB] amazon q=100 attack 01/5 original
+[AutoBB] amazon q=100 attack 02/5 rotate_m10
+[AutoBB] amazon q=100 attack 03/5 crop40
+[AutoBB] amazon q=100 attack 04/5 watermark_asset
+[AutoBB] amazon q=100 attack 05/5 contrast
+[AutoBBCal] amazon c=512 valid=True score=19.534940 row={'direct_avg': 81.6, 'direct_ms': 93.369006, 'hnsw_avg': 81.6, 'hnsw_ms': 7.847096, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2058.3, 'erng_avg': 81.6, 'erng_ms': 11.687844, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2058.3, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_centroid_branchbound_autotune/amazon_autotune_centroids_c512.npz'}
+[AutoBB] building centroids ds=amazon c=768
+[AutoBB] amazon q=100 attack 01/5 original
+[AutoBB] amazon q=100 attack 02/5 rotate_m10
+[AutoBB] amazon q=100 attack 03/5 crop40
+[AutoBB] amazon q=100 attack 04/5 watermark_asset
+[AutoBB] amazon q=100 attack 05/5 contrast
+[AutoBBCal] amazon c=768 valid=True score=21.316961 row={'direct_avg': 81.2, 'direct_ms': 91.08905, 'hnsw_avg': 81.2, 'hnsw_ms': 7.34604, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1584.2, 'erng_avg': 81.2, 'erng_ms': 13.970921, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1584.2, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_centroid_branchbound_autotune/amazon_autotune_centroids_c768.npz'}
+[AutoBB] building centroids ds=amazon c=1024
+[AutoBB] amazon q=100 attack 01/5 original
+[AutoBB] amazon q=100 attack 02/5 rotate_m10
+[AutoBB] amazon q=100 attack 03/5 crop40
+[AutoBB] amazon q=100 attack 04/5 watermark_asset
+[AutoBB] amazon q=100 attack 05/5 contrast
+[AutoBBCal] amazon c=1024 valid=True score=16.798261 row={'direct_avg': 81.4, 'direct_ms': 84.977782, 'hnsw_avg': 81.4, 'hnsw_ms': 6.634148, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1406.2, 'erng_avg': 81.4, 'erng_ms': 10.164113, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1406.2, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_centroid_branchbound_autotune/amazon_autotune_centroids_c1024.npz'}
+[AutoBB] building centroids ds=amazon c=1536
+[AutoBB] amazon q=100 attack 01/5 original
+[AutoBB] amazon q=100 attack 02/5 rotate_m10
+[AutoBB] amazon q=100 attack 03/5 crop40
+[AutoBB] amazon q=100 attack 04/5 watermark_asset
+[AutoBB] amazon q=100 attack 05/5 contrast
+[AutoBBCal] amazon c=1536 valid=True score=21.620694 row={'direct_avg': 80.2, 'direct_ms': 83.195762, 'hnsw_avg': 80.2, 'hnsw_ms': 8.096198, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1146.8, 'erng_avg': 80.2, 'erng_ms': 13.524496, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1146.8, 'centroids': 1536, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_centroid_branchbound_autotune/amazon_autotune_centroids_c1536.npz'}
+[AutoBB] building centroids ds=amazon c=2048
+[AutoBB] amazon q=100 attack 01/5 original
+[AutoBB] amazon q=100 attack 02/5 rotate_m10
+[AutoBB] amazon q=100 attack 03/5 crop40
+[AutoBB] amazon q=100 attack 04/5 watermark_asset
+[AutoBB] amazon q=100 attack 05/5 contrast
+[AutoBBCal] amazon c=2048 valid=True score=23.159372 row={'direct_avg': 82.1, 'direct_ms': 83.733884, 'hnsw_avg': 82.1, 'hnsw_ms': 8.968291, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1037.2, 'erng_avg': 82.1, 'erng_ms': 14.191081, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1037.2, 'centroids': 2048, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_centroid_branchbound_autotune/amazon_autotune_centroids_c2048.npz'}
+[AutoBB] selected ds=amazon centroids=1024
+[AutoBB] amazon q=100 attack 01/26 original
+[AutoBB] amazon q=100 attack 02/26 rotate_m5
+[AutoBB] amazon q=100 attack 03/26 rotate_m10
+[AutoBB] amazon q=100 attack 04/26 rotate5
+[AutoBB] amazon q=100 attack 05/26 rotate15
+[AutoBB] amazon q=100 attack 06/26 rotate30
+[AutoBB] amazon q=100 attack 07/26 rotate40
+[AutoBB] amazon q=100 attack 08/26 crop5
+[AutoBB] amazon q=100 attack 09/26 crop10
+[AutoBB] amazon q=100 attack 10/26 crop20
+[AutoBB] amazon q=100 attack 11/26 crop40
+[AutoBB] amazon q=100 attack 12/26 bright_light
+[AutoBB] amazon q=100 attack 13/26 bright
+[AutoBB] amazon q=100 attack 14/26 heavy_bright
+[AutoBB] amazon q=100 attack 15/26 flip_h
+[AutoBB] amazon q=100 attack 16/26 flip_v
+[AutoBB] amazon q=100 attack 17/26 flip
+[AutoBB] amazon q=100 attack 18/26 resize_compress
+[AutoBB] amazon q=100 attack 19/26 resize
+[AutoBB] amazon q=100 attack 20/26 watermark_text
+[AutoBB] amazon q=100 attack 21/26 watermark_asset
+[AutoBB] amazon q=100 attack 22/26 mix_rotate10_bright
+[AutoBB] amazon q=100 attack 23/26 mix_crop20_watermark
+[AutoBB] amazon q=100 attack 24/26 bg_color_change
+[AutoBB] amazon q=100 attack 25/26 blur
+[AutoBB] amazon q=100 attack 26/26 contrast
+[AutoBBSummary] amazon q=100 {'direct_avg': 82.02, 'direct_ms': 85.183662, 'hnsw_avg': 82.02, 'hnsw_ms': 6.739201, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1376.2, 'erng_avg': 82.02, 'erng_ms': 11.689723, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1376.2}
+[AutoBB] amazon q=200 attack 01/26 original
+[AutoBB] amazon q=200 attack 02/26 rotate_m5
+[AutoBB] amazon q=200 attack 03/26 rotate_m10
+[AutoBB] amazon q=200 attack 04/26 rotate5
+[AutoBB] amazon q=200 attack 05/26 rotate15
+[AutoBB] amazon q=200 attack 06/26 rotate30
+[AutoBB] amazon q=200 attack 07/26 rotate40
+[AutoBB] amazon q=200 attack 08/26 crop5
+[AutoBB] amazon q=200 attack 09/26 crop10
+[AutoBB] amazon q=200 attack 10/26 crop20
+[AutoBB] amazon q=200 attack 11/26 crop40
+[AutoBB] amazon q=200 attack 12/26 bright_light
+[AutoBB] amazon q=200 attack 13/26 bright
+[AutoBB] amazon q=200 attack 14/26 heavy_bright
+[AutoBB] amazon q=200 attack 15/26 flip_h
+[AutoBB] amazon q=200 attack 16/26 flip_v
+[AutoBB] amazon q=200 attack 17/26 flip
+[AutoBB] amazon q=200 attack 18/26 resize_compress
+[AutoBB] amazon q=200 attack 19/26 resize
+[AutoBB] amazon q=200 attack 20/26 watermark_text
+[AutoBB] amazon q=200 attack 21/26 watermark_asset
+[AutoBB] amazon q=200 attack 22/26 mix_rotate10_bright
+[AutoBB] amazon q=200 attack 23/26 mix_crop20_watermark
+[AutoBB] amazon q=200 attack 24/26 bg_color_change
+[AutoBB] amazon q=200 attack 25/26 blur
+[AutoBB] amazon q=200 attack 26/26 contrast
+[AutoBBSummary] amazon q=200 {'direct_avg': 82.96, 'direct_ms': 83.920806, 'hnsw_avg': 82.96, 'hnsw_ms': 6.917476, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1431.7, 'erng_avg': 82.96, 'erng_ms': 11.883768, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1431.7}
+[AutoBB] amazon q=500 attack 01/26 original
+[AutoBB] amazon q=500 attack 02/26 rotate_m5
+[AutoBB] amazon q=500 attack 03/26 rotate_m10
+[AutoBB] amazon q=500 attack 04/26 rotate5
+[AutoBB] amazon q=500 attack 05/26 rotate15
+[AutoBB] amazon q=500 attack 06/26 rotate30
+[AutoBB] amazon q=500 attack 07/26 rotate40
+[AutoBB] amazon q=500 attack 08/26 crop5
+[AutoBB] amazon q=500 attack 09/26 crop10
+[AutoBB] amazon q=500 attack 10/26 crop20
+[AutoBB] amazon q=500 attack 11/26 crop40
+[AutoBB] amazon q=500 attack 12/26 bright_light
+[AutoBB] amazon q=500 attack 13/26 bright
+[AutoBB] amazon q=500 attack 14/26 heavy_bright
+[AutoBB] amazon q=500 attack 15/26 flip_h
+[AutoBB] amazon q=500 attack 16/26 flip_v
+[AutoBB] amazon q=500 attack 17/26 flip
+[AutoBB] amazon q=500 attack 18/26 resize_compress
+[AutoBB] amazon q=500 attack 19/26 resize
+[AutoBB] amazon q=500 attack 20/26 watermark_text
+[AutoBB] amazon q=500 attack 21/26 watermark_asset
+[AutoBB] amazon q=500 attack 22/26 mix_rotate10_bright

@@ -1,0 +1,616 @@
+
+[CppBBLaunch] Wed Jun  3 08:03:23 AM UTC 2026 dataset=amazon gpu=2
+[CppBB] amazon q=100 c=192 attacks=5
+[CppBB] amazon q=100 c=192 attack 01/5 original
+[CppBB] amazon q=100 c=192 attack 02/5 rotate_m10
+[CppBB] amazon q=100 c=192 attack 03/5 crop40
+[CppBB] amazon q=100 c=192 attack 04/5 watermark_asset
+[CppBB] amazon q=100 c=192 attack 05/5 contrast
+[CppBBCal] amazon c=192 valid=False row={'direct_avg': 81.2, 'direct_ms': 42.09372, 'hnsw_avg': 81.2, 'hnsw_ms': 1.606854, 'hnsw_min_match': 100.0, 'hnsw_recall': 66.3, 'hnsw_seen': 1261.0, 'erng_avg': 81.2, 'erng_ms': 1.606854, 'erng_min_match': 100.0, 'erng_recall': 66.3, 'erng_seen': 1261.0, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] amazon q=100 c=256 attacks=5
+[CppBB] amazon q=100 c=256 attack 01/5 original
+[CppBB] amazon q=100 c=256 attack 02/5 rotate_m10
+[CppBB] amazon q=100 c=256 attack 03/5 crop40
+[CppBB] amazon q=100 c=256 attack 04/5 watermark_asset
+[CppBB] amazon q=100 c=256 attack 05/5 contrast
+[CppBBCal] amazon c=256 valid=False row={'direct_avg': 82.0, 'direct_ms': 42.265317, 'hnsw_avg': 82.0, 'hnsw_ms': 1.707907, 'hnsw_min_match': 100.0, 'hnsw_recall': 66.3, 'hnsw_seen': 1114.9, 'erng_avg': 82.0, 'erng_ms': 1.707907, 'erng_min_match': 100.0, 'erng_recall': 66.3, 'erng_seen': 1114.9, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] build centroids amazon c=384
+[CppBB] amazon q=100 c=384 attacks=5
+[CppBB] amazon q=100 c=384 attack 01/5 original
+[CppBB] amazon q=100 c=384 attack 02/5 rotate_m10
+[CppBB] amazon q=100 c=384 attack 03/5 crop40
+[CppBB] amazon q=100 c=384 attack 04/5 watermark_asset
+[CppBB] amazon q=100 c=384 attack 05/5 contrast
+[CppBBCal] amazon c=384 valid=False row={'direct_avg': 80.9, 'direct_ms': 47.301395, 'hnsw_avg': 80.9, 'hnsw_ms': 1.624368, 'hnsw_min_match': 100.0, 'hnsw_recall': 66.4, 'hnsw_seen': 857.5, 'erng_avg': 80.9, 'erng_ms': 1.624368, 'erng_min_match': 100.0, 'erng_recall': 66.4, 'erng_seen': 857.5, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] build centroids amazon c=512
+[CppBB] amazon q=100 c=512 attacks=5
+[CppBB] amazon q=100 c=512 attack 01/5 original
+[CppBB] amazon q=100 c=512 attack 02/5 rotate_m10
+[CppBB] amazon q=100 c=512 attack 03/5 crop40
+[CppBB] amazon q=100 c=512 attack 04/5 watermark_asset
+[CppBB] amazon q=100 c=512 attack 05/5 contrast
+[CppBBCal] amazon c=512 valid=False row={'direct_avg': 81.8, 'direct_ms': 47.521296, 'hnsw_avg': 81.8, 'hnsw_ms': 1.549343, 'hnsw_min_match': 100.0, 'hnsw_recall': 66.3, 'hnsw_seen': 668.7, 'erng_avg': 81.8, 'erng_ms': 1.549343, 'erng_min_match': 100.0, 'erng_recall': 66.3, 'erng_seen': 668.7, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] build centroids amazon c=768
+[CppBB] amazon q=100 c=768 attacks=5
+[CppBB] amazon q=100 c=768 attack 01/5 original
+[CppBB] amazon q=100 c=768 attack 02/5 rotate_m10
+[CppBB] amazon q=100 c=768 attack 03/5 crop40
+[CppBB] amazon q=100 c=768 attack 04/5 watermark_asset
+[CppBB] amazon q=100 c=768 attack 05/5 contrast
+[CppBBCal] amazon c=768 valid=False row={'direct_avg': 81.6, 'direct_ms': 51.557772, 'hnsw_avg': 81.6, 'hnsw_ms': 1.816071, 'hnsw_min_match': 100.0, 'hnsw_recall': 65.5, 'hnsw_seen': 495.3, 'erng_avg': 81.6, 'erng_ms': 1.816071, 'erng_min_match': 100.0, 'erng_recall': 65.5, 'erng_seen': 495.3, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] build centroids amazon c=1024
+[CppBB] amazon q=100 c=1024 attacks=5
+[CppBB] amazon q=100 c=1024 attack 01/5 original
+[CppBB] amazon q=100 c=1024 attack 02/5 rotate_m10
+[CppBB] amazon q=100 c=1024 attack 03/5 crop40
+[CppBB] amazon q=100 c=1024 attack 04/5 watermark_asset
+[CppBB] amazon q=100 c=1024 attack 05/5 contrast
+[CppBBCal] amazon c=1024 valid=False row={'direct_avg': 81.1, 'direct_ms': 45.557245, 'hnsw_avg': 81.1, 'hnsw_ms': 2.074458, 'hnsw_min_match': 100.0, 'hnsw_recall': 65.6, 'hnsw_seen': 430.0, 'erng_avg': 81.1, 'erng_ms': 2.074458, 'erng_min_match': 100.0, 'erng_recall': 65.6, 'erng_seen': 430.0, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c1024.npz', 'valid': False}
+[CppBB] build centroids amazon c=1536
+[CppBB] amazon q=100 c=1536 attacks=5
+[CppBB] amazon q=100 c=1536 attack 01/5 original
+[CppBB] amazon q=100 c=1536 attack 02/5 rotate_m10
+[CppBB] amazon q=100 c=1536 attack 03/5 crop40
+[CppBB] amazon q=100 c=1536 attack 04/5 watermark_asset
+[CppBB] amazon q=100 c=1536 attack 05/5 contrast
+[CppBBCal] amazon c=1536 valid=False row={'direct_avg': 80.9, 'direct_ms': 40.973955, 'hnsw_avg': 80.9, 'hnsw_ms': 2.346281, 'hnsw_min_match': 100.0, 'hnsw_recall': 65.9, 'hnsw_seen': 313.5, 'erng_avg': 80.9, 'erng_ms': 2.346281, 'erng_min_match': 100.0, 'erng_recall': 65.9, 'erng_seen': 313.5, 'centroids': 1536, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c1536.npz', 'valid': False}
+[CppBB] build centroids amazon c=2048
+[CppBBLaunch] Wed Jun  3 08:45:29 AM UTC 2026 dataset=amazon gpu=2
+[CppBB] amazon q=100 c=192 attacks=26
+[CppBB] amazon q=100 c=192 attack 01/26 original
+[CppBB] amazon q=100 c=192 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=192 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=192 attack 04/26 rotate5
+[CppBB] amazon q=100 c=192 attack 05/26 rotate15
+[CppBB] amazon q=100 c=192 attack 06/26 rotate30
+[CppBB] amazon q=100 c=192 attack 07/26 rotate40
+[CppBB] amazon q=100 c=192 attack 08/26 crop5
+[CppBB] amazon q=100 c=192 attack 09/26 crop10
+[CppBB] amazon q=100 c=192 attack 10/26 crop20
+[CppBB] amazon q=100 c=192 attack 11/26 crop40
+[CppBB] amazon q=100 c=192 attack 12/26 bright_light
+[CppBB] amazon q=100 c=192 attack 13/26 bright
+[CppBB] amazon q=100 c=192 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=192 attack 15/26 flip_h
+[CppBB] amazon q=100 c=192 attack 16/26 flip_v
+[CppBB] amazon q=100 c=192 attack 17/26 flip
+[CppBB] amazon q=100 c=192 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=192 attack 19/26 resize
+[CppBB] amazon q=100 c=192 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=192 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=192 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=192 attack 25/26 blur
+[CppBB] amazon q=100 c=192 attack 26/26 contrast
+[CppBBCal] amazon c=192 valid=False row={'direct_avg': 82.19, 'direct_ms': 41.231267, 'hnsw_avg': 82.19, 'hnsw_ms': 1.852507, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.79, 'hnsw_seen': 1335.3, 'erng_avg': 82.19, 'erng_ms': 1.852507, 'erng_min_match': 100.0, 'erng_recall': 70.79, 'erng_seen': 1335.3, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] amazon q=100 c=256 attacks=26
+[CppBB] amazon q=100 c=256 attack 01/26 original
+[CppBB] amazon q=100 c=256 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=256 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=256 attack 04/26 rotate5
+[CppBB] amazon q=100 c=256 attack 05/26 rotate15
+[CppBB] amazon q=100 c=256 attack 06/26 rotate30
+[CppBB] amazon q=100 c=256 attack 07/26 rotate40
+[CppBB] amazon q=100 c=256 attack 08/26 crop5
+[CppBB] amazon q=100 c=256 attack 09/26 crop10
+[CppBB] amazon q=100 c=256 attack 10/26 crop20
+[CppBB] amazon q=100 c=256 attack 11/26 crop40
+[CppBB] amazon q=100 c=256 attack 12/26 bright_light
+[CppBB] amazon q=100 c=256 attack 13/26 bright
+[CppBB] amazon q=100 c=256 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=256 attack 15/26 flip_h
+[CppBB] amazon q=100 c=256 attack 16/26 flip_v
+[CppBB] amazon q=100 c=256 attack 17/26 flip
+[CppBB] amazon q=100 c=256 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=256 attack 19/26 resize
+[CppBB] amazon q=100 c=256 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=256 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=256 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=256 attack 25/26 blur
+[CppBB] amazon q=100 c=256 attack 26/26 contrast
+[CppBBCal] amazon c=256 valid=False row={'direct_avg': 81.9, 'direct_ms': 41.33581, 'hnsw_avg': 81.9, 'hnsw_ms': 1.735884, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.67, 'hnsw_seen': 1168.5, 'erng_avg': 81.9, 'erng_ms': 1.735884, 'erng_min_match': 100.0, 'erng_recall': 70.67, 'erng_seen': 1168.5, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] amazon q=100 c=384 attacks=26
+[CppBB] amazon q=100 c=384 attack 01/26 original
+[CppBB] amazon q=100 c=384 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=384 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=384 attack 04/26 rotate5
+[CppBB] amazon q=100 c=384 attack 05/26 rotate15
+[CppBB] amazon q=100 c=384 attack 06/26 rotate30
+[CppBB] amazon q=100 c=384 attack 07/26 rotate40
+[CppBB] amazon q=100 c=384 attack 08/26 crop5
+[CppBB] amazon q=100 c=384 attack 09/26 crop10
+[CppBB] amazon q=100 c=384 attack 10/26 crop20
+[CppBB] amazon q=100 c=384 attack 11/26 crop40
+[CppBB] amazon q=100 c=384 attack 12/26 bright_light
+[CppBB] amazon q=100 c=384 attack 13/26 bright
+[CppBB] amazon q=100 c=384 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=384 attack 15/26 flip_h
+[CppBB] amazon q=100 c=384 attack 16/26 flip_v
+[CppBB] amazon q=100 c=384 attack 17/26 flip
+[CppBB] amazon q=100 c=384 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=384 attack 19/26 resize
+[CppBB] amazon q=100 c=384 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=384 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=384 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=384 attack 25/26 blur
+[CppBB] amazon q=100 c=384 attack 26/26 contrast
+[CppBBCal] amazon c=384 valid=False row={'direct_avg': 81.96, 'direct_ms': 41.101184, 'hnsw_avg': 81.96, 'hnsw_ms': 1.534966, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.04, 'hnsw_seen': 911.8, 'erng_avg': 81.96, 'erng_ms': 1.534966, 'erng_min_match': 100.0, 'erng_recall': 70.04, 'erng_seen': 911.8, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] amazon q=100 c=512 attacks=26
+[CppBB] amazon q=100 c=512 attack 01/26 original
+[CppBB] amazon q=100 c=512 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=512 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=512 attack 04/26 rotate5
+[CppBB] amazon q=100 c=512 attack 05/26 rotate15
+[CppBB] amazon q=100 c=512 attack 06/26 rotate30
+[CppBB] amazon q=100 c=512 attack 07/26 rotate40
+[CppBB] amazon q=100 c=512 attack 08/26 crop5
+[CppBB] amazon q=100 c=512 attack 09/26 crop10
+[CppBB] amazon q=100 c=512 attack 10/26 crop20
+[CppBB] amazon q=100 c=512 attack 11/26 crop40
+[CppBB] amazon q=100 c=512 attack 12/26 bright_light
+[CppBB] amazon q=100 c=512 attack 13/26 bright
+[CppBB] amazon q=100 c=512 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=512 attack 15/26 flip_h
+[CppBB] amazon q=100 c=512 attack 16/26 flip_v
+[CppBB] amazon q=100 c=512 attack 17/26 flip
+[CppBB] amazon q=100 c=512 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=512 attack 19/26 resize
+[CppBB] amazon q=100 c=512 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=512 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=512 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=512 attack 25/26 blur
+[CppBB] amazon q=100 c=512 attack 26/26 contrast
+[CppBBCal] amazon c=512 valid=False row={'direct_avg': 81.96, 'direct_ms': 41.53099, 'hnsw_avg': 81.96, 'hnsw_ms': 1.492468, 'hnsw_min_match': 100.0, 'hnsw_recall': 69.87, 'hnsw_seen': 699.0, 'erng_avg': 81.96, 'erng_ms': 1.492468, 'erng_min_match': 100.0, 'erng_recall': 69.87, 'erng_seen': 699.0, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] amazon q=100 c=768 attacks=26
+[CppBB] amazon q=100 c=768 attack 01/26 original
+[CppBB] amazon q=100 c=768 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=768 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=768 attack 04/26 rotate5
+[CppBB] amazon q=100 c=768 attack 05/26 rotate15
+[CppBB] amazon q=100 c=768 attack 06/26 rotate30
+[CppBB] amazon q=100 c=768 attack 07/26 rotate40
+[CppBB] amazon q=100 c=768 attack 08/26 crop5
+[CppBB] amazon q=100 c=768 attack 09/26 crop10
+[CppBB] amazon q=100 c=768 attack 10/26 crop20
+[CppBB] amazon q=100 c=768 attack 11/26 crop40
+[CppBB] amazon q=100 c=768 attack 12/26 bright_light
+[CppBB] amazon q=100 c=768 attack 13/26 bright
+[CppBB] amazon q=100 c=768 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=768 attack 15/26 flip_h
+[CppBB] amazon q=100 c=768 attack 16/26 flip_v
+[CppBB] amazon q=100 c=768 attack 17/26 flip
+[CppBB] amazon q=100 c=768 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=768 attack 19/26 resize
+[CppBB] amazon q=100 c=768 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=768 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=768 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=768 attack 25/26 blur
+[CppBB] amazon q=100 c=768 attack 26/26 contrast
+[CppBBCal] amazon c=768 valid=False row={'direct_avg': 81.79, 'direct_ms': 41.161364, 'hnsw_avg': 81.79, 'hnsw_ms': 1.627979, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.06, 'hnsw_seen': 526.2, 'erng_avg': 81.79, 'erng_ms': 1.627979, 'erng_min_match': 100.0, 'erng_recall': 70.06, 'erng_seen': 526.2, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] amazon q=100 c=1024 attacks=26
+[CppBB] amazon q=100 c=1024 attack 01/26 original
+[CppBB] amazon q=100 c=1024 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=1024 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=1024 attack 04/26 rotate5
+[CppBB] amazon q=100 c=1024 attack 05/26 rotate15
+[CppBB] amazon q=100 c=1024 attack 06/26 rotate30
+[CppBB] amazon q=100 c=1024 attack 07/26 rotate40
+[CppBB] amazon q=100 c=1024 attack 08/26 crop5
+[CppBB] amazon q=100 c=1024 attack 09/26 crop10
+[CppBB] amazon q=100 c=1024 attack 10/26 crop20
+[CppBB] amazon q=100 c=1024 attack 11/26 crop40
+[CppBB] amazon q=100 c=1024 attack 12/26 bright_light
+[CppBB] amazon q=100 c=1024 attack 13/26 bright
+[CppBB] amazon q=100 c=1024 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=1024 attack 15/26 flip_h
+[CppBB] amazon q=100 c=1024 attack 16/26 flip_v
+[CppBB] amazon q=100 c=1024 attack 17/26 flip
+[CppBB] amazon q=100 c=1024 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=1024 attack 19/26 resize
+[CppBB] amazon q=100 c=1024 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=1024 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=1024 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=1024 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=1024 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=1024 attack 25/26 blur
+[CppBB] amazon q=100 c=1024 attack 26/26 contrast
+[CppBBCal] amazon c=1024 valid=False row={'direct_avg': 82.04, 'direct_ms': 41.844226, 'hnsw_avg': 82.04, 'hnsw_ms': 1.794937, 'hnsw_min_match': 100.0, 'hnsw_recall': 69.38, 'hnsw_seen': 430.3, 'erng_avg': 82.04, 'erng_ms': 1.794937, 'erng_min_match': 100.0, 'erng_recall': 69.38, 'erng_seen': 430.3, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c1024.npz', 'valid': False}
+[CppBB] amazon q=100 c=1536 attacks=26
+[CppBB] amazon q=100 c=1536 attack 01/26 original
+[CppBB] amazon q=100 c=1536 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=1536 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=1536 attack 04/26 rotate5
+[CppBB] amazon q=100 c=1536 attack 05/26 rotate15
+[CppBB] amazon q=100 c=1536 attack 06/26 rotate30
+[CppBB] amazon q=100 c=1536 attack 07/26 rotate40
+[CppBB] amazon q=100 c=1536 attack 08/26 crop5
+[CppBB] amazon q=100 c=1536 attack 09/26 crop10
+[CppBB] amazon q=100 c=1536 attack 10/26 crop20
+[CppBB] amazon q=100 c=1536 attack 11/26 crop40
+[CppBB] amazon q=100 c=1536 attack 12/26 bright_light
+[CppBB] amazon q=100 c=1536 attack 13/26 bright
+[CppBB] amazon q=100 c=1536 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=1536 attack 15/26 flip_h
+[CppBB] amazon q=100 c=1536 attack 16/26 flip_v
+[CppBB] amazon q=100 c=1536 attack 17/26 flip
+[CppBB] amazon q=100 c=1536 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=1536 attack 19/26 resize
+[CppBB] amazon q=100 c=1536 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=1536 attack 21/26 watermark_asset
+[CppBBLaunch] Wed Jun  3 10:21:01 AM UTC 2026 dataset=amazon gpu=2
+[CppBB] amazon q=100 c=192 attacks=26
+[CppBB] amazon q=100 c=192 attack 01/26 original
+[CppBB] amazon q=100 c=192 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=192 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=192 attack 04/26 rotate5
+[CppBB] amazon q=100 c=192 attack 05/26 rotate15
+[CppBB] amazon q=100 c=192 attack 06/26 rotate30
+[CppBB] amazon q=100 c=192 attack 07/26 rotate40
+[CppBB] amazon q=100 c=192 attack 08/26 crop5
+[CppBB] amazon q=100 c=192 attack 09/26 crop10
+[CppBB] amazon q=100 c=192 attack 10/26 crop20
+[CppBB] amazon q=100 c=192 attack 11/26 crop40
+[CppBB] amazon q=100 c=192 attack 12/26 bright_light
+[CppBB] amazon q=100 c=192 attack 13/26 bright
+[CppBB] amazon q=100 c=192 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=192 attack 15/26 flip_h
+[CppBB] amazon q=100 c=192 attack 16/26 flip_v
+[CppBB] amazon q=100 c=192 attack 17/26 flip
+[CppBB] amazon q=100 c=192 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=192 attack 19/26 resize
+[CppBB] amazon q=100 c=192 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=192 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=192 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=192 attack 25/26 blur
+[CppBB] amazon q=100 c=192 attack 26/26 contrast
+[CppBBCal] amazon c=192 valid=True row={'direct_avg': 81.6, 'direct_ms': 40.946461, 'hnsw_avg': 81.6, 'hnsw_ms': 1.427339, 'hnsw_min_match': 100.0, 'hnsw_recall': 71.67, 'hnsw_seen': 1037.2, 'erng_avg': 81.6, 'erng_ms': 1.424796, 'erng_min_match': 100.0, 'erng_recall': 71.67, 'erng_seen': 1037.2, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c192.npz', 'valid': True, 'selection_score_ms': 1.427339}
+[CppBB] amazon q=100 c=256 attacks=26
+[CppBB] amazon q=100 c=256 attack 01/26 original
+[CppBB] amazon q=100 c=256 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=256 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=256 attack 04/26 rotate5
+[CppBB] amazon q=100 c=256 attack 05/26 rotate15
+[CppBB] amazon q=100 c=256 attack 06/26 rotate30
+[CppBB] amazon q=100 c=256 attack 07/26 rotate40
+[CppBB] amazon q=100 c=256 attack 08/26 crop5
+[CppBB] amazon q=100 c=256 attack 09/26 crop10
+[CppBB] amazon q=100 c=256 attack 10/26 crop20
+[CppBB] amazon q=100 c=256 attack 11/26 crop40
+[CppBB] amazon q=100 c=256 attack 12/26 bright_light
+[CppBB] amazon q=100 c=256 attack 13/26 bright
+[CppBB] amazon q=100 c=256 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=256 attack 15/26 flip_h
+[CppBB] amazon q=100 c=256 attack 16/26 flip_v
+[CppBB] amazon q=100 c=256 attack 17/26 flip
+[CppBB] amazon q=100 c=256 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=256 attack 19/26 resize
+[CppBB] amazon q=100 c=256 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=256 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=256 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=256 attack 25/26 blur
+[CppBB] amazon q=100 c=256 attack 26/26 contrast
+[CppBBCal] amazon c=256 valid=True row={'direct_avg': 82.0, 'direct_ms': 40.902334, 'hnsw_avg': 82.0, 'hnsw_ms': 1.333864, 'hnsw_min_match': 100.0, 'hnsw_recall': 71.02, 'hnsw_seen': 907.3, 'erng_avg': 82.0, 'erng_ms': 1.347282, 'erng_min_match': 100.0, 'erng_recall': 71.02, 'erng_seen': 907.4, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c256.npz', 'valid': True, 'selection_score_ms': 1.347282}
+[CppBB] amazon q=100 c=384 attacks=26
+[CppBB] amazon q=100 c=384 attack 01/26 original
+[CppBB] amazon q=100 c=384 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=384 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=384 attack 04/26 rotate5
+[CppBB] amazon q=100 c=384 attack 05/26 rotate15
+[CppBB] amazon q=100 c=384 attack 06/26 rotate30
+[CppBB] amazon q=100 c=384 attack 07/26 rotate40
+[CppBB] amazon q=100 c=384 attack 08/26 crop5
+[CppBB] amazon q=100 c=384 attack 09/26 crop10
+[CppBB] amazon q=100 c=384 attack 10/26 crop20
+[CppBB] amazon q=100 c=384 attack 11/26 crop40
+[CppBB] amazon q=100 c=384 attack 12/26 bright_light
+[CppBB] amazon q=100 c=384 attack 13/26 bright
+[CppBB] amazon q=100 c=384 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=384 attack 15/26 flip_h
+[CppBB] amazon q=100 c=384 attack 16/26 flip_v
+[CppBB] amazon q=100 c=384 attack 17/26 flip
+[CppBB] amazon q=100 c=384 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=384 attack 19/26 resize
+[CppBB] amazon q=100 c=384 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=384 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=384 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=384 attack 25/26 blur
+[CppBB] amazon q=100 c=384 attack 26/26 contrast
+[CppBBCal] amazon c=384 valid=True row={'direct_avg': 81.6, 'direct_ms': 42.984079, 'hnsw_avg': 81.6, 'hnsw_ms': 1.298936, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.88, 'hnsw_seen': 710.9, 'erng_avg': 81.6, 'erng_ms': 1.2965, 'erng_min_match': 100.0, 'erng_recall': 70.88, 'erng_seen': 710.9, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c384.npz', 'valid': True, 'selection_score_ms': 1.298936}
+[CppBB] amazon q=100 c=512 attacks=26
+[CppBB] amazon q=100 c=512 attack 01/26 original
+[CppBB] amazon q=100 c=512 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=512 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=512 attack 04/26 rotate5
+[CppBB] amazon q=100 c=512 attack 05/26 rotate15
+[CppBB] amazon q=100 c=512 attack 06/26 rotate30
+[CppBB] amazon q=100 c=512 attack 07/26 rotate40
+[CppBB] amazon q=100 c=512 attack 08/26 crop5
+[CppBB] amazon q=100 c=512 attack 09/26 crop10
+[CppBB] amazon q=100 c=512 attack 10/26 crop20
+[CppBB] amazon q=100 c=512 attack 11/26 crop40
+[CppBB] amazon q=100 c=512 attack 12/26 bright_light
+[CppBB] amazon q=100 c=512 attack 13/26 bright
+[CppBB] amazon q=100 c=512 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=512 attack 15/26 flip_h
+[CppBB] amazon q=100 c=512 attack 16/26 flip_v
+[CppBB] amazon q=100 c=512 attack 17/26 flip
+[CppBB] amazon q=100 c=512 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=512 attack 19/26 resize
+[CppBB] amazon q=100 c=512 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=512 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=512 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=512 attack 25/26 blur
+[CppBB] amazon q=100 c=512 attack 26/26 contrast
+[CppBBCal] amazon c=512 valid=True row={'direct_avg': 81.96, 'direct_ms': 40.965028, 'hnsw_avg': 81.96, 'hnsw_ms': 1.276281, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.81, 'hnsw_seen': 573.4, 'erng_avg': 81.96, 'erng_ms': 1.249923, 'erng_min_match': 100.0, 'erng_recall': 70.81, 'erng_seen': 572.2, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c512.npz', 'valid': True, 'selection_score_ms': 1.276281}
+[CppBB] amazon q=100 c=768 attacks=26
+[CppBB] amazon q=100 c=768 attack 01/26 original
+[CppBB] amazon q=100 c=768 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=768 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=768 attack 04/26 rotate5
+[CppBB] amazon q=100 c=768 attack 05/26 rotate15
+[CppBB] amazon q=100 c=768 attack 06/26 rotate30
+[CppBB] amazon q=100 c=768 attack 07/26 rotate40
+[CppBB] amazon q=100 c=768 attack 08/26 crop5
+[CppBB] amazon q=100 c=768 attack 09/26 crop10
+[CppBB] amazon q=100 c=768 attack 10/26 crop20
+[CppBB] amazon q=100 c=768 attack 11/26 crop40
+[CppBB] amazon q=100 c=768 attack 12/26 bright_light
+[CppBB] amazon q=100 c=768 attack 13/26 bright
+[CppBB] amazon q=100 c=768 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=768 attack 15/26 flip_h
+[CppBB] amazon q=100 c=768 attack 16/26 flip_v
+[CppBB] amazon q=100 c=768 attack 17/26 flip
+[CppBB] amazon q=100 c=768 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=768 attack 19/26 resize
+[CppBB] amazon q=100 c=768 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=768 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=768 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=768 attack 25/26 blur
+[CppBB] amazon q=100 c=768 attack 26/26 contrast
+[CppBBCal] amazon c=768 valid=True row={'direct_avg': 82.02, 'direct_ms': 41.424516, 'hnsw_avg': 82.02, 'hnsw_ms': 1.408722, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.42, 'hnsw_seen': 439.8, 'erng_avg': 82.02, 'erng_ms': 1.376255, 'erng_min_match': 100.0, 'erng_recall': 70.38, 'erng_seen': 438.5, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c768.npz', 'valid': True, 'selection_score_ms': 1.408722}
+[CppBB] amazon q=100 c=1024 attacks=26
+[CppBB] amazon q=100 c=1024 attack 01/26 original
+[CppBB] amazon q=100 c=1024 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=1024 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=1024 attack 04/26 rotate5
+[CppBB] amazon q=100 c=1024 attack 05/26 rotate15
+[CppBB] amazon q=100 c=1024 attack 06/26 rotate30
+[CppBB] amazon q=100 c=1024 attack 07/26 rotate40
+[CppBB] amazon q=100 c=1024 attack 08/26 crop5
+[CppBB] amazon q=100 c=1024 attack 09/26 crop10
+[CppBB] amazon q=100 c=1024 attack 10/26 crop20
+[CppBB] amazon q=100 c=1024 attack 11/26 crop40
+[CppBB] amazon q=100 c=1024 attack 12/26 bright_light
+[CppBB] amazon q=100 c=1024 attack 13/26 bright
+[CppBB] amazon q=100 c=1024 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=1024 attack 15/26 flip_h
+[CppBB] amazon q=100 c=1024 attack 16/26 flip_v
+[CppBB] amazon q=100 c=1024 attack 17/26 flip
+[CppBB] amazon q=100 c=1024 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=1024 attack 19/26 resize
+[CppBB] amazon q=100 c=1024 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=1024 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=1024 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=1024 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=1024 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=1024 attack 25/26 blur
+[CppBB] amazon q=100 c=1024 attack 26/26 contrast
+[CppBBCal] amazon c=1024 valid=True row={'direct_avg': 81.92, 'direct_ms': 41.234294, 'hnsw_avg': 81.92, 'hnsw_ms': 1.674921, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.08, 'hnsw_seen': 363.6, 'erng_avg': 81.92, 'erng_ms': 1.63957, 'erng_min_match': 100.0, 'erng_recall': 70.19, 'erng_seen': 363.2, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c1024.npz', 'valid': True, 'selection_score_ms': 1.674921}
+[CppBB] amazon q=100 c=1536 attacks=26
+[CppBB] amazon q=100 c=1536 attack 01/26 original
+[CppBB] amazon q=100 c=1536 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=1536 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=1536 attack 04/26 rotate5
+[CppBB] amazon q=100 c=1536 attack 05/26 rotate15
+[CppBB] amazon q=100 c=1536 attack 06/26 rotate30
+[CppBB] amazon q=100 c=1536 attack 07/26 rotate40
+[CppBB] amazon q=100 c=1536 attack 08/26 crop5
+[CppBB] amazon q=100 c=1536 attack 09/26 crop10
+[CppBB] amazon q=100 c=1536 attack 10/26 crop20
+[CppBB] amazon q=100 c=1536 attack 11/26 crop40
+[CppBB] amazon q=100 c=1536 attack 12/26 bright_light
+[CppBB] amazon q=100 c=1536 attack 13/26 bright
+[CppBB] amazon q=100 c=1536 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=1536 attack 15/26 flip_h
+[CppBB] amazon q=100 c=1536 attack 16/26 flip_v
+[CppBB] amazon q=100 c=1536 attack 17/26 flip
+[CppBB] amazon q=100 c=1536 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=1536 attack 19/26 resize
+[CppBB] amazon q=100 c=1536 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=1536 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=1536 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=1536 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=1536 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=1536 attack 25/26 blur
+[CppBB] amazon q=100 c=1536 attack 26/26 contrast
+[CppBBCal] amazon c=1536 valid=True row={'direct_avg': 81.94, 'direct_ms': 41.686228, 'hnsw_avg': 81.94, 'hnsw_ms': 2.275098, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.77, 'hnsw_seen': 287.8, 'erng_avg': 81.94, 'erng_ms': 2.258146, 'erng_min_match': 100.0, 'erng_recall': 70.77, 'erng_seen': 287.5, 'centroids': 1536, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c1536.npz', 'valid': True, 'selection_score_ms': 2.275098}
+[CppBB] build centroids amazon c=2048
+[CppBB] amazon q=100 c=2048 attacks=26
+[CppBB] amazon q=100 c=2048 attack 01/26 original
+[CppBB] amazon q=100 c=2048 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=2048 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=2048 attack 04/26 rotate5
+[CppBB] amazon q=100 c=2048 attack 05/26 rotate15
+[CppBB] amazon q=100 c=2048 attack 06/26 rotate30
+[CppBB] amazon q=100 c=2048 attack 07/26 rotate40
+[CppBB] amazon q=100 c=2048 attack 08/26 crop5
+[CppBB] amazon q=100 c=2048 attack 09/26 crop10
+[CppBB] amazon q=100 c=2048 attack 10/26 crop20
+[CppBB] amazon q=100 c=2048 attack 11/26 crop40
+[CppBB] amazon q=100 c=2048 attack 12/26 bright_light
+[CppBB] amazon q=100 c=2048 attack 13/26 bright
+[CppBB] amazon q=100 c=2048 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=2048 attack 15/26 flip_h
+[CppBB] amazon q=100 c=2048 attack 16/26 flip_v
+[CppBB] amazon q=100 c=2048 attack 17/26 flip
+[CppBB] amazon q=100 c=2048 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=2048 attack 19/26 resize
+[CppBB] amazon q=100 c=2048 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=2048 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=2048 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=2048 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=2048 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=2048 attack 25/26 blur
+[CppBB] amazon q=100 c=2048 attack 26/26 contrast
+[CppBBCal] amazon c=2048 valid=True row={'direct_avg': 81.9, 'direct_ms': 41.489349, 'hnsw_avg': 81.9, 'hnsw_ms': 2.930126, 'hnsw_min_match': 100.0, 'hnsw_recall': 69.6, 'hnsw_seen': 247.4, 'erng_avg': 81.9, 'erng_ms': 2.912621, 'erng_min_match': 100.0, 'erng_recall': 69.75, 'erng_seen': 246.0, 'centroids': 2048, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroids_c2048.npz', 'valid': True, 'selection_score_ms': 2.930126}
+[CppBB] selected ds=amazon c=512
+[CppBB] amazon q=100 c=512 attacks=26
+[CppBB] amazon q=100 c=512 attack 01/26 original
+[CppBB] amazon q=100 c=512 attack 02/26 rotate_m5
+[CppBB] amazon q=100 c=512 attack 03/26 rotate_m10
+[CppBB] amazon q=100 c=512 attack 04/26 rotate5
+[CppBB] amazon q=100 c=512 attack 05/26 rotate15
+[CppBB] amazon q=100 c=512 attack 06/26 rotate30
+[CppBB] amazon q=100 c=512 attack 07/26 rotate40
+[CppBB] amazon q=100 c=512 attack 08/26 crop5
+[CppBB] amazon q=100 c=512 attack 09/26 crop10
+[CppBB] amazon q=100 c=512 attack 10/26 crop20
+[CppBB] amazon q=100 c=512 attack 11/26 crop40
+[CppBB] amazon q=100 c=512 attack 12/26 bright_light
+[CppBB] amazon q=100 c=512 attack 13/26 bright
+[CppBB] amazon q=100 c=512 attack 14/26 heavy_bright
+[CppBB] amazon q=100 c=512 attack 15/26 flip_h
+[CppBB] amazon q=100 c=512 attack 16/26 flip_v
+[CppBB] amazon q=100 c=512 attack 17/26 flip
+[CppBB] amazon q=100 c=512 attack 18/26 resize_compress
+[CppBB] amazon q=100 c=512 attack 19/26 resize
+[CppBB] amazon q=100 c=512 attack 20/26 watermark_text
+[CppBB] amazon q=100 c=512 attack 21/26 watermark_asset
+[CppBB] amazon q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=100 c=512 attack 24/26 bg_color_change
+[CppBB] amazon q=100 c=512 attack 25/26 blur
+[CppBB] amazon q=100 c=512 attack 26/26 contrast
+[CppBBSummary] amazon q=100 {'direct_avg': 81.96, 'direct_ms': 41.93561, 'hnsw_avg': 81.96, 'hnsw_ms': 1.355297, 'hnsw_min_match': 100.0, 'hnsw_recall': 70.81, 'hnsw_seen': 578.9, 'erng_avg': 81.96, 'erng_ms': 1.386246, 'erng_min_match': 100.0, 'erng_recall': 70.81, 'erng_seen': 577.5}
+[CppBB] amazon q=200 c=512 attacks=26
+[CppBB] amazon q=200 c=512 attack 01/26 original
+[CppBB] amazon q=200 c=512 attack 02/26 rotate_m5
+[CppBB] amazon q=200 c=512 attack 03/26 rotate_m10
+[CppBB] amazon q=200 c=512 attack 04/26 rotate5
+[CppBB] amazon q=200 c=512 attack 05/26 rotate15
+[CppBB] amazon q=200 c=512 attack 06/26 rotate30
+[CppBB] amazon q=200 c=512 attack 07/26 rotate40
+[CppBB] amazon q=200 c=512 attack 08/26 crop5
+[CppBB] amazon q=200 c=512 attack 09/26 crop10
+[CppBB] amazon q=200 c=512 attack 10/26 crop20
+[CppBB] amazon q=200 c=512 attack 11/26 crop40
+[CppBB] amazon q=200 c=512 attack 12/26 bright_light
+[CppBB] amazon q=200 c=512 attack 13/26 bright
+[CppBB] amazon q=200 c=512 attack 14/26 heavy_bright
+[CppBB] amazon q=200 c=512 attack 15/26 flip_h
+[CppBB] amazon q=200 c=512 attack 16/26 flip_v
+[CppBB] amazon q=200 c=512 attack 17/26 flip
+[CppBB] amazon q=200 c=512 attack 18/26 resize_compress
+[CppBB] amazon q=200 c=512 attack 19/26 resize
+[CppBB] amazon q=200 c=512 attack 20/26 watermark_text
+[CppBB] amazon q=200 c=512 attack 21/26 watermark_asset
+[CppBB] amazon q=200 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=200 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=200 c=512 attack 24/26 bg_color_change
+[CppBB] amazon q=200 c=512 attack 25/26 blur
+[CppBB] amazon q=200 c=512 attack 26/26 contrast
+[CppBBSummary] amazon q=200 {'direct_avg': 83.03, 'direct_ms': 41.582174, 'hnsw_avg': 83.03, 'hnsw_ms': 1.337174, 'hnsw_min_match': 100.0, 'hnsw_recall': 71.01, 'hnsw_seen': 596.8, 'erng_avg': 83.03, 'erng_ms': 1.356286, 'erng_min_match': 100.0, 'erng_recall': 70.98, 'erng_seen': 595.8}
+[CppBB] amazon q=500 c=512 attacks=26
+[CppBB] amazon q=500 c=512 attack 01/26 original
+[CppBB] amazon q=500 c=512 attack 02/26 rotate_m5
+[CppBB] amazon q=500 c=512 attack 03/26 rotate_m10
+[CppBB] amazon q=500 c=512 attack 04/26 rotate5
+[CppBB] amazon q=500 c=512 attack 05/26 rotate15
+[CppBB] amazon q=500 c=512 attack 06/26 rotate30
+[CppBB] amazon q=500 c=512 attack 07/26 rotate40
+[CppBB] amazon q=500 c=512 attack 08/26 crop5
+[CppBB] amazon q=500 c=512 attack 09/26 crop10
+[CppBB] amazon q=500 c=512 attack 10/26 crop20
+[CppBB] amazon q=500 c=512 attack 11/26 crop40
+[CppBB] amazon q=500 c=512 attack 12/26 bright_light
+[CppBB] amazon q=500 c=512 attack 13/26 bright
+[CppBB] amazon q=500 c=512 attack 14/26 heavy_bright
+[CppBB] amazon q=500 c=512 attack 15/26 flip_h
+[CppBB] amazon q=500 c=512 attack 16/26 flip_v
+[CppBB] amazon q=500 c=512 attack 17/26 flip
+[CppBB] amazon q=500 c=512 attack 18/26 resize_compress
+[CppBB] amazon q=500 c=512 attack 19/26 resize
+[CppBB] amazon q=500 c=512 attack 20/26 watermark_text
+[CppBB] amazon q=500 c=512 attack 21/26 watermark_asset
+[CppBB] amazon q=500 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=500 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=500 c=512 attack 24/26 bg_color_change
+[CppBB] amazon q=500 c=512 attack 25/26 blur
+[CppBB] amazon q=500 c=512 attack 26/26 contrast
+[CppBBSummary] amazon q=500 {'direct_avg': 83.63, 'direct_ms': 40.314675, 'hnsw_avg': 83.63, 'hnsw_ms': 1.270734, 'hnsw_min_match': 100.0, 'hnsw_recall': 69.82, 'hnsw_seen': 575.3, 'erng_avg': 83.63, 'erng_ms': 1.283202, 'erng_min_match': 100.0, 'erng_recall': 69.82, 'erng_seen': 574.4}
+[CppBB] amazon q=1000 c=512 attacks=26
+[CppBB] amazon q=1000 c=512 attack 01/26 original
+[CppBB] amazon q=1000 c=512 attack 02/26 rotate_m5
+[CppBB] amazon q=1000 c=512 attack 03/26 rotate_m10
+[CppBB] amazon q=1000 c=512 attack 04/26 rotate5
+[CppBB] amazon q=1000 c=512 attack 05/26 rotate15
+[CppBB] amazon q=1000 c=512 attack 06/26 rotate30
+[CppBB] amazon q=1000 c=512 attack 07/26 rotate40
+[CppBB] amazon q=1000 c=512 attack 08/26 crop5
+[CppBB] amazon q=1000 c=512 attack 09/26 crop10
+[CppBB] amazon q=1000 c=512 attack 10/26 crop20
+[CppBB] amazon q=1000 c=512 attack 11/26 crop40
+[CppBB] amazon q=1000 c=512 attack 12/26 bright_light
+[CppBB] amazon q=1000 c=512 attack 13/26 bright
+[CppBB] amazon q=1000 c=512 attack 14/26 heavy_bright
+[CppBB] amazon q=1000 c=512 attack 15/26 flip_h
+[CppBB] amazon q=1000 c=512 attack 16/26 flip_v
+[CppBB] amazon q=1000 c=512 attack 17/26 flip
+[CppBB] amazon q=1000 c=512 attack 18/26 resize_compress
+[CppBB] amazon q=1000 c=512 attack 19/26 resize
+[CppBB] amazon q=1000 c=512 attack 20/26 watermark_text
+[CppBB] amazon q=1000 c=512 attack 21/26 watermark_asset
+[CppBB] amazon q=1000 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=1000 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=1000 c=512 attack 24/26 bg_color_change
+[CppBB] amazon q=1000 c=512 attack 25/26 blur
+[CppBB] amazon q=1000 c=512 attack 26/26 contrast
+[CppBBSummary] amazon q=1000 {'direct_avg': 84.27, 'direct_ms': 37.69761, 'hnsw_avg': 84.27, 'hnsw_ms': 1.225695, 'hnsw_min_match': 100.0, 'hnsw_recall': 71.47, 'hnsw_seen': 598.0, 'erng_avg': 84.27, 'erng_ms': 1.224545, 'erng_min_match': 100.0, 'erng_recall': 71.47, 'erng_seen': 597.3}
+[CppBB] amazon q=2000 c=512 attacks=26
+[CppBB] amazon q=2000 c=512 attack 01/26 original
+[CppBB] amazon q=2000 c=512 attack 02/26 rotate_m5
+[CppBB] amazon q=2000 c=512 attack 03/26 rotate_m10
+[CppBB] amazon q=2000 c=512 attack 04/26 rotate5
+[CppBB] amazon q=2000 c=512 attack 05/26 rotate15
+[CppBB] amazon q=2000 c=512 attack 06/26 rotate30
+[CppBB] amazon q=2000 c=512 attack 07/26 rotate40
+[CppBB] amazon q=2000 c=512 attack 08/26 crop5
+[CppBB] amazon q=2000 c=512 attack 09/26 crop10
+[CppBB] amazon q=2000 c=512 attack 10/26 crop20
+[CppBB] amazon q=2000 c=512 attack 11/26 crop40
+[CppBB] amazon q=2000 c=512 attack 12/26 bright_light
+[CppBB] amazon q=2000 c=512 attack 13/26 bright
+[CppBB] amazon q=2000 c=512 attack 14/26 heavy_bright
+[CppBB] amazon q=2000 c=512 attack 15/26 flip_h
+[CppBB] amazon q=2000 c=512 attack 16/26 flip_v
+[CppBB] amazon q=2000 c=512 attack 17/26 flip
+[CppBB] amazon q=2000 c=512 attack 18/26 resize_compress
+[CppBB] amazon q=2000 c=512 attack 19/26 resize
+[CppBB] amazon q=2000 c=512 attack 20/26 watermark_text
+[CppBB] amazon q=2000 c=512 attack 21/26 watermark_asset
+[CppBB] amazon q=2000 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] amazon q=2000 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] amazon q=2000 c=512 attack 24/26 bg_color_change
+[CppBB] amazon q=2000 c=512 attack 25/26 blur
+[CppBB] amazon q=2000 c=512 attack 26/26 contrast
+[CppBBSummary] amazon q=2000 {'direct_avg': 83.9, 'direct_ms': 40.959773, 'hnsw_avg': 83.9, 'hnsw_ms': 1.318484, 'hnsw_min_match': 100.0, 'hnsw_recall': 71.19, 'hnsw_seen': 602.4, 'erng_avg': 83.9, 'erng_ms': 1.332328, 'erng_min_match': 100.0, 'erng_recall': 71.18, 'erng_seen': 601.7}
+[CppBB] saved /home/saketh/json/final_named_artifacts_20260601/amazon/phase3_cpp_centroid_branchbound/amazon_cpp_centroid_branchbound_timing.json

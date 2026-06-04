@@ -1,0 +1,158 @@
+[AutoBBLaunch] Wed Jun  3 04:54:58 AM UTC 2026 dataset=cifar gpu=1
+[AutoBB] building centroids ds=cifar c=192
+[AutoBB] cifar q=100 attack 01/5 original
+[AutoBB] cifar q=100 attack 02/5 rotate_m10
+[AutoBB] cifar q=100 attack 03/5 crop40
+[AutoBB] cifar q=100 attack 04/5 watermark_asset
+[AutoBB] cifar q=100 attack 05/5 contrast
+[AutoBBCal] cifar c=192 valid=True score=20.395588 row={'direct_avg': 90.4, 'direct_ms': 34.095372, 'hnsw_avg': 90.4, 'hnsw_ms': 7.226644, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 3877.4, 'erng_avg': 90.4, 'erng_ms': 13.168944, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 3877.4, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_centroid_branchbound_autotune/cifar_autotune_centroids_c192.npz'}
+[AutoBB] building centroids ds=cifar c=256
+[AutoBB] cifar q=100 attack 01/5 original
+[AutoBB] cifar q=100 attack 02/5 rotate_m10
+[AutoBB] cifar q=100 attack 03/5 crop40
+[AutoBB] cifar q=100 attack 04/5 watermark_asset
+[AutoBB] cifar q=100 attack 05/5 contrast
+[AutoBBCal] cifar c=256 valid=True score=21.466788 row={'direct_avg': 89.9, 'direct_ms': 34.611796, 'hnsw_avg': 89.9, 'hnsw_ms': 7.62376, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 3327.3, 'erng_avg': 89.9, 'erng_ms': 13.843028, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 3327.3, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_centroid_branchbound_autotune/cifar_autotune_centroids_c256.npz'}
+[AutoBB] building centroids ds=cifar c=384
+[AutoBB] cifar q=100 attack 01/5 original
+[AutoBB] cifar q=100 attack 02/5 rotate_m10
+[AutoBB] cifar q=100 attack 03/5 crop40
+[AutoBB] cifar q=100 attack 04/5 watermark_asset
+[AutoBB] cifar q=100 attack 05/5 contrast
+[AutoBBCal] cifar c=384 valid=True score=19.452502 row={'direct_avg': 89.5, 'direct_ms': 23.031949, 'hnsw_avg': 89.5, 'hnsw_ms': 8.521701, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2778.0, 'erng_avg': 89.5, 'erng_ms': 10.930801, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2777.9, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_centroid_branchbound_autotune/cifar_autotune_centroids_c384.npz'}
+[AutoBB] building centroids ds=cifar c=512
+[AutoBB] cifar q=100 attack 01/5 original
+[AutoBB] cifar q=100 attack 02/5 rotate_m10
+[AutoBB] cifar q=100 attack 03/5 crop40
+[AutoBB] cifar q=100 attack 04/5 watermark_asset
+[AutoBB] cifar q=100 attack 05/5 contrast
+[AutoBBCal] cifar c=512 valid=True score=18.613334 row={'direct_avg': 90.0, 'direct_ms': 19.473988, 'hnsw_avg': 90.0, 'hnsw_ms': 7.30777, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2330.2, 'erng_avg': 90.0, 'erng_ms': 11.305564, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2330.1, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_centroid_branchbound_autotune/cifar_autotune_centroids_c512.npz'}
+[AutoBB] building centroids ds=cifar c=768
+[AutoBB] cifar q=100 attack 01/5 original
+[AutoBB] cifar q=100 attack 02/5 rotate_m10
+[AutoBB] cifar q=100 attack 03/5 crop40
+[AutoBB] cifar q=100 attack 04/5 watermark_asset
+[AutoBB] cifar q=100 attack 05/5 contrast
+[AutoBBCal] cifar c=768 valid=True score=20.304108 row={'direct_avg': 89.7, 'direct_ms': 22.173443, 'hnsw_avg': 89.7, 'hnsw_ms': 8.137452, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1972.9, 'erng_avg': 89.7, 'erng_ms': 12.166656, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1972.8, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_centroid_branchbound_autotune/cifar_autotune_centroids_c768.npz'}
+[AutoBB] building centroids ds=cifar c=1024
+[AutoBB] cifar q=100 attack 01/5 original
+[AutoBB] cifar q=100 attack 02/5 rotate_m10
+[AutoBB] cifar q=100 attack 03/5 crop40
+[AutoBB] cifar q=100 attack 04/5 watermark_asset
+[AutoBB] cifar q=100 attack 05/5 contrast
+[AutoBBCal] cifar c=1024 valid=True score=19.644331 row={'direct_avg': 89.9, 'direct_ms': 18.909499, 'hnsw_avg': 89.9, 'hnsw_ms': 7.541434, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1603.6, 'erng_avg': 89.9, 'erng_ms': 12.102897, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1603.4, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_centroid_branchbound_autotune/cifar_autotune_centroids_c1024.npz'}
+[AutoBB] building centroids ds=cifar c=1536
+[AutoBB] cifar q=100 attack 01/5 original
+[AutoBB] cifar q=100 attack 02/5 rotate_m10
+[AutoBB] cifar q=100 attack 03/5 crop40
+[AutoBB] cifar q=100 attack 04/5 watermark_asset
+[AutoBB] cifar q=100 attack 05/5 contrast
+[AutoBBCal] cifar c=1536 valid=True score=20.366820 row={'direct_avg': 90.0, 'direct_ms': 18.905762, 'hnsw_avg': 90.0, 'hnsw_ms': 7.500211, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 1282.7, 'erng_avg': 90.0, 'erng_ms': 12.866609, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 1282.5, 'centroids': 1536, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/cifar/phase3_centroid_branchbound_autotune/cifar_autotune_centroids_c1536.npz'}
+[AutoBB] selected ds=cifar centroids=512
+[AutoBB] cifar q=100 attack 01/26 original
+[AutoBB] cifar q=100 attack 02/26 rotate_m5
+[AutoBB] cifar q=100 attack 03/26 rotate_m10
+[AutoBB] cifar q=100 attack 04/26 rotate5
+[AutoBB] cifar q=100 attack 05/26 rotate15
+[AutoBB] cifar q=100 attack 06/26 rotate30
+[AutoBB] cifar q=100 attack 07/26 rotate40
+[AutoBB] cifar q=100 attack 08/26 crop5
+[AutoBB] cifar q=100 attack 09/26 crop10
+[AutoBB] cifar q=100 attack 10/26 crop20
+[AutoBB] cifar q=100 attack 11/26 crop40
+[AutoBB] cifar q=100 attack 12/26 bright_light
+[AutoBB] cifar q=100 attack 13/26 bright
+[AutoBB] cifar q=100 attack 14/26 heavy_bright
+[AutoBB] cifar q=100 attack 15/26 flip_h
+[AutoBB] cifar q=100 attack 16/26 flip_v
+[AutoBB] cifar q=100 attack 17/26 flip
+[AutoBB] cifar q=100 attack 18/26 resize_compress
+[AutoBB] cifar q=100 attack 19/26 resize
+[AutoBB] cifar q=100 attack 20/26 watermark_text
+[AutoBB] cifar q=100 attack 21/26 watermark_asset
+[AutoBB] cifar q=100 attack 22/26 mix_rotate10_bright
+[AutoBB] cifar q=100 attack 23/26 mix_crop20_watermark
+[AutoBB] cifar q=100 attack 24/26 bg_color_change
+[AutoBB] cifar q=100 attack 25/26 blur
+[AutoBB] cifar q=100 attack 26/26 contrast
+[AutoBBSummary] cifar q=100 {'direct_avg': 91.42, 'direct_ms': 20.473892, 'hnsw_avg': 91.42, 'hnsw_ms': 7.389391, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2295.1, 'erng_avg': 91.42, 'erng_ms': 12.28072, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2295.0}
+[AutoBB] cifar q=200 attack 01/26 original
+[AutoBB] cifar q=200 attack 02/26 rotate_m5
+[AutoBB] cifar q=200 attack 03/26 rotate_m10
+[AutoBB] cifar q=200 attack 04/26 rotate5
+[AutoBB] cifar q=200 attack 05/26 rotate15
+[AutoBB] cifar q=200 attack 06/26 rotate30
+[AutoBB] cifar q=200 attack 07/26 rotate40
+[AutoBB] cifar q=200 attack 08/26 crop5
+[AutoBB] cifar q=200 attack 09/26 crop10
+[AutoBB] cifar q=200 attack 10/26 crop20
+[AutoBB] cifar q=200 attack 11/26 crop40
+[AutoBB] cifar q=200 attack 12/26 bright_light
+[AutoBB] cifar q=200 attack 13/26 bright
+[AutoBB] cifar q=200 attack 14/26 heavy_bright
+[AutoBB] cifar q=200 attack 15/26 flip_h
+[AutoBB] cifar q=200 attack 16/26 flip_v
+[AutoBB] cifar q=200 attack 17/26 flip
+[AutoBB] cifar q=200 attack 18/26 resize_compress
+[AutoBB] cifar q=200 attack 19/26 resize
+[AutoBB] cifar q=200 attack 20/26 watermark_text
+[AutoBB] cifar q=200 attack 21/26 watermark_asset
+[AutoBB] cifar q=200 attack 22/26 mix_rotate10_bright
+[AutoBB] cifar q=200 attack 23/26 mix_crop20_watermark
+[AutoBB] cifar q=200 attack 24/26 bg_color_change
+[AutoBB] cifar q=200 attack 25/26 blur
+[AutoBB] cifar q=200 attack 26/26 contrast
+[AutoBBSummary] cifar q=200 {'direct_avg': 90.94, 'direct_ms': 18.737205, 'hnsw_avg': 90.94, 'hnsw_ms': 6.327985, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2296.4, 'erng_avg': 90.94, 'erng_ms': 9.730564, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2296.3}
+[AutoBB] cifar q=500 attack 01/26 original
+[AutoBB] cifar q=500 attack 02/26 rotate_m5
+[AutoBB] cifar q=500 attack 03/26 rotate_m10
+[AutoBB] cifar q=500 attack 04/26 rotate5
+[AutoBB] cifar q=500 attack 05/26 rotate15
+[AutoBB] cifar q=500 attack 06/26 rotate30
+[AutoBB] cifar q=500 attack 07/26 rotate40
+[AutoBB] cifar q=500 attack 08/26 crop5
+[AutoBB] cifar q=500 attack 09/26 crop10
+[AutoBB] cifar q=500 attack 10/26 crop20
+[AutoBB] cifar q=500 attack 11/26 crop40
+[AutoBB] cifar q=500 attack 12/26 bright_light
+[AutoBB] cifar q=500 attack 13/26 bright
+[AutoBB] cifar q=500 attack 14/26 heavy_bright
+[AutoBB] cifar q=500 attack 15/26 flip_h
+[AutoBB] cifar q=500 attack 16/26 flip_v
+[AutoBB] cifar q=500 attack 17/26 flip
+[AutoBB] cifar q=500 attack 18/26 resize_compress
+[AutoBB] cifar q=500 attack 19/26 resize
+[AutoBB] cifar q=500 attack 20/26 watermark_text
+[AutoBB] cifar q=500 attack 21/26 watermark_asset
+[AutoBB] cifar q=500 attack 22/26 mix_rotate10_bright
+[AutoBB] cifar q=500 attack 23/26 mix_crop20_watermark
+[AutoBB] cifar q=500 attack 24/26 bg_color_change
+[AutoBB] cifar q=500 attack 25/26 blur
+[AutoBB] cifar q=500 attack 26/26 contrast
+[AutoBBSummary] cifar q=500 {'direct_avg': 91.13, 'direct_ms': 18.138639, 'hnsw_avg': 91.13, 'hnsw_ms': 6.444287, 'hnsw_min_match': 100.0, 'hnsw_recall': 100.0, 'hnsw_seen': 2342.8, 'erng_avg': 91.13, 'erng_ms': 10.627177, 'erng_min_match': 100.0, 'erng_recall': 100.0, 'erng_seen': 2342.6}
+[AutoBB] cifar q=1000 attack 01/26 original
+[AutoBB] cifar q=1000 attack 02/26 rotate_m5
+[AutoBB] cifar q=1000 attack 03/26 rotate_m10
+[AutoBB] cifar q=1000 attack 04/26 rotate5
+[AutoBB] cifar q=1000 attack 05/26 rotate15
+[AutoBB] cifar q=1000 attack 06/26 rotate30
+[AutoBB] cifar q=1000 attack 07/26 rotate40
+[AutoBB] cifar q=1000 attack 08/26 crop5
+[AutoBB] cifar q=1000 attack 09/26 crop10
+[AutoBB] cifar q=1000 attack 10/26 crop20
+[AutoBB] cifar q=1000 attack 11/26 crop40
+[AutoBB] cifar q=1000 attack 12/26 bright_light
+[AutoBB] cifar q=1000 attack 13/26 bright
+[AutoBB] cifar q=1000 attack 14/26 heavy_bright
+[AutoBB] cifar q=1000 attack 15/26 flip_h
+[AutoBB] cifar q=1000 attack 16/26 flip_v
+[AutoBB] cifar q=1000 attack 17/26 flip
+[AutoBB] cifar q=1000 attack 18/26 resize_compress
+[AutoBB] cifar q=1000 attack 19/26 resize
+[AutoBB] cifar q=1000 attack 20/26 watermark_text
+[AutoBB] cifar q=1000 attack 21/26 watermark_asset
+[AutoBB] cifar q=1000 attack 22/26 mix_rotate10_bright
+[AutoBB] cifar q=1000 attack 23/26 mix_crop20_watermark
+[AutoBB] cifar q=1000 attack 24/26 bg_color_change
+[AutoBB] cifar q=1000 attack 25/26 blur
+[AutoBB] cifar q=1000 attack 26/26 contrast

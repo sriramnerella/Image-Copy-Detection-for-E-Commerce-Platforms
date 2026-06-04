@@ -1,0 +1,694 @@
+
+[CppBBLaunch] Wed Jun  3 08:03:23 AM UTC 2026 dataset=flickr gpu=2
+[CppBB] flickr q=100 c=96 attacks=5
+[CppBB] flickr q=100 c=96 attack 01/5 original
+[CppBB] flickr q=100 c=96 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=96 attack 03/5 crop40
+[CppBB] flickr q=100 c=96 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=96 attack 05/5 contrast
+[CppBBCal] flickr c=96 valid=False row={'direct_avg': 79.4, 'direct_ms': 4.824279, 'hnsw_avg': 79.4, 'hnsw_ms': 0.311601, 'hnsw_min_match': 100.0, 'hnsw_recall': 85.3, 'hnsw_seen': 461.5, 'erng_avg': 79.4, 'erng_ms': 0.311601, 'erng_min_match': 100.0, 'erng_recall': 85.3, 'erng_seen': 461.5, 'centroids': 96, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c96.npz', 'valid': False}
+[CppBB] flickr q=100 c=128 attacks=5
+[CppBB] flickr q=100 c=128 attack 01/5 original
+[CppBB] flickr q=100 c=128 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=128 attack 03/5 crop40
+[CppBB] flickr q=100 c=128 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=128 attack 05/5 contrast
+[CppBBCal] flickr c=128 valid=False row={'direct_avg': 78.9, 'direct_ms': 5.023618, 'hnsw_avg': 78.9, 'hnsw_ms': 0.263026, 'hnsw_min_match': 100.0, 'hnsw_recall': 85.9, 'hnsw_seen': 369.7, 'erng_avg': 78.9, 'erng_ms': 0.263026, 'erng_min_match': 100.0, 'erng_recall': 85.9, 'erng_seen': 369.7, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c128.npz', 'valid': False}
+[CppBB] flickr q=100 c=192 attacks=5
+[CppBB] flickr q=100 c=192 attack 01/5 original
+[CppBB] flickr q=100 c=192 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=192 attack 03/5 crop40
+[CppBB] flickr q=100 c=192 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=192 attack 05/5 contrast
+[CppBBCal] flickr c=192 valid=False row={'direct_avg': 80.5, 'direct_ms': 8.118281, 'hnsw_avg': 80.5, 'hnsw_ms': 0.515219, 'hnsw_min_match': 100.0, 'hnsw_recall': 84.4, 'hnsw_seen': 248.2, 'erng_avg': 80.5, 'erng_ms': 0.515219, 'erng_min_match': 100.0, 'erng_recall': 84.4, 'erng_seen': 248.2, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] build centroids flickr c=256
+[CppBB] flickr q=100 c=256 attacks=5
+[CppBB] flickr q=100 c=256 attack 01/5 original
+[CppBB] flickr q=100 c=256 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=256 attack 03/5 crop40
+[CppBB] flickr q=100 c=256 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=256 attack 05/5 contrast
+[CppBBCal] flickr c=256 valid=False row={'direct_avg': 80.1, 'direct_ms': 8.355886, 'hnsw_avg': 80.1, 'hnsw_ms': 0.321175, 'hnsw_min_match': 100.0, 'hnsw_recall': 84.2, 'hnsw_seen': 172.9, 'erng_avg': 80.1, 'erng_ms': 0.321175, 'erng_min_match': 100.0, 'erng_recall': 84.2, 'erng_seen': 172.9, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] build centroids flickr c=384
+[CppBB] flickr q=100 c=384 attacks=5
+[CppBB] flickr q=100 c=384 attack 01/5 original
+[CppBB] flickr q=100 c=384 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=384 attack 03/5 crop40
+[CppBB] flickr q=100 c=384 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=384 attack 05/5 contrast
+[CppBBCal] flickr c=384 valid=False row={'direct_avg': 80.8, 'direct_ms': 7.057505, 'hnsw_avg': 80.8, 'hnsw_ms': 0.402839, 'hnsw_min_match': 100.0, 'hnsw_recall': 83.0, 'hnsw_seen': 108.5, 'erng_avg': 80.8, 'erng_ms': 0.402839, 'erng_min_match': 100.0, 'erng_recall': 83.0, 'erng_seen': 108.5, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] flickr q=100 c=512 attacks=5
+[CppBB] flickr q=100 c=512 attack 01/5 original
+[CppBB] flickr q=100 c=512 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=512 attack 03/5 crop40
+[CppBB] flickr q=100 c=512 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=512 attack 05/5 contrast
+[CppBBCal] flickr c=512 valid=False row={'direct_avg': 79.9, 'direct_ms': 6.266594, 'hnsw_avg': 79.9, 'hnsw_ms': 0.342158, 'hnsw_min_match': 100.0, 'hnsw_recall': 82.1, 'hnsw_seen': 76.9, 'erng_avg': 79.9, 'erng_ms': 0.342158, 'erng_min_match': 100.0, 'erng_recall': 82.1, 'erng_seen': 76.9, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] build centroids flickr c=768
+[CppBB] flickr q=100 c=768 attacks=5
+[CppBB] flickr q=100 c=768 attack 01/5 original
+[CppBB] flickr q=100 c=768 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=768 attack 03/5 crop40
+[CppBB] flickr q=100 c=768 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=768 attack 05/5 contrast
+[CppBBCal] flickr c=768 valid=False row={'direct_avg': 79.0, 'direct_ms': 8.617236, 'hnsw_avg': 79.0, 'hnsw_ms': 0.743226, 'hnsw_min_match': 100.0, 'hnsw_recall': 81.6, 'hnsw_seen': 49.0, 'erng_avg': 79.0, 'erng_ms': 0.743226, 'erng_min_match': 100.0, 'erng_recall': 81.6, 'erng_seen': 49.0, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] build centroids flickr c=1024
+[CppBB] flickr q=100 c=1024 attacks=5
+[CppBB] flickr q=100 c=1024 attack 01/5 original
+[CppBB] flickr q=100 c=1024 attack 02/5 rotate_m10
+[CppBB] flickr q=100 c=1024 attack 03/5 crop40
+[CppBB] flickr q=100 c=1024 attack 04/5 watermark_asset
+[CppBB] flickr q=100 c=1024 attack 05/5 contrast
+[CppBBCal] flickr c=1024 valid=False row={'direct_avg': 79.1, 'direct_ms': 5.596202, 'hnsw_avg': 79.1, 'hnsw_ms': 0.732241, 'hnsw_min_match': 100.0, 'hnsw_recall': 83.1, 'hnsw_seen': 34.2, 'erng_avg': 79.1, 'erng_ms': 0.732241, 'erng_min_match': 100.0, 'erng_recall': 83.1, 'erng_seen': 34.2, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c1024.npz', 'valid': False}
+[CppBB] selected ds=flickr c=128
+[CppBB] flickr q=100 c=128 attacks=26
+[CppBB] flickr q=100 c=128 attack 01/26 original
+[CppBB] flickr q=100 c=128 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=128 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=128 attack 04/26 rotate5
+[CppBB] flickr q=100 c=128 attack 05/26 rotate15
+[CppBB] flickr q=100 c=128 attack 06/26 rotate30
+[CppBB] flickr q=100 c=128 attack 07/26 rotate40
+[CppBB] flickr q=100 c=128 attack 08/26 crop5
+[CppBB] flickr q=100 c=128 attack 09/26 crop10
+[CppBB] flickr q=100 c=128 attack 10/26 crop20
+[CppBB] flickr q=100 c=128 attack 11/26 crop40
+[CppBB] flickr q=100 c=128 attack 12/26 bright_light
+[CppBB] flickr q=100 c=128 attack 13/26 bright
+[CppBB] flickr q=100 c=128 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=128 attack 15/26 flip_h
+[CppBB] flickr q=100 c=128 attack 16/26 flip_v
+[CppBB] flickr q=100 c=128 attack 17/26 flip
+[CppBB] flickr q=100 c=128 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=128 attack 19/26 resize
+[CppBB] flickr q=100 c=128 attack 20/26 watermark_text
+[CppBBLaunch] Wed Jun  3 08:45:29 AM UTC 2026 dataset=flickr gpu=2
+[CppBB] flickr q=100 c=96 attacks=26
+[CppBB] flickr q=100 c=96 attack 01/26 original
+[CppBB] flickr q=100 c=96 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=96 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=96 attack 04/26 rotate5
+[CppBB] flickr q=100 c=96 attack 05/26 rotate15
+[CppBB] flickr q=100 c=96 attack 06/26 rotate30
+[CppBB] flickr q=100 c=96 attack 07/26 rotate40
+[CppBB] flickr q=100 c=96 attack 08/26 crop5
+[CppBB] flickr q=100 c=96 attack 09/26 crop10
+[CppBB] flickr q=100 c=96 attack 10/26 crop20
+[CppBB] flickr q=100 c=96 attack 11/26 crop40
+[CppBB] flickr q=100 c=96 attack 12/26 bright_light
+[CppBB] flickr q=100 c=96 attack 13/26 bright
+[CppBB] flickr q=100 c=96 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=96 attack 15/26 flip_h
+[CppBB] flickr q=100 c=96 attack 16/26 flip_v
+[CppBB] flickr q=100 c=96 attack 17/26 flip
+[CppBB] flickr q=100 c=96 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=96 attack 19/26 resize
+[CppBB] flickr q=100 c=96 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=96 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=96 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=96 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=96 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=96 attack 25/26 blur
+[CppBB] flickr q=100 c=96 attack 26/26 contrast
+[CppBBCal] flickr c=96 valid=False row={'direct_avg': 88.13, 'direct_ms': 4.823182, 'hnsw_avg': 88.13, 'hnsw_ms': 0.273744, 'hnsw_min_match': 100.0, 'hnsw_recall': 92.33, 'hnsw_seen': 454.5, 'erng_avg': 88.13, 'erng_ms': 0.273744, 'erng_min_match': 100.0, 'erng_recall': 92.33, 'erng_seen': 454.5, 'centroids': 96, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c96.npz', 'valid': False}
+[CppBB] flickr q=100 c=128 attacks=26
+[CppBB] flickr q=100 c=128 attack 01/26 original
+[CppBB] flickr q=100 c=128 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=128 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=128 attack 04/26 rotate5
+[CppBB] flickr q=100 c=128 attack 05/26 rotate15
+[CppBB] flickr q=100 c=128 attack 06/26 rotate30
+[CppBB] flickr q=100 c=128 attack 07/26 rotate40
+[CppBB] flickr q=100 c=128 attack 08/26 crop5
+[CppBB] flickr q=100 c=128 attack 09/26 crop10
+[CppBB] flickr q=100 c=128 attack 10/26 crop20
+[CppBB] flickr q=100 c=128 attack 11/26 crop40
+[CppBB] flickr q=100 c=128 attack 12/26 bright_light
+[CppBB] flickr q=100 c=128 attack 13/26 bright
+[CppBB] flickr q=100 c=128 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=128 attack 15/26 flip_h
+[CppBB] flickr q=100 c=128 attack 16/26 flip_v
+[CppBB] flickr q=100 c=128 attack 17/26 flip
+[CppBB] flickr q=100 c=128 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=128 attack 19/26 resize
+[CppBB] flickr q=100 c=128 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=128 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=128 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=128 attack 25/26 blur
+[CppBB] flickr q=100 c=128 attack 26/26 contrast
+[CppBBCal] flickr c=128 valid=False row={'direct_avg': 88.02, 'direct_ms': 4.832629, 'hnsw_avg': 88.02, 'hnsw_ms': 0.254833, 'hnsw_min_match': 100.0, 'hnsw_recall': 91.52, 'hnsw_seen': 347.8, 'erng_avg': 88.02, 'erng_ms': 0.254833, 'erng_min_match': 100.0, 'erng_recall': 91.52, 'erng_seen': 347.8, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c128.npz', 'valid': False}
+[CppBB] flickr q=100 c=192 attacks=26
+[CppBB] flickr q=100 c=192 attack 01/26 original
+[CppBB] flickr q=100 c=192 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=192 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=192 attack 04/26 rotate5
+[CppBB] flickr q=100 c=192 attack 05/26 rotate15
+[CppBB] flickr q=100 c=192 attack 06/26 rotate30
+[CppBB] flickr q=100 c=192 attack 07/26 rotate40
+[CppBB] flickr q=100 c=192 attack 08/26 crop5
+[CppBB] flickr q=100 c=192 attack 09/26 crop10
+[CppBB] flickr q=100 c=192 attack 10/26 crop20
+[CppBB] flickr q=100 c=192 attack 11/26 crop40
+[CppBB] flickr q=100 c=192 attack 12/26 bright_light
+[CppBB] flickr q=100 c=192 attack 13/26 bright
+[CppBB] flickr q=100 c=192 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=192 attack 15/26 flip_h
+[CppBB] flickr q=100 c=192 attack 16/26 flip_v
+[CppBB] flickr q=100 c=192 attack 17/26 flip
+[CppBB] flickr q=100 c=192 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=192 attack 19/26 resize
+[CppBB] flickr q=100 c=192 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=192 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=192 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=192 attack 25/26 blur
+[CppBB] flickr q=100 c=192 attack 26/26 contrast
+[CppBBCal] flickr c=192 valid=False row={'direct_avg': 88.08, 'direct_ms': 4.896335, 'hnsw_avg': 88.08, 'hnsw_ms': 0.225998, 'hnsw_min_match': 100.0, 'hnsw_recall': 91.27, 'hnsw_seen': 238.7, 'erng_avg': 88.08, 'erng_ms': 0.225998, 'erng_min_match': 100.0, 'erng_recall': 91.27, 'erng_seen': 238.7, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] flickr q=100 c=256 attacks=26
+[CppBB] flickr q=100 c=256 attack 01/26 original
+[CppBB] flickr q=100 c=256 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=256 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=256 attack 04/26 rotate5
+[CppBB] flickr q=100 c=256 attack 05/26 rotate15
+[CppBB] flickr q=100 c=256 attack 06/26 rotate30
+[CppBB] flickr q=100 c=256 attack 07/26 rotate40
+[CppBB] flickr q=100 c=256 attack 08/26 crop5
+[CppBB] flickr q=100 c=256 attack 09/26 crop10
+[CppBB] flickr q=100 c=256 attack 10/26 crop20
+[CppBB] flickr q=100 c=256 attack 11/26 crop40
+[CppBB] flickr q=100 c=256 attack 12/26 bright_light
+[CppBB] flickr q=100 c=256 attack 13/26 bright
+[CppBB] flickr q=100 c=256 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=256 attack 15/26 flip_h
+[CppBB] flickr q=100 c=256 attack 16/26 flip_v
+[CppBB] flickr q=100 c=256 attack 17/26 flip
+[CppBB] flickr q=100 c=256 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=256 attack 19/26 resize
+[CppBB] flickr q=100 c=256 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=256 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=256 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=256 attack 25/26 blur
+[CppBB] flickr q=100 c=256 attack 26/26 contrast
+[CppBBCal] flickr c=256 valid=False row={'direct_avg': 87.85, 'direct_ms': 4.76437, 'hnsw_avg': 87.85, 'hnsw_ms': 0.219864, 'hnsw_min_match': 100.0, 'hnsw_recall': 89.98, 'hnsw_seen': 167.6, 'erng_avg': 87.85, 'erng_ms': 0.219864, 'erng_min_match': 100.0, 'erng_recall': 89.98, 'erng_seen': 167.6, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] flickr q=100 c=384 attacks=26
+[CppBB] flickr q=100 c=384 attack 01/26 original
+[CppBB] flickr q=100 c=384 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=384 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=384 attack 04/26 rotate5
+[CppBB] flickr q=100 c=384 attack 05/26 rotate15
+[CppBB] flickr q=100 c=384 attack 06/26 rotate30
+[CppBB] flickr q=100 c=384 attack 07/26 rotate40
+[CppBB] flickr q=100 c=384 attack 08/26 crop5
+[CppBB] flickr q=100 c=384 attack 09/26 crop10
+[CppBB] flickr q=100 c=384 attack 10/26 crop20
+[CppBB] flickr q=100 c=384 attack 11/26 crop40
+[CppBB] flickr q=100 c=384 attack 12/26 bright_light
+[CppBB] flickr q=100 c=384 attack 13/26 bright
+[CppBB] flickr q=100 c=384 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=384 attack 15/26 flip_h
+[CppBB] flickr q=100 c=384 attack 16/26 flip_v
+[CppBB] flickr q=100 c=384 attack 17/26 flip
+[CppBB] flickr q=100 c=384 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=384 attack 19/26 resize
+[CppBB] flickr q=100 c=384 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=384 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=384 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=384 attack 25/26 blur
+[CppBB] flickr q=100 c=384 attack 26/26 contrast
+[CppBBCal] flickr c=384 valid=False row={'direct_avg': 87.87, 'direct_ms': 4.906352, 'hnsw_avg': 87.87, 'hnsw_ms': 0.258997, 'hnsw_min_match': 100.0, 'hnsw_recall': 89.79, 'hnsw_seen': 101.5, 'erng_avg': 87.87, 'erng_ms': 0.258997, 'erng_min_match': 100.0, 'erng_recall': 89.79, 'erng_seen': 101.5, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] flickr q=100 c=512 attacks=26
+[CppBB] flickr q=100 c=512 attack 01/26 original
+[CppBB] flickr q=100 c=512 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=512 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=512 attack 04/26 rotate5
+[CppBB] flickr q=100 c=512 attack 05/26 rotate15
+[CppBB] flickr q=100 c=512 attack 06/26 rotate30
+[CppBB] flickr q=100 c=512 attack 07/26 rotate40
+[CppBB] flickr q=100 c=512 attack 08/26 crop5
+[CppBB] flickr q=100 c=512 attack 09/26 crop10
+[CppBB] flickr q=100 c=512 attack 10/26 crop20
+[CppBB] flickr q=100 c=512 attack 11/26 crop40
+[CppBB] flickr q=100 c=512 attack 12/26 bright_light
+[CppBB] flickr q=100 c=512 attack 13/26 bright
+[CppBB] flickr q=100 c=512 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=512 attack 15/26 flip_h
+[CppBB] flickr q=100 c=512 attack 16/26 flip_v
+[CppBB] flickr q=100 c=512 attack 17/26 flip
+[CppBB] flickr q=100 c=512 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=512 attack 19/26 resize
+[CppBB] flickr q=100 c=512 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=512 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=512 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=512 attack 25/26 blur
+[CppBB] flickr q=100 c=512 attack 26/26 contrast
+[CppBBCal] flickr c=512 valid=False row={'direct_avg': 88.12, 'direct_ms': 4.84139, 'hnsw_avg': 88.12, 'hnsw_ms': 0.317696, 'hnsw_min_match': 100.0, 'hnsw_recall': 89.4, 'hnsw_seen': 75.3, 'erng_avg': 88.12, 'erng_ms': 0.317696, 'erng_min_match': 100.0, 'erng_recall': 89.4, 'erng_seen': 75.3, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] flickr q=100 c=768 attacks=26
+[CppBB] flickr q=100 c=768 attack 01/26 original
+[CppBB] flickr q=100 c=768 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=768 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=768 attack 04/26 rotate5
+[CppBB] flickr q=100 c=768 attack 05/26 rotate15
+[CppBB] flickr q=100 c=768 attack 06/26 rotate30
+[CppBB] flickr q=100 c=768 attack 07/26 rotate40
+[CppBB] flickr q=100 c=768 attack 08/26 crop5
+[CppBB] flickr q=100 c=768 attack 09/26 crop10
+[CppBB] flickr q=100 c=768 attack 10/26 crop20
+[CppBB] flickr q=100 c=768 attack 11/26 crop40
+[CppBB] flickr q=100 c=768 attack 12/26 bright_light
+[CppBB] flickr q=100 c=768 attack 13/26 bright
+[CppBB] flickr q=100 c=768 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=768 attack 15/26 flip_h
+[CppBB] flickr q=100 c=768 attack 16/26 flip_v
+[CppBB] flickr q=100 c=768 attack 17/26 flip
+[CppBB] flickr q=100 c=768 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=768 attack 19/26 resize
+[CppBB] flickr q=100 c=768 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=768 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=768 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=768 attack 25/26 blur
+[CppBB] flickr q=100 c=768 attack 26/26 contrast
+[CppBBCal] flickr c=768 valid=False row={'direct_avg': 88.08, 'direct_ms': 4.752408, 'hnsw_avg': 88.08, 'hnsw_ms': 0.419023, 'hnsw_min_match': 100.0, 'hnsw_recall': 86.0, 'hnsw_seen': 44.6, 'erng_avg': 88.08, 'erng_ms': 0.419023, 'erng_min_match': 100.0, 'erng_recall': 86.0, 'erng_seen': 44.6, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] flickr q=100 c=1024 attacks=26
+[CppBB] flickr q=100 c=1024 attack 01/26 original
+[CppBB] flickr q=100 c=1024 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=1024 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=1024 attack 04/26 rotate5
+[CppBB] flickr q=100 c=1024 attack 05/26 rotate15
+[CppBB] flickr q=100 c=1024 attack 06/26 rotate30
+[CppBB] flickr q=100 c=1024 attack 07/26 rotate40
+[CppBB] flickr q=100 c=1024 attack 08/26 crop5
+[CppBB] flickr q=100 c=1024 attack 09/26 crop10
+[CppBB] flickr q=100 c=1024 attack 10/26 crop20
+[CppBB] flickr q=100 c=1024 attack 11/26 crop40
+[CppBB] flickr q=100 c=1024 attack 12/26 bright_light
+[CppBB] flickr q=100 c=1024 attack 13/26 bright
+[CppBB] flickr q=100 c=1024 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=1024 attack 15/26 flip_h
+[CppBB] flickr q=100 c=1024 attack 16/26 flip_v
+[CppBB] flickr q=100 c=1024 attack 17/26 flip
+[CppBB] flickr q=100 c=1024 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=1024 attack 19/26 resize
+[CppBB] flickr q=100 c=1024 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=1024 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=1024 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=1024 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=1024 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=1024 attack 25/26 blur
+[CppBB] flickr q=100 c=1024 attack 26/26 contrast
+[CppBBCal] flickr c=1024 valid=False row={'direct_avg': 88.33, 'direct_ms': 4.86432, 'hnsw_avg': 88.33, 'hnsw_ms': 0.553846, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.6, 'hnsw_seen': 31.0, 'erng_avg': 88.33, 'erng_ms': 0.553846, 'erng_min_match': 100.0, 'erng_recall': 87.6, 'erng_seen': 31.0, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c1024.npz', 'valid': False}
+[CppBB] selected ds=flickr c=96
+[CppBB] flickr q=100 c=96 attacks=26
+[CppBB] flickr q=100 c=96 attack 01/26 original
+[CppBB] flickr q=100 c=96 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=96 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=96 attack 04/26 rotate5
+[CppBB] flickr q=100 c=96 attack 05/26 rotate15
+[CppBB] flickr q=100 c=96 attack 06/26 rotate30
+[CppBB] flickr q=100 c=96 attack 07/26 rotate40
+[CppBB] flickr q=100 c=96 attack 08/26 crop5
+[CppBB] flickr q=100 c=96 attack 09/26 crop10
+[CppBB] flickr q=100 c=96 attack 10/26 crop20
+[CppBB] flickr q=100 c=96 attack 11/26 crop40
+[CppBB] flickr q=100 c=96 attack 12/26 bright_light
+[CppBB] flickr q=100 c=96 attack 13/26 bright
+[CppBB] flickr q=100 c=96 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=96 attack 15/26 flip_h
+[CppBB] flickr q=100 c=96 attack 16/26 flip_v
+[CppBB] flickr q=100 c=96 attack 17/26 flip
+[CppBB] flickr q=100 c=96 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=96 attack 19/26 resize
+[CppBB] flickr q=100 c=96 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=96 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=96 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=96 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=96 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=96 attack 25/26 blur
+[CppBB] flickr q=100 c=96 attack 26/26 contrast
+[CppBBSummary] flickr q=100 {'direct_avg': 88.04, 'direct_ms': 4.74713, 'hnsw_avg': 88.04, 'hnsw_ms': 0.28212, 'hnsw_min_match': 100.0, 'hnsw_recall': 91.81, 'hnsw_seen': 449.7, 'erng_avg': 88.04, 'erng_ms': 0.28212, 'erng_min_match': 100.0, 'erng_recall': 91.81, 'erng_seen': 449.7}
+[CppBB] flickr q=200 c=96 attacks=26
+[CppBB] flickr q=200 c=96 attack 01/26 original
+[CppBB] flickr q=200 c=96 attack 02/26 rotate_m5
+[CppBB] flickr q=200 c=96 attack 03/26 rotate_m10
+[CppBB] flickr q=200 c=96 attack 04/26 rotate5
+[CppBB] flickr q=200 c=96 attack 05/26 rotate15
+[CppBB] flickr q=200 c=96 attack 06/26 rotate30
+[CppBB] flickr q=200 c=96 attack 07/26 rotate40
+[CppBB] flickr q=200 c=96 attack 08/26 crop5
+[CppBB] flickr q=200 c=96 attack 09/26 crop10
+[CppBB] flickr q=200 c=96 attack 10/26 crop20
+[CppBB] flickr q=200 c=96 attack 11/26 crop40
+[CppBB] flickr q=200 c=96 attack 12/26 bright_light
+[CppBB] flickr q=200 c=96 attack 13/26 bright
+[CppBB] flickr q=200 c=96 attack 14/26 heavy_bright
+[CppBB] flickr q=200 c=96 attack 15/26 flip_h
+[CppBB] flickr q=200 c=96 attack 16/26 flip_v
+[CppBBLaunch] Wed Jun  3 10:21:01 AM UTC 2026 dataset=flickr gpu=2
+[CppBB] flickr q=100 c=96 attacks=26
+[CppBB] flickr q=100 c=96 attack 01/26 original
+[CppBB] flickr q=100 c=96 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=96 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=96 attack 04/26 rotate5
+[CppBB] flickr q=100 c=96 attack 05/26 rotate15
+[CppBB] flickr q=100 c=96 attack 06/26 rotate30
+[CppBB] flickr q=100 c=96 attack 07/26 rotate40
+[CppBB] flickr q=100 c=96 attack 08/26 crop5
+[CppBB] flickr q=100 c=96 attack 09/26 crop10
+[CppBB] flickr q=100 c=96 attack 10/26 crop20
+[CppBB] flickr q=100 c=96 attack 11/26 crop40
+[CppBB] flickr q=100 c=96 attack 12/26 bright_light
+[CppBB] flickr q=100 c=96 attack 13/26 bright
+[CppBB] flickr q=100 c=96 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=96 attack 15/26 flip_h
+[CppBB] flickr q=100 c=96 attack 16/26 flip_v
+[CppBB] flickr q=100 c=96 attack 17/26 flip
+[CppBB] flickr q=100 c=96 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=96 attack 19/26 resize
+[CppBB] flickr q=100 c=96 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=96 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=96 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=96 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=96 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=96 attack 25/26 blur
+[CppBB] flickr q=100 c=96 attack 26/26 contrast
+[CppBBCal] flickr c=96 valid=True row={'direct_avg': 88.15, 'direct_ms': 4.834203, 'hnsw_avg': 88.15, 'hnsw_ms': 0.241179, 'hnsw_min_match': 100.0, 'hnsw_recall': 92.12, 'hnsw_seen': 374.9, 'erng_avg': 88.15, 'erng_ms': 0.233567, 'erng_min_match': 100.0, 'erng_recall': 92.12, 'erng_seen': 374.6, 'centroids': 96, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c96.npz', 'valid': True, 'selection_score_ms': 0.241179}
+[CppBB] flickr q=100 c=128 attacks=26
+[CppBB] flickr q=100 c=128 attack 01/26 original
+[CppBB] flickr q=100 c=128 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=128 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=128 attack 04/26 rotate5
+[CppBB] flickr q=100 c=128 attack 05/26 rotate15
+[CppBB] flickr q=100 c=128 attack 06/26 rotate30
+[CppBB] flickr q=100 c=128 attack 07/26 rotate40
+[CppBB] flickr q=100 c=128 attack 08/26 crop5
+[CppBB] flickr q=100 c=128 attack 09/26 crop10
+[CppBB] flickr q=100 c=128 attack 10/26 crop20
+[CppBB] flickr q=100 c=128 attack 11/26 crop40
+[CppBB] flickr q=100 c=128 attack 12/26 bright_light
+[CppBB] flickr q=100 c=128 attack 13/26 bright
+[CppBB] flickr q=100 c=128 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=128 attack 15/26 flip_h
+[CppBB] flickr q=100 c=128 attack 16/26 flip_v
+[CppBB] flickr q=100 c=128 attack 17/26 flip
+[CppBB] flickr q=100 c=128 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=128 attack 19/26 resize
+[CppBB] flickr q=100 c=128 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=128 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=128 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=128 attack 25/26 blur
+[CppBB] flickr q=100 c=128 attack 26/26 contrast
+[CppBBCal] flickr c=128 valid=True row={'direct_avg': 88.08, 'direct_ms': 4.987419, 'hnsw_avg': 88.08, 'hnsw_ms': 0.216196, 'hnsw_min_match': 100.0, 'hnsw_recall': 91.98, 'hnsw_seen': 295.1, 'erng_avg': 88.08, 'erng_ms': 0.214484, 'erng_min_match': 100.0, 'erng_recall': 91.98, 'erng_seen': 294.5, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c128.npz', 'valid': True, 'selection_score_ms': 0.216196}
+[CppBB] flickr q=100 c=192 attacks=26
+[CppBB] flickr q=100 c=192 attack 01/26 original
+[CppBB] flickr q=100 c=192 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=192 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=192 attack 04/26 rotate5
+[CppBB] flickr q=100 c=192 attack 05/26 rotate15
+[CppBB] flickr q=100 c=192 attack 06/26 rotate30
+[CppBB] flickr q=100 c=192 attack 07/26 rotate40
+[CppBB] flickr q=100 c=192 attack 08/26 crop5
+[CppBB] flickr q=100 c=192 attack 09/26 crop10
+[CppBB] flickr q=100 c=192 attack 10/26 crop20
+[CppBB] flickr q=100 c=192 attack 11/26 crop40
+[CppBB] flickr q=100 c=192 attack 12/26 bright_light
+[CppBB] flickr q=100 c=192 attack 13/26 bright
+[CppBB] flickr q=100 c=192 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=192 attack 15/26 flip_h
+[CppBB] flickr q=100 c=192 attack 16/26 flip_v
+[CppBB] flickr q=100 c=192 attack 17/26 flip
+[CppBB] flickr q=100 c=192 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=192 attack 19/26 resize
+[CppBB] flickr q=100 c=192 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=192 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=192 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=192 attack 25/26 blur
+[CppBB] flickr q=100 c=192 attack 26/26 contrast
+[CppBBCal] flickr c=192 valid=True row={'direct_avg': 88.12, 'direct_ms': 4.90042, 'hnsw_avg': 88.12, 'hnsw_ms': 0.201396, 'hnsw_min_match': 100.0, 'hnsw_recall': 91.67, 'hnsw_seen': 205.7, 'erng_avg': 88.12, 'erng_ms': 0.201636, 'erng_min_match': 100.0, 'erng_recall': 91.65, 'erng_seen': 205.4, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c192.npz', 'valid': True, 'selection_score_ms': 0.201636}
+[CppBB] flickr q=100 c=256 attacks=26
+[CppBB] flickr q=100 c=256 attack 01/26 original
+[CppBB] flickr q=100 c=256 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=256 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=256 attack 04/26 rotate5
+[CppBB] flickr q=100 c=256 attack 05/26 rotate15
+[CppBB] flickr q=100 c=256 attack 06/26 rotate30
+[CppBB] flickr q=100 c=256 attack 07/26 rotate40
+[CppBB] flickr q=100 c=256 attack 08/26 crop5
+[CppBB] flickr q=100 c=256 attack 09/26 crop10
+[CppBB] flickr q=100 c=256 attack 10/26 crop20
+[CppBB] flickr q=100 c=256 attack 11/26 crop40
+[CppBB] flickr q=100 c=256 attack 12/26 bright_light
+[CppBB] flickr q=100 c=256 attack 13/26 bright
+[CppBB] flickr q=100 c=256 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=256 attack 15/26 flip_h
+[CppBB] flickr q=100 c=256 attack 16/26 flip_v
+[CppBB] flickr q=100 c=256 attack 17/26 flip
+[CppBB] flickr q=100 c=256 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=256 attack 19/26 resize
+[CppBB] flickr q=100 c=256 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=256 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=256 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=256 attack 25/26 blur
+[CppBB] flickr q=100 c=256 attack 26/26 contrast
+[CppBBCal] flickr c=256 valid=True row={'direct_avg': 87.92, 'direct_ms': 5.105051, 'hnsw_avg': 87.92, 'hnsw_ms': 0.214479, 'hnsw_min_match': 100.0, 'hnsw_recall': 90.65, 'hnsw_seen': 143.3, 'erng_avg': 87.92, 'erng_ms': 0.218182, 'erng_min_match': 100.0, 'erng_recall': 90.71, 'erng_seen': 143.2, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c256.npz', 'valid': True, 'selection_score_ms': 0.218182}
+[CppBB] flickr q=100 c=384 attacks=26
+[CppBB] flickr q=100 c=384 attack 01/26 original
+[CppBB] flickr q=100 c=384 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=384 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=384 attack 04/26 rotate5
+[CppBB] flickr q=100 c=384 attack 05/26 rotate15
+[CppBB] flickr q=100 c=384 attack 06/26 rotate30
+[CppBB] flickr q=100 c=384 attack 07/26 rotate40
+[CppBB] flickr q=100 c=384 attack 08/26 crop5
+[CppBB] flickr q=100 c=384 attack 09/26 crop10
+[CppBB] flickr q=100 c=384 attack 10/26 crop20
+[CppBB] flickr q=100 c=384 attack 11/26 crop40
+[CppBB] flickr q=100 c=384 attack 12/26 bright_light
+[CppBB] flickr q=100 c=384 attack 13/26 bright
+[CppBB] flickr q=100 c=384 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=384 attack 15/26 flip_h
+[CppBB] flickr q=100 c=384 attack 16/26 flip_v
+[CppBB] flickr q=100 c=384 attack 17/26 flip
+[CppBB] flickr q=100 c=384 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=384 attack 19/26 resize
+[CppBB] flickr q=100 c=384 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=384 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=384 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=384 attack 25/26 blur
+[CppBB] flickr q=100 c=384 attack 26/26 contrast
+[CppBBCal] flickr c=384 valid=True row={'direct_avg': 87.87, 'direct_ms': 5.172355, 'hnsw_avg': 87.87, 'hnsw_ms': 0.260855, 'hnsw_min_match': 100.0, 'hnsw_recall': 90.27, 'hnsw_seen': 90.4, 'erng_avg': 87.87, 'erng_ms': 0.261345, 'erng_min_match': 100.0, 'erng_recall': 90.27, 'erng_seen': 90.2, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c384.npz', 'valid': True, 'selection_score_ms': 0.261345}
+[CppBB] flickr q=100 c=512 attacks=26
+[CppBB] flickr q=100 c=512 attack 01/26 original
+[CppBB] flickr q=100 c=512 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=512 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=512 attack 04/26 rotate5
+[CppBB] flickr q=100 c=512 attack 05/26 rotate15
+[CppBB] flickr q=100 c=512 attack 06/26 rotate30
+[CppBB] flickr q=100 c=512 attack 07/26 rotate40
+[CppBB] flickr q=100 c=512 attack 08/26 crop5
+[CppBB] flickr q=100 c=512 attack 09/26 crop10
+[CppBB] flickr q=100 c=512 attack 10/26 crop20
+[CppBB] flickr q=100 c=512 attack 11/26 crop40
+[CppBB] flickr q=100 c=512 attack 12/26 bright_light
+[CppBB] flickr q=100 c=512 attack 13/26 bright
+[CppBB] flickr q=100 c=512 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=512 attack 15/26 flip_h
+[CppBB] flickr q=100 c=512 attack 16/26 flip_v
+[CppBB] flickr q=100 c=512 attack 17/26 flip
+[CppBB] flickr q=100 c=512 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=512 attack 19/26 resize
+[CppBB] flickr q=100 c=512 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=512 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=512 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=512 attack 25/26 blur
+[CppBB] flickr q=100 c=512 attack 26/26 contrast
+[CppBBCal] flickr c=512 valid=True row={'direct_avg': 88.13, 'direct_ms': 4.809374, 'hnsw_avg': 88.13, 'hnsw_ms': 0.298307, 'hnsw_min_match': 100.0, 'hnsw_recall': 90.17, 'hnsw_seen': 66.5, 'erng_avg': 88.13, 'erng_ms': 0.29665, 'erng_min_match': 100.0, 'erng_recall': 90.23, 'erng_seen': 66.0, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c512.npz', 'valid': True, 'selection_score_ms': 0.298307}
+[CppBB] flickr q=100 c=768 attacks=26
+[CppBB] flickr q=100 c=768 attack 01/26 original
+[CppBB] flickr q=100 c=768 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=768 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=768 attack 04/26 rotate5
+[CppBB] flickr q=100 c=768 attack 05/26 rotate15
+[CppBB] flickr q=100 c=768 attack 06/26 rotate30
+[CppBB] flickr q=100 c=768 attack 07/26 rotate40
+[CppBB] flickr q=100 c=768 attack 08/26 crop5
+[CppBB] flickr q=100 c=768 attack 09/26 crop10
+[CppBB] flickr q=100 c=768 attack 10/26 crop20
+[CppBB] flickr q=100 c=768 attack 11/26 crop40
+[CppBB] flickr q=100 c=768 attack 12/26 bright_light
+[CppBB] flickr q=100 c=768 attack 13/26 bright
+[CppBB] flickr q=100 c=768 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=768 attack 15/26 flip_h
+[CppBB] flickr q=100 c=768 attack 16/26 flip_v
+[CppBB] flickr q=100 c=768 attack 17/26 flip
+[CppBB] flickr q=100 c=768 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=768 attack 19/26 resize
+[CppBB] flickr q=100 c=768 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=768 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=768 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=768 attack 25/26 blur
+[CppBB] flickr q=100 c=768 attack 26/26 contrast
+[CppBBCal] flickr c=768 valid=True row={'direct_avg': 88.17, 'direct_ms': 4.830316, 'hnsw_avg': 88.17, 'hnsw_ms': 0.422831, 'hnsw_min_match': 100.0, 'hnsw_recall': 86.92, 'hnsw_seen': 40.4, 'erng_avg': 88.17, 'erng_ms': 0.420394, 'erng_min_match': 100.0, 'erng_recall': 87.21, 'erng_seen': 40.3, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c768.npz', 'valid': True, 'selection_score_ms': 0.422831}
+[CppBB] flickr q=100 c=1024 attacks=26
+[CppBB] flickr q=100 c=1024 attack 01/26 original
+[CppBB] flickr q=100 c=1024 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=1024 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=1024 attack 04/26 rotate5
+[CppBB] flickr q=100 c=1024 attack 05/26 rotate15
+[CppBB] flickr q=100 c=1024 attack 06/26 rotate30
+[CppBB] flickr q=100 c=1024 attack 07/26 rotate40
+[CppBB] flickr q=100 c=1024 attack 08/26 crop5
+[CppBB] flickr q=100 c=1024 attack 09/26 crop10
+[CppBB] flickr q=100 c=1024 attack 10/26 crop20
+[CppBB] flickr q=100 c=1024 attack 11/26 crop40
+[CppBB] flickr q=100 c=1024 attack 12/26 bright_light
+[CppBB] flickr q=100 c=1024 attack 13/26 bright
+[CppBB] flickr q=100 c=1024 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=1024 attack 15/26 flip_h
+[CppBB] flickr q=100 c=1024 attack 16/26 flip_v
+[CppBB] flickr q=100 c=1024 attack 17/26 flip
+[CppBB] flickr q=100 c=1024 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=1024 attack 19/26 resize
+[CppBB] flickr q=100 c=1024 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=1024 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=1024 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=1024 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=1024 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=1024 attack 25/26 blur
+[CppBB] flickr q=100 c=1024 attack 26/26 contrast
+[CppBBCal] flickr c=1024 valid=True row={'direct_avg': 88.15, 'direct_ms': 4.653466, 'hnsw_avg': 88.15, 'hnsw_ms': 0.550712, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.5, 'hnsw_seen': 29.0, 'erng_avg': 88.15, 'erng_ms': 0.546645, 'erng_min_match': 100.0, 'erng_recall': 88.6, 'erng_seen': 28.6, 'centroids': 1024, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroids_c1024.npz', 'valid': True, 'selection_score_ms': 0.550712}
+[CppBB] selected ds=flickr c=192
+[CppBB] flickr q=100 c=192 attacks=26
+[CppBB] flickr q=100 c=192 attack 01/26 original
+[CppBB] flickr q=100 c=192 attack 02/26 rotate_m5
+[CppBB] flickr q=100 c=192 attack 03/26 rotate_m10
+[CppBB] flickr q=100 c=192 attack 04/26 rotate5
+[CppBB] flickr q=100 c=192 attack 05/26 rotate15
+[CppBB] flickr q=100 c=192 attack 06/26 rotate30
+[CppBB] flickr q=100 c=192 attack 07/26 rotate40
+[CppBB] flickr q=100 c=192 attack 08/26 crop5
+[CppBB] flickr q=100 c=192 attack 09/26 crop10
+[CppBB] flickr q=100 c=192 attack 10/26 crop20
+[CppBB] flickr q=100 c=192 attack 11/26 crop40
+[CppBB] flickr q=100 c=192 attack 12/26 bright_light
+[CppBB] flickr q=100 c=192 attack 13/26 bright
+[CppBB] flickr q=100 c=192 attack 14/26 heavy_bright
+[CppBB] flickr q=100 c=192 attack 15/26 flip_h
+[CppBB] flickr q=100 c=192 attack 16/26 flip_v
+[CppBB] flickr q=100 c=192 attack 17/26 flip
+[CppBB] flickr q=100 c=192 attack 18/26 resize_compress
+[CppBB] flickr q=100 c=192 attack 19/26 resize
+[CppBB] flickr q=100 c=192 attack 20/26 watermark_text
+[CppBB] flickr q=100 c=192 attack 21/26 watermark_asset
+[CppBB] flickr q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=100 c=192 attack 24/26 bg_color_change
+[CppBB] flickr q=100 c=192 attack 25/26 blur
+[CppBB] flickr q=100 c=192 attack 26/26 contrast
+[CppBBSummary] flickr q=100 {'direct_avg': 88.23, 'direct_ms': 4.949619, 'hnsw_avg': 88.23, 'hnsw_ms': 0.203044, 'hnsw_min_match': 100.0, 'hnsw_recall': 91.87, 'hnsw_seen': 204.5, 'erng_avg': 88.23, 'erng_ms': 0.203593, 'erng_min_match': 100.0, 'erng_recall': 91.88, 'erng_seen': 204.2}
+[CppBB] flickr q=200 c=192 attacks=26
+[CppBB] flickr q=200 c=192 attack 01/26 original
+[CppBB] flickr q=200 c=192 attack 02/26 rotate_m5
+[CppBB] flickr q=200 c=192 attack 03/26 rotate_m10
+[CppBB] flickr q=200 c=192 attack 04/26 rotate5
+[CppBB] flickr q=200 c=192 attack 05/26 rotate15
+[CppBB] flickr q=200 c=192 attack 06/26 rotate30
+[CppBB] flickr q=200 c=192 attack 07/26 rotate40
+[CppBB] flickr q=200 c=192 attack 08/26 crop5
+[CppBB] flickr q=200 c=192 attack 09/26 crop10
+[CppBB] flickr q=200 c=192 attack 10/26 crop20
+[CppBB] flickr q=200 c=192 attack 11/26 crop40
+[CppBB] flickr q=200 c=192 attack 12/26 bright_light
+[CppBB] flickr q=200 c=192 attack 13/26 bright
+[CppBB] flickr q=200 c=192 attack 14/26 heavy_bright
+[CppBB] flickr q=200 c=192 attack 15/26 flip_h
+[CppBB] flickr q=200 c=192 attack 16/26 flip_v
+[CppBB] flickr q=200 c=192 attack 17/26 flip
+[CppBB] flickr q=200 c=192 attack 18/26 resize_compress
+[CppBB] flickr q=200 c=192 attack 19/26 resize
+[CppBB] flickr q=200 c=192 attack 20/26 watermark_text
+[CppBB] flickr q=200 c=192 attack 21/26 watermark_asset
+[CppBB] flickr q=200 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=200 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=200 c=192 attack 24/26 bg_color_change
+[CppBB] flickr q=200 c=192 attack 25/26 blur
+[CppBB] flickr q=200 c=192 attack 26/26 contrast
+[CppBBSummary] flickr q=200 {'direct_avg': 87.38, 'direct_ms': 5.130482, 'hnsw_avg': 87.38, 'hnsw_ms': 0.212582, 'hnsw_min_match': 100.0, 'hnsw_recall': 91.46, 'hnsw_seen': 199.6, 'erng_avg': 87.38, 'erng_ms': 0.212493, 'erng_min_match': 100.0, 'erng_recall': 91.44, 'erng_seen': 199.3}
+[CppBB] flickr q=500 c=192 attacks=26
+[CppBB] flickr q=500 c=192 attack 01/26 original
+[CppBB] flickr q=500 c=192 attack 02/26 rotate_m5
+[CppBB] flickr q=500 c=192 attack 03/26 rotate_m10
+[CppBB] flickr q=500 c=192 attack 04/26 rotate5
+[CppBB] flickr q=500 c=192 attack 05/26 rotate15
+[CppBB] flickr q=500 c=192 attack 06/26 rotate30
+[CppBB] flickr q=500 c=192 attack 07/26 rotate40
+[CppBB] flickr q=500 c=192 attack 08/26 crop5
+[CppBB] flickr q=500 c=192 attack 09/26 crop10
+[CppBB] flickr q=500 c=192 attack 10/26 crop20
+[CppBB] flickr q=500 c=192 attack 11/26 crop40
+[CppBB] flickr q=500 c=192 attack 12/26 bright_light
+[CppBB] flickr q=500 c=192 attack 13/26 bright
+[CppBB] flickr q=500 c=192 attack 14/26 heavy_bright
+[CppBB] flickr q=500 c=192 attack 15/26 flip_h
+[CppBB] flickr q=500 c=192 attack 16/26 flip_v
+[CppBB] flickr q=500 c=192 attack 17/26 flip
+[CppBB] flickr q=500 c=192 attack 18/26 resize_compress
+[CppBB] flickr q=500 c=192 attack 19/26 resize
+[CppBB] flickr q=500 c=192 attack 20/26 watermark_text
+[CppBB] flickr q=500 c=192 attack 21/26 watermark_asset
+[CppBB] flickr q=500 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=500 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=500 c=192 attack 24/26 bg_color_change
+[CppBB] flickr q=500 c=192 attack 25/26 blur
+[CppBB] flickr q=500 c=192 attack 26/26 contrast
+[CppBBSummary] flickr q=500 {'direct_avg': 87.39, 'direct_ms': 4.968654, 'hnsw_avg': 87.39, 'hnsw_ms': 0.200461, 'hnsw_min_match': 100.0, 'hnsw_recall': 90.75, 'hnsw_seen': 197.6, 'erng_avg': 87.39, 'erng_ms': 0.19995, 'erng_min_match': 100.0, 'erng_recall': 90.74, 'erng_seen': 197.2}
+[CppBB] flickr q=1000 c=192 attacks=26
+[CppBB] flickr q=1000 c=192 attack 01/26 original
+[CppBB] flickr q=1000 c=192 attack 02/26 rotate_m5
+[CppBB] flickr q=1000 c=192 attack 03/26 rotate_m10
+[CppBB] flickr q=1000 c=192 attack 04/26 rotate5
+[CppBB] flickr q=1000 c=192 attack 05/26 rotate15
+[CppBB] flickr q=1000 c=192 attack 06/26 rotate30
+[CppBB] flickr q=1000 c=192 attack 07/26 rotate40
+[CppBB] flickr q=1000 c=192 attack 08/26 crop5
+[CppBB] flickr q=1000 c=192 attack 09/26 crop10
+[CppBB] flickr q=1000 c=192 attack 10/26 crop20
+[CppBB] flickr q=1000 c=192 attack 11/26 crop40
+[CppBB] flickr q=1000 c=192 attack 12/26 bright_light
+[CppBB] flickr q=1000 c=192 attack 13/26 bright
+[CppBB] flickr q=1000 c=192 attack 14/26 heavy_bright
+[CppBB] flickr q=1000 c=192 attack 15/26 flip_h
+[CppBB] flickr q=1000 c=192 attack 16/26 flip_v
+[CppBB] flickr q=1000 c=192 attack 17/26 flip
+[CppBB] flickr q=1000 c=192 attack 18/26 resize_compress
+[CppBB] flickr q=1000 c=192 attack 19/26 resize
+[CppBB] flickr q=1000 c=192 attack 20/26 watermark_text
+[CppBB] flickr q=1000 c=192 attack 21/26 watermark_asset
+[CppBB] flickr q=1000 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] flickr q=1000 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] flickr q=1000 c=192 attack 24/26 bg_color_change
+[CppBB] flickr q=1000 c=192 attack 25/26 blur
+[CppBB] flickr q=1000 c=192 attack 26/26 contrast
+[CppBBSummary] flickr q=1000 {'direct_avg': 87.59, 'direct_ms': 4.803981, 'hnsw_avg': 87.59, 'hnsw_ms': 0.208591, 'hnsw_min_match': 100.0, 'hnsw_recall': 90.89, 'hnsw_seen': 197.2, 'erng_avg': 87.59, 'erng_ms': 0.200767, 'erng_min_match': 100.0, 'erng_recall': 90.89, 'erng_seen': 196.7}
+[CppBB] saved /home/saketh/json/final_named_artifacts_20260601/flickr/phase3_cpp_centroid_branchbound/flickr_cpp_centroid_branchbound_timing.json

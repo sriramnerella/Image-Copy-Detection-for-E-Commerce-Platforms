@@ -1,0 +1,5 @@
+[TunedBBLaunch] Wed Jun  3 04:49:17 AM UTC 2026 dataset=cifar gpu=1
+[TunedBB] building centroids ds=cifar c=768
+[TunedBB] dataset=cifar store=17000/9000 centroids=768
+[TunedBB] cifar q=100
+[TunedBB] cifar q=100 attack 01/26 original

@@ -1,0 +1,748 @@
+
+[CppBBLaunch] Wed Jun  3 08:03:23 AM UTC 2026 dataset=ucid gpu=3
+[CppBB] ucid q=100 c=64 attacks=5
+[CppBB] ucid q=100 c=64 attack 01/5 original
+[CppBB] ucid q=100 c=64 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=64 attack 03/5 crop40
+[CppBB] ucid q=100 c=64 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=64 attack 05/5 contrast
+[CppBBCal] ucid c=64 valid=False row={'direct_avg': 78.4, 'direct_ms': 2.386209, 'hnsw_avg': 78.4, 'hnsw_ms': 0.249585, 'hnsw_min_match': 100.0, 'hnsw_recall': 85.8, 'hnsw_seen': 422.0, 'erng_avg': 78.4, 'erng_ms': 0.249585, 'erng_min_match': 100.0, 'erng_recall': 85.8, 'erng_seen': 422.0, 'centroids': 64, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c64.npz', 'valid': False}
+[CppBB] ucid q=100 c=96 attacks=5
+[CppBB] ucid q=100 c=96 attack 01/5 original
+[CppBB] ucid q=100 c=96 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=96 attack 03/5 crop40
+[CppBB] ucid q=100 c=96 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=96 attack 05/5 contrast
+[CppBBCal] ucid c=96 valid=False row={'direct_avg': 78.3, 'direct_ms': 2.328753, 'hnsw_avg': 78.3, 'hnsw_ms': 0.248342, 'hnsw_min_match': 100.0, 'hnsw_recall': 85.0, 'hnsw_seen': 339.3, 'erng_avg': 78.3, 'erng_ms': 0.248342, 'erng_min_match': 100.0, 'erng_recall': 85.0, 'erng_seen': 339.3, 'centroids': 96, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c96.npz', 'valid': False}
+[CppBB] ucid q=100 c=128 attacks=5
+[CppBB] ucid q=100 c=128 attack 01/5 original
+[CppBB] ucid q=100 c=128 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=128 attack 03/5 crop40
+[CppBB] ucid q=100 c=128 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=128 attack 05/5 contrast
+[CppBBCal] ucid c=128 valid=False row={'direct_avg': 76.4, 'direct_ms': 2.266426, 'hnsw_avg': 76.4, 'hnsw_ms': 0.221221, 'hnsw_min_match': 100.0, 'hnsw_recall': 86.5, 'hnsw_seen': 281.5, 'erng_avg': 76.4, 'erng_ms': 0.221221, 'erng_min_match': 100.0, 'erng_recall': 86.5, 'erng_seen': 281.5, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c128.npz', 'valid': False}
+[CppBB] ucid q=100 c=192 attacks=5
+[CppBB] ucid q=100 c=192 attack 01/5 original
+[CppBB] ucid q=100 c=192 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=192 attack 03/5 crop40
+[CppBB] ucid q=100 c=192 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=192 attack 05/5 contrast
+[CppBBCal] ucid c=192 valid=False row={'direct_avg': 77.3, 'direct_ms': 2.383586, 'hnsw_avg': 77.3, 'hnsw_ms': 0.251071, 'hnsw_min_match': 100.0, 'hnsw_recall': 86.0, 'hnsw_seen': 229.6, 'erng_avg': 77.3, 'erng_ms': 0.251071, 'erng_min_match': 100.0, 'erng_recall': 86.0, 'erng_seen': 229.6, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] build centroids ucid c=256
+[CppBB] ucid q=100 c=256 attacks=5
+[CppBB] ucid q=100 c=256 attack 01/5 original
+[CppBB] ucid q=100 c=256 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=256 attack 03/5 crop40
+[CppBB] ucid q=100 c=256 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=256 attack 05/5 contrast
+[CppBBCal] ucid c=256 valid=False row={'direct_avg': 77.6, 'direct_ms': 2.438301, 'hnsw_avg': 77.6, 'hnsw_ms': 0.279282, 'hnsw_min_match': 100.0, 'hnsw_recall': 85.2, 'hnsw_seen': 185.3, 'erng_avg': 77.6, 'erng_ms': 0.279282, 'erng_min_match': 100.0, 'erng_recall': 85.2, 'erng_seen': 185.3, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] build centroids ucid c=384
+[CppBB] ucid q=100 c=384 attacks=5
+[CppBB] ucid q=100 c=384 attack 01/5 original
+[CppBB] ucid q=100 c=384 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=384 attack 03/5 crop40
+[CppBB] ucid q=100 c=384 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=384 attack 05/5 contrast
+[CppBBCal] ucid c=384 valid=False row={'direct_avg': 78.0, 'direct_ms': 2.553786, 'hnsw_avg': 78.0, 'hnsw_ms': 0.322183, 'hnsw_min_match': 100.0, 'hnsw_recall': 84.3, 'hnsw_seen': 151.4, 'erng_avg': 78.0, 'erng_ms': 0.322183, 'erng_min_match': 100.0, 'erng_recall': 84.3, 'erng_seen': 151.4, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] ucid q=100 c=512 attacks=5
+[CppBB] ucid q=100 c=512 attack 01/5 original
+[CppBB] ucid q=100 c=512 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=512 attack 03/5 crop40
+[CppBB] ucid q=100 c=512 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=512 attack 05/5 contrast
+[CppBBCal] ucid c=512 valid=False row={'direct_avg': 77.6, 'direct_ms': 2.623251, 'hnsw_avg': 77.6, 'hnsw_ms': 0.398978, 'hnsw_min_match': 100.0, 'hnsw_recall': 83.4, 'hnsw_seen': 122.8, 'erng_avg': 77.6, 'erng_ms': 0.398978, 'erng_min_match': 100.0, 'erng_recall': 83.4, 'erng_seen': 122.8, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] build centroids ucid c=768
+[CppBB] ucid q=100 c=768 attacks=5
+[CppBB] ucid q=100 c=768 attack 01/5 original
+[CppBB] ucid q=100 c=768 attack 02/5 rotate_m10
+[CppBB] ucid q=100 c=768 attack 03/5 crop40
+[CppBB] ucid q=100 c=768 attack 04/5 watermark_asset
+[CppBB] ucid q=100 c=768 attack 05/5 contrast
+[CppBBCal] ucid c=768 valid=False row={'direct_avg': 76.4, 'direct_ms': 2.495775, 'hnsw_avg': 76.4, 'hnsw_ms': 0.622767, 'hnsw_min_match': 100.0, 'hnsw_recall': 81.5, 'hnsw_seen': 101.0, 'erng_avg': 76.4, 'erng_ms': 0.622767, 'erng_min_match': 100.0, 'erng_recall': 81.5, 'erng_seen': 101.0, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] selected ds=ucid c=128
+[CppBB] ucid q=100 c=128 attacks=26
+[CppBB] ucid q=100 c=128 attack 01/26 original
+[CppBB] ucid q=100 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=128 attack 04/26 rotate5
+[CppBB] ucid q=100 c=128 attack 05/26 rotate15
+[CppBB] ucid q=100 c=128 attack 06/26 rotate30
+[CppBB] ucid q=100 c=128 attack 07/26 rotate40
+[CppBB] ucid q=100 c=128 attack 08/26 crop5
+[CppBB] ucid q=100 c=128 attack 09/26 crop10
+[CppBB] ucid q=100 c=128 attack 10/26 crop20
+[CppBB] ucid q=100 c=128 attack 11/26 crop40
+[CppBB] ucid q=100 c=128 attack 12/26 bright_light
+[CppBB] ucid q=100 c=128 attack 13/26 bright
+[CppBB] ucid q=100 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=128 attack 15/26 flip_h
+[CppBB] ucid q=100 c=128 attack 16/26 flip_v
+[CppBB] ucid q=100 c=128 attack 17/26 flip
+[CppBB] ucid q=100 c=128 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=128 attack 19/26 resize
+[CppBB] ucid q=100 c=128 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=128 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=128 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=128 attack 25/26 blur
+[CppBB] ucid q=100 c=128 attack 26/26 contrast
+[CppBBSummary] ucid q=100 {'direct_avg': 83.92, 'direct_ms': 2.925857, 'hnsw_avg': 83.92, 'hnsw_ms': 0.269492, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.54, 'hnsw_seen': 269.0, 'erng_avg': 83.92, 'erng_ms': 0.269492, 'erng_min_match': 100.0, 'erng_recall': 88.54, 'erng_seen': 269.0}
+[CppBB] ucid q=200 c=128 attacks=26
+[CppBB] ucid q=200 c=128 attack 01/26 original
+[CppBB] ucid q=200 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=200 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=200 c=128 attack 04/26 rotate5
+[CppBB] ucid q=200 c=128 attack 05/26 rotate15
+[CppBB] ucid q=200 c=128 attack 06/26 rotate30
+[CppBB] ucid q=200 c=128 attack 07/26 rotate40
+[CppBB] ucid q=200 c=128 attack 08/26 crop5
+[CppBB] ucid q=200 c=128 attack 09/26 crop10
+[CppBB] ucid q=200 c=128 attack 10/26 crop20
+[CppBB] ucid q=200 c=128 attack 11/26 crop40
+[CppBB] ucid q=200 c=128 attack 12/26 bright_light
+[CppBB] ucid q=200 c=128 attack 13/26 bright
+[CppBB] ucid q=200 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=200 c=128 attack 15/26 flip_h
+[CppBB] ucid q=200 c=128 attack 16/26 flip_v
+[CppBBLaunch] Wed Jun  3 08:45:29 AM UTC 2026 dataset=ucid gpu=3
+[CppBB] ucid q=100 c=64 attacks=26
+[CppBB] ucid q=100 c=64 attack 01/26 original
+[CppBB] ucid q=100 c=64 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=64 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=64 attack 04/26 rotate5
+[CppBB] ucid q=100 c=64 attack 05/26 rotate15
+[CppBB] ucid q=100 c=64 attack 06/26 rotate30
+[CppBB] ucid q=100 c=64 attack 07/26 rotate40
+[CppBB] ucid q=100 c=64 attack 08/26 crop5
+[CppBB] ucid q=100 c=64 attack 09/26 crop10
+[CppBB] ucid q=100 c=64 attack 10/26 crop20
+[CppBB] ucid q=100 c=64 attack 11/26 crop40
+[CppBB] ucid q=100 c=64 attack 12/26 bright_light
+[CppBB] ucid q=100 c=64 attack 13/26 bright
+[CppBB] ucid q=100 c=64 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=64 attack 15/26 flip_h
+[CppBB] ucid q=100 c=64 attack 16/26 flip_v
+[CppBB] ucid q=100 c=64 attack 17/26 flip
+[CppBB] ucid q=100 c=64 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=64 attack 19/26 resize
+[CppBB] ucid q=100 c=64 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=64 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=64 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=64 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=64 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=64 attack 25/26 blur
+[CppBB] ucid q=100 c=64 attack 26/26 contrast
+[CppBBCal] ucid c=64 valid=False row={'direct_avg': 84.06, 'direct_ms': 2.480023, 'hnsw_avg': 84.06, 'hnsw_ms': 0.290002, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.94, 'hnsw_seen': 409.1, 'erng_avg': 84.06, 'erng_ms': 0.290002, 'erng_min_match': 100.0, 'erng_recall': 88.94, 'erng_seen': 409.1, 'centroids': 64, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c64.npz', 'valid': False}
+[CppBB] ucid q=100 c=96 attacks=26
+[CppBB] ucid q=100 c=96 attack 01/26 original
+[CppBB] ucid q=100 c=96 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=96 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=96 attack 04/26 rotate5
+[CppBB] ucid q=100 c=96 attack 05/26 rotate15
+[CppBB] ucid q=100 c=96 attack 06/26 rotate30
+[CppBB] ucid q=100 c=96 attack 07/26 rotate40
+[CppBB] ucid q=100 c=96 attack 08/26 crop5
+[CppBB] ucid q=100 c=96 attack 09/26 crop10
+[CppBB] ucid q=100 c=96 attack 10/26 crop20
+[CppBB] ucid q=100 c=96 attack 11/26 crop40
+[CppBB] ucid q=100 c=96 attack 12/26 bright_light
+[CppBB] ucid q=100 c=96 attack 13/26 bright
+[CppBB] ucid q=100 c=96 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=96 attack 15/26 flip_h
+[CppBB] ucid q=100 c=96 attack 16/26 flip_v
+[CppBB] ucid q=100 c=96 attack 17/26 flip
+[CppBB] ucid q=100 c=96 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=96 attack 19/26 resize
+[CppBB] ucid q=100 c=96 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=96 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=96 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=96 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=96 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=96 attack 25/26 blur
+[CppBB] ucid q=100 c=96 attack 26/26 contrast
+[CppBBCal] ucid c=96 valid=False row={'direct_avg': 83.73, 'direct_ms': 2.57563, 'hnsw_avg': 83.73, 'hnsw_ms': 0.259302, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.69, 'hnsw_seen': 323.8, 'erng_avg': 83.73, 'erng_ms': 0.259302, 'erng_min_match': 100.0, 'erng_recall': 88.69, 'erng_seen': 323.8, 'centroids': 96, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c96.npz', 'valid': False}
+[CppBB] ucid q=100 c=128 attacks=26
+[CppBB] ucid q=100 c=128 attack 01/26 original
+[CppBB] ucid q=100 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=128 attack 04/26 rotate5
+[CppBB] ucid q=100 c=128 attack 05/26 rotate15
+[CppBB] ucid q=100 c=128 attack 06/26 rotate30
+[CppBB] ucid q=100 c=128 attack 07/26 rotate40
+[CppBB] ucid q=100 c=128 attack 08/26 crop5
+[CppBB] ucid q=100 c=128 attack 09/26 crop10
+[CppBB] ucid q=100 c=128 attack 10/26 crop20
+[CppBB] ucid q=100 c=128 attack 11/26 crop40
+[CppBB] ucid q=100 c=128 attack 12/26 bright_light
+[CppBB] ucid q=100 c=128 attack 13/26 bright
+[CppBB] ucid q=100 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=128 attack 15/26 flip_h
+[CppBB] ucid q=100 c=128 attack 16/26 flip_v
+[CppBB] ucid q=100 c=128 attack 17/26 flip
+[CppBB] ucid q=100 c=128 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=128 attack 19/26 resize
+[CppBB] ucid q=100 c=128 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=128 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=128 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=128 attack 25/26 blur
+[CppBB] ucid q=100 c=128 attack 26/26 contrast
+[CppBBCal] ucid c=128 valid=False row={'direct_avg': 83.88, 'direct_ms': 2.483756, 'hnsw_avg': 83.88, 'hnsw_ms': 0.243721, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.23, 'hnsw_seen': 266.7, 'erng_avg': 83.88, 'erng_ms': 0.243721, 'erng_min_match': 100.0, 'erng_recall': 88.23, 'erng_seen': 266.7, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c128.npz', 'valid': False}
+[CppBB] ucid q=100 c=192 attacks=26
+[CppBB] ucid q=100 c=192 attack 01/26 original
+[CppBB] ucid q=100 c=192 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=192 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=192 attack 04/26 rotate5
+[CppBB] ucid q=100 c=192 attack 05/26 rotate15
+[CppBB] ucid q=100 c=192 attack 06/26 rotate30
+[CppBB] ucid q=100 c=192 attack 07/26 rotate40
+[CppBB] ucid q=100 c=192 attack 08/26 crop5
+[CppBB] ucid q=100 c=192 attack 09/26 crop10
+[CppBB] ucid q=100 c=192 attack 10/26 crop20
+[CppBB] ucid q=100 c=192 attack 11/26 crop40
+[CppBB] ucid q=100 c=192 attack 12/26 bright_light
+[CppBB] ucid q=100 c=192 attack 13/26 bright
+[CppBB] ucid q=100 c=192 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=192 attack 15/26 flip_h
+[CppBB] ucid q=100 c=192 attack 16/26 flip_v
+[CppBB] ucid q=100 c=192 attack 17/26 flip
+[CppBB] ucid q=100 c=192 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=192 attack 19/26 resize
+[CppBB] ucid q=100 c=192 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=192 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=192 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=192 attack 25/26 blur
+[CppBB] ucid q=100 c=192 attack 26/26 contrast
+[CppBBCal] ucid c=192 valid=False row={'direct_avg': 84.33, 'direct_ms': 2.452157, 'hnsw_avg': 84.33, 'hnsw_ms': 0.252983, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.88, 'hnsw_seen': 215.7, 'erng_avg': 84.33, 'erng_ms': 0.252983, 'erng_min_match': 100.0, 'erng_recall': 87.88, 'erng_seen': 215.7, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c192.npz', 'valid': False}
+[CppBB] ucid q=100 c=256 attacks=26
+[CppBB] ucid q=100 c=256 attack 01/26 original
+[CppBB] ucid q=100 c=256 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=256 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=256 attack 04/26 rotate5
+[CppBB] ucid q=100 c=256 attack 05/26 rotate15
+[CppBB] ucid q=100 c=256 attack 06/26 rotate30
+[CppBB] ucid q=100 c=256 attack 07/26 rotate40
+[CppBB] ucid q=100 c=256 attack 08/26 crop5
+[CppBB] ucid q=100 c=256 attack 09/26 crop10
+[CppBB] ucid q=100 c=256 attack 10/26 crop20
+[CppBB] ucid q=100 c=256 attack 11/26 crop40
+[CppBB] ucid q=100 c=256 attack 12/26 bright_light
+[CppBB] ucid q=100 c=256 attack 13/26 bright
+[CppBB] ucid q=100 c=256 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=256 attack 15/26 flip_h
+[CppBB] ucid q=100 c=256 attack 16/26 flip_v
+[CppBB] ucid q=100 c=256 attack 17/26 flip
+[CppBB] ucid q=100 c=256 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=256 attack 19/26 resize
+[CppBB] ucid q=100 c=256 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=256 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=256 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=256 attack 25/26 blur
+[CppBB] ucid q=100 c=256 attack 26/26 contrast
+[CppBBCal] ucid c=256 valid=False row={'direct_avg': 83.73, 'direct_ms': 2.535636, 'hnsw_avg': 83.73, 'hnsw_ms': 0.290921, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.4, 'hnsw_seen': 175.6, 'erng_avg': 83.73, 'erng_ms': 0.290921, 'erng_min_match': 100.0, 'erng_recall': 87.4, 'erng_seen': 175.6, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c256.npz', 'valid': False}
+[CppBB] ucid q=100 c=384 attacks=26
+[CppBB] ucid q=100 c=384 attack 01/26 original
+[CppBB] ucid q=100 c=384 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=384 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=384 attack 04/26 rotate5
+[CppBB] ucid q=100 c=384 attack 05/26 rotate15
+[CppBB] ucid q=100 c=384 attack 06/26 rotate30
+[CppBB] ucid q=100 c=384 attack 07/26 rotate40
+[CppBB] ucid q=100 c=384 attack 08/26 crop5
+[CppBB] ucid q=100 c=384 attack 09/26 crop10
+[CppBB] ucid q=100 c=384 attack 10/26 crop20
+[CppBB] ucid q=100 c=384 attack 11/26 crop40
+[CppBB] ucid q=100 c=384 attack 12/26 bright_light
+[CppBB] ucid q=100 c=384 attack 13/26 bright
+[CppBB] ucid q=100 c=384 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=384 attack 15/26 flip_h
+[CppBB] ucid q=100 c=384 attack 16/26 flip_v
+[CppBB] ucid q=100 c=384 attack 17/26 flip
+[CppBB] ucid q=100 c=384 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=384 attack 19/26 resize
+[CppBB] ucid q=100 c=384 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=384 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=384 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=384 attack 25/26 blur
+[CppBB] ucid q=100 c=384 attack 26/26 contrast
+[CppBBCal] ucid c=384 valid=False row={'direct_avg': 83.52, 'direct_ms': 2.452151, 'hnsw_avg': 83.52, 'hnsw_ms': 0.33144, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.08, 'hnsw_seen': 134.9, 'erng_avg': 83.52, 'erng_ms': 0.33144, 'erng_min_match': 100.0, 'erng_recall': 87.08, 'erng_seen': 134.9, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c384.npz', 'valid': False}
+[CppBB] ucid q=100 c=512 attacks=26
+[CppBB] ucid q=100 c=512 attack 01/26 original
+[CppBB] ucid q=100 c=512 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=512 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=512 attack 04/26 rotate5
+[CppBB] ucid q=100 c=512 attack 05/26 rotate15
+[CppBB] ucid q=100 c=512 attack 06/26 rotate30
+[CppBB] ucid q=100 c=512 attack 07/26 rotate40
+[CppBB] ucid q=100 c=512 attack 08/26 crop5
+[CppBB] ucid q=100 c=512 attack 09/26 crop10
+[CppBB] ucid q=100 c=512 attack 10/26 crop20
+[CppBB] ucid q=100 c=512 attack 11/26 crop40
+[CppBB] ucid q=100 c=512 attack 12/26 bright_light
+[CppBB] ucid q=100 c=512 attack 13/26 bright
+[CppBB] ucid q=100 c=512 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=512 attack 15/26 flip_h
+[CppBB] ucid q=100 c=512 attack 16/26 flip_v
+[CppBB] ucid q=100 c=512 attack 17/26 flip
+[CppBB] ucid q=100 c=512 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=512 attack 19/26 resize
+[CppBB] ucid q=100 c=512 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=512 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=512 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=512 attack 25/26 blur
+[CppBB] ucid q=100 c=512 attack 26/26 contrast
+[CppBBCal] ucid c=512 valid=False row={'direct_avg': 83.9, 'direct_ms': 2.48093, 'hnsw_avg': 83.9, 'hnsw_ms': 0.388534, 'hnsw_min_match': 100.0, 'hnsw_recall': 84.31, 'hnsw_seen': 110.7, 'erng_avg': 83.9, 'erng_ms': 0.388534, 'erng_min_match': 100.0, 'erng_recall': 84.31, 'erng_seen': 110.7, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c512.npz', 'valid': False}
+[CppBB] ucid q=100 c=768 attacks=26
+[CppBB] ucid q=100 c=768 attack 01/26 original
+[CppBB] ucid q=100 c=768 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=768 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=768 attack 04/26 rotate5
+[CppBB] ucid q=100 c=768 attack 05/26 rotate15
+[CppBB] ucid q=100 c=768 attack 06/26 rotate30
+[CppBB] ucid q=100 c=768 attack 07/26 rotate40
+[CppBB] ucid q=100 c=768 attack 08/26 crop5
+[CppBB] ucid q=100 c=768 attack 09/26 crop10
+[CppBB] ucid q=100 c=768 attack 10/26 crop20
+[CppBB] ucid q=100 c=768 attack 11/26 crop40
+[CppBB] ucid q=100 c=768 attack 12/26 bright_light
+[CppBB] ucid q=100 c=768 attack 13/26 bright
+[CppBB] ucid q=100 c=768 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=768 attack 15/26 flip_h
+[CppBB] ucid q=100 c=768 attack 16/26 flip_v
+[CppBB] ucid q=100 c=768 attack 17/26 flip
+[CppBB] ucid q=100 c=768 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=768 attack 19/26 resize
+[CppBB] ucid q=100 c=768 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=768 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=768 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=768 attack 25/26 blur
+[CppBB] ucid q=100 c=768 attack 26/26 contrast
+[CppBBCal] ucid c=768 valid=False row={'direct_avg': 83.69, 'direct_ms': 2.489842, 'hnsw_avg': 83.69, 'hnsw_ms': 0.528795, 'hnsw_min_match': 100.0, 'hnsw_recall': 83.27, 'hnsw_seen': 86.6, 'erng_avg': 83.69, 'erng_ms': 0.528795, 'erng_min_match': 100.0, 'erng_recall': 83.27, 'erng_seen': 86.6, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c768.npz', 'valid': False}
+[CppBB] selected ds=ucid c=64
+[CppBB] ucid q=100 c=64 attacks=26
+[CppBB] ucid q=100 c=64 attack 01/26 original
+[CppBB] ucid q=100 c=64 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=64 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=64 attack 04/26 rotate5
+[CppBB] ucid q=100 c=64 attack 05/26 rotate15
+[CppBB] ucid q=100 c=64 attack 06/26 rotate30
+[CppBB] ucid q=100 c=64 attack 07/26 rotate40
+[CppBB] ucid q=100 c=64 attack 08/26 crop5
+[CppBB] ucid q=100 c=64 attack 09/26 crop10
+[CppBB] ucid q=100 c=64 attack 10/26 crop20
+[CppBB] ucid q=100 c=64 attack 11/26 crop40
+[CppBB] ucid q=100 c=64 attack 12/26 bright_light
+[CppBB] ucid q=100 c=64 attack 13/26 bright
+[CppBB] ucid q=100 c=64 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=64 attack 15/26 flip_h
+[CppBB] ucid q=100 c=64 attack 16/26 flip_v
+[CppBB] ucid q=100 c=64 attack 17/26 flip
+[CppBB] ucid q=100 c=64 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=64 attack 19/26 resize
+[CppBB] ucid q=100 c=64 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=64 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=64 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=64 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=64 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=64 attack 25/26 blur
+[CppBB] ucid q=100 c=64 attack 26/26 contrast
+[CppBBSummary] ucid q=100 {'direct_avg': 84.04, 'direct_ms': 2.417483, 'hnsw_avg': 84.04, 'hnsw_ms': 0.280032, 'hnsw_min_match': 100.0, 'hnsw_recall': 89.19, 'hnsw_seen': 408.7, 'erng_avg': 84.04, 'erng_ms': 0.280032, 'erng_min_match': 100.0, 'erng_recall': 89.19, 'erng_seen': 408.7}
+[CppBB] ucid q=200 c=64 attacks=26
+[CppBB] ucid q=200 c=64 attack 01/26 original
+[CppBB] ucid q=200 c=64 attack 02/26 rotate_m5
+[CppBB] ucid q=200 c=64 attack 03/26 rotate_m10
+[CppBB] ucid q=200 c=64 attack 04/26 rotate5
+[CppBB] ucid q=200 c=64 attack 05/26 rotate15
+[CppBB] ucid q=200 c=64 attack 06/26 rotate30
+[CppBB] ucid q=200 c=64 attack 07/26 rotate40
+[CppBB] ucid q=200 c=64 attack 08/26 crop5
+[CppBB] ucid q=200 c=64 attack 09/26 crop10
+[CppBB] ucid q=200 c=64 attack 10/26 crop20
+[CppBB] ucid q=200 c=64 attack 11/26 crop40
+[CppBB] ucid q=200 c=64 attack 12/26 bright_light
+[CppBB] ucid q=200 c=64 attack 13/26 bright
+[CppBB] ucid q=200 c=64 attack 14/26 heavy_bright
+[CppBB] ucid q=200 c=64 attack 15/26 flip_h
+[CppBB] ucid q=200 c=64 attack 16/26 flip_v
+[CppBB] ucid q=200 c=64 attack 17/26 flip
+[CppBB] ucid q=200 c=64 attack 18/26 resize_compress
+[CppBB] ucid q=200 c=64 attack 19/26 resize
+[CppBB] ucid q=200 c=64 attack 20/26 watermark_text
+[CppBB] ucid q=200 c=64 attack 21/26 watermark_asset
+[CppBB] ucid q=200 c=64 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=200 c=64 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=200 c=64 attack 24/26 bg_color_change
+[CppBB] ucid q=200 c=64 attack 25/26 blur
+[CppBB] ucid q=200 c=64 attack 26/26 contrast
+[CppBBSummary] ucid q=200 {'direct_avg': 83.74, 'direct_ms': 2.54972, 'hnsw_avg': 83.74, 'hnsw_ms': 0.282859, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.99, 'hnsw_seen': 416.2, 'erng_avg': 83.74, 'erng_ms': 0.282859, 'erng_min_match': 100.0, 'erng_recall': 87.99, 'erng_seen': 416.2}
+[CppBB] ucid q=500 c=64 attacks=26
+[CppBB] ucid q=500 c=64 attack 01/26 original
+[CppBB] ucid q=500 c=64 attack 02/26 rotate_m5
+[CppBB] ucid q=500 c=64 attack 03/26 rotate_m10
+[CppBB] ucid q=500 c=64 attack 04/26 rotate5
+[CppBB] ucid q=500 c=64 attack 05/26 rotate15
+[CppBB] ucid q=500 c=64 attack 06/26 rotate30
+[CppBB] ucid q=500 c=64 attack 07/26 rotate40
+[CppBB] ucid q=500 c=64 attack 08/26 crop5
+[CppBB] ucid q=500 c=64 attack 09/26 crop10
+[CppBB] ucid q=500 c=64 attack 10/26 crop20
+[CppBB] ucid q=500 c=64 attack 11/26 crop40
+[CppBB] ucid q=500 c=64 attack 12/26 bright_light
+[CppBB] ucid q=500 c=64 attack 13/26 bright
+[CppBB] ucid q=500 c=64 attack 14/26 heavy_bright
+[CppBB] ucid q=500 c=64 attack 15/26 flip_h
+[CppBB] ucid q=500 c=64 attack 16/26 flip_v
+[CppBB] ucid q=500 c=64 attack 17/26 flip
+[CppBB] ucid q=500 c=64 attack 18/26 resize_compress
+[CppBB] ucid q=500 c=64 attack 19/26 resize
+[CppBBLaunch] Wed Jun  3 10:21:01 AM UTC 2026 dataset=ucid gpu=3
+[CppBB] ucid q=100 c=64 attacks=26
+[CppBB] ucid q=100 c=64 attack 01/26 original
+[CppBB] ucid q=100 c=64 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=64 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=64 attack 04/26 rotate5
+[CppBB] ucid q=100 c=64 attack 05/26 rotate15
+[CppBB] ucid q=100 c=64 attack 06/26 rotate30
+[CppBB] ucid q=100 c=64 attack 07/26 rotate40
+[CppBB] ucid q=100 c=64 attack 08/26 crop5
+[CppBB] ucid q=100 c=64 attack 09/26 crop10
+[CppBB] ucid q=100 c=64 attack 10/26 crop20
+[CppBB] ucid q=100 c=64 attack 11/26 crop40
+[CppBB] ucid q=100 c=64 attack 12/26 bright_light
+[CppBB] ucid q=100 c=64 attack 13/26 bright
+[CppBB] ucid q=100 c=64 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=64 attack 15/26 flip_h
+[CppBB] ucid q=100 c=64 attack 16/26 flip_v
+[CppBB] ucid q=100 c=64 attack 17/26 flip
+[CppBB] ucid q=100 c=64 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=64 attack 19/26 resize
+[CppBB] ucid q=100 c=64 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=64 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=64 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=64 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=64 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=64 attack 25/26 blur
+[CppBB] ucid q=100 c=64 attack 26/26 contrast
+[CppBBCal] ucid c=64 valid=True row={'direct_avg': 83.58, 'direct_ms': 2.285085, 'hnsw_avg': 83.58, 'hnsw_ms': 0.2247, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.88, 'hnsw_seen': 360.8, 'erng_avg': 83.58, 'erng_ms': 0.223637, 'erng_min_match': 100.0, 'erng_recall': 88.88, 'erng_seen': 360.8, 'centroids': 64, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c64.npz', 'valid': True, 'selection_score_ms': 0.2247}
+[CppBB] ucid q=100 c=96 attacks=26
+[CppBB] ucid q=100 c=96 attack 01/26 original
+[CppBB] ucid q=100 c=96 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=96 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=96 attack 04/26 rotate5
+[CppBB] ucid q=100 c=96 attack 05/26 rotate15
+[CppBB] ucid q=100 c=96 attack 06/26 rotate30
+[CppBB] ucid q=100 c=96 attack 07/26 rotate40
+[CppBB] ucid q=100 c=96 attack 08/26 crop5
+[CppBB] ucid q=100 c=96 attack 09/26 crop10
+[CppBB] ucid q=100 c=96 attack 10/26 crop20
+[CppBB] ucid q=100 c=96 attack 11/26 crop40
+[CppBB] ucid q=100 c=96 attack 12/26 bright_light
+[CppBB] ucid q=100 c=96 attack 13/26 bright
+[CppBB] ucid q=100 c=96 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=96 attack 15/26 flip_h
+[CppBB] ucid q=100 c=96 attack 16/26 flip_v
+[CppBB] ucid q=100 c=96 attack 17/26 flip
+[CppBB] ucid q=100 c=96 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=96 attack 19/26 resize
+[CppBB] ucid q=100 c=96 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=96 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=96 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=96 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=96 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=96 attack 25/26 blur
+[CppBB] ucid q=100 c=96 attack 26/26 contrast
+[CppBBCal] ucid c=96 valid=True row={'direct_avg': 83.94, 'direct_ms': 2.316714, 'hnsw_avg': 83.94, 'hnsw_ms': 0.212218, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.88, 'hnsw_seen': 286.3, 'erng_avg': 83.94, 'erng_ms': 0.201904, 'erng_min_match': 100.0, 'erng_recall': 88.88, 'erng_seen': 286.3, 'centroids': 96, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c96.npz', 'valid': True, 'selection_score_ms': 0.212218}
+[CppBB] ucid q=100 c=128 attacks=26
+[CppBB] ucid q=100 c=128 attack 01/26 original
+[CppBB] ucid q=100 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=128 attack 04/26 rotate5
+[CppBB] ucid q=100 c=128 attack 05/26 rotate15
+[CppBB] ucid q=100 c=128 attack 06/26 rotate30
+[CppBB] ucid q=100 c=128 attack 07/26 rotate40
+[CppBB] ucid q=100 c=128 attack 08/26 crop5
+[CppBB] ucid q=100 c=128 attack 09/26 crop10
+[CppBB] ucid q=100 c=128 attack 10/26 crop20
+[CppBB] ucid q=100 c=128 attack 11/26 crop40
+[CppBB] ucid q=100 c=128 attack 12/26 bright_light
+[CppBB] ucid q=100 c=128 attack 13/26 bright
+[CppBB] ucid q=100 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=128 attack 15/26 flip_h
+[CppBB] ucid q=100 c=128 attack 16/26 flip_v
+[CppBB] ucid q=100 c=128 attack 17/26 flip
+[CppBB] ucid q=100 c=128 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=128 attack 19/26 resize
+[CppBB] ucid q=100 c=128 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=128 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=128 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=128 attack 25/26 blur
+[CppBB] ucid q=100 c=128 attack 26/26 contrast
+[CppBBCal] ucid c=128 valid=True row={'direct_avg': 83.81, 'direct_ms': 2.315464, 'hnsw_avg': 83.81, 'hnsw_ms': 0.201394, 'hnsw_min_match': 100.0, 'hnsw_recall': 89.08, 'hnsw_seen': 242.9, 'erng_avg': 83.81, 'erng_ms': 0.200719, 'erng_min_match': 100.0, 'erng_recall': 89.08, 'erng_seen': 242.9, 'centroids': 128, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c128.npz', 'valid': True, 'selection_score_ms': 0.201394}
+[CppBB] ucid q=100 c=192 attacks=26
+[CppBB] ucid q=100 c=192 attack 01/26 original
+[CppBB] ucid q=100 c=192 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=192 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=192 attack 04/26 rotate5
+[CppBB] ucid q=100 c=192 attack 05/26 rotate15
+[CppBB] ucid q=100 c=192 attack 06/26 rotate30
+[CppBB] ucid q=100 c=192 attack 07/26 rotate40
+[CppBB] ucid q=100 c=192 attack 08/26 crop5
+[CppBB] ucid q=100 c=192 attack 09/26 crop10
+[CppBB] ucid q=100 c=192 attack 10/26 crop20
+[CppBB] ucid q=100 c=192 attack 11/26 crop40
+[CppBB] ucid q=100 c=192 attack 12/26 bright_light
+[CppBB] ucid q=100 c=192 attack 13/26 bright
+[CppBB] ucid q=100 c=192 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=192 attack 15/26 flip_h
+[CppBB] ucid q=100 c=192 attack 16/26 flip_v
+[CppBB] ucid q=100 c=192 attack 17/26 flip
+[CppBB] ucid q=100 c=192 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=192 attack 19/26 resize
+[CppBB] ucid q=100 c=192 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=192 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=192 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=192 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=192 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=192 attack 25/26 blur
+[CppBB] ucid q=100 c=192 attack 26/26 contrast
+[CppBBCal] ucid c=192 valid=True row={'direct_avg': 83.98, 'direct_ms': 2.318815, 'hnsw_avg': 83.98, 'hnsw_ms': 0.219152, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.02, 'hnsw_seen': 200.3, 'erng_avg': 83.98, 'erng_ms': 0.214127, 'erng_min_match': 100.0, 'erng_recall': 88.08, 'erng_seen': 200.1, 'centroids': 192, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c192.npz', 'valid': True, 'selection_score_ms': 0.219152}
+[CppBB] ucid q=100 c=256 attacks=26
+[CppBB] ucid q=100 c=256 attack 01/26 original
+[CppBB] ucid q=100 c=256 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=256 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=256 attack 04/26 rotate5
+[CppBB] ucid q=100 c=256 attack 05/26 rotate15
+[CppBB] ucid q=100 c=256 attack 06/26 rotate30
+[CppBB] ucid q=100 c=256 attack 07/26 rotate40
+[CppBB] ucid q=100 c=256 attack 08/26 crop5
+[CppBB] ucid q=100 c=256 attack 09/26 crop10
+[CppBB] ucid q=100 c=256 attack 10/26 crop20
+[CppBB] ucid q=100 c=256 attack 11/26 crop40
+[CppBB] ucid q=100 c=256 attack 12/26 bright_light
+[CppBB] ucid q=100 c=256 attack 13/26 bright
+[CppBB] ucid q=100 c=256 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=256 attack 15/26 flip_h
+[CppBB] ucid q=100 c=256 attack 16/26 flip_v
+[CppBB] ucid q=100 c=256 attack 17/26 flip
+[CppBB] ucid q=100 c=256 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=256 attack 19/26 resize
+[CppBB] ucid q=100 c=256 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=256 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=256 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=256 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=256 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=256 attack 25/26 blur
+[CppBB] ucid q=100 c=256 attack 26/26 contrast
+[CppBBCal] ucid c=256 valid=True row={'direct_avg': 83.92, 'direct_ms': 2.267448, 'hnsw_avg': 83.92, 'hnsw_ms': 0.239085, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.96, 'hnsw_seen': 165.2, 'erng_avg': 83.92, 'erng_ms': 0.233487, 'erng_min_match': 100.0, 'erng_recall': 87.96, 'erng_seen': 164.7, 'centroids': 256, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c256.npz', 'valid': True, 'selection_score_ms': 0.239085}
+[CppBB] ucid q=100 c=384 attacks=26
+[CppBB] ucid q=100 c=384 attack 01/26 original
+[CppBB] ucid q=100 c=384 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=384 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=384 attack 04/26 rotate5
+[CppBB] ucid q=100 c=384 attack 05/26 rotate15
+[CppBB] ucid q=100 c=384 attack 06/26 rotate30
+[CppBB] ucid q=100 c=384 attack 07/26 rotate40
+[CppBB] ucid q=100 c=384 attack 08/26 crop5
+[CppBB] ucid q=100 c=384 attack 09/26 crop10
+[CppBB] ucid q=100 c=384 attack 10/26 crop20
+[CppBB] ucid q=100 c=384 attack 11/26 crop40
+[CppBB] ucid q=100 c=384 attack 12/26 bright_light
+[CppBB] ucid q=100 c=384 attack 13/26 bright
+[CppBB] ucid q=100 c=384 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=384 attack 15/26 flip_h
+[CppBB] ucid q=100 c=384 attack 16/26 flip_v
+[CppBB] ucid q=100 c=384 attack 17/26 flip
+[CppBB] ucid q=100 c=384 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=384 attack 19/26 resize
+[CppBB] ucid q=100 c=384 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=384 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=384 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=384 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=384 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=384 attack 25/26 blur
+[CppBB] ucid q=100 c=384 attack 26/26 contrast
+[CppBBCal] ucid c=384 valid=True row={'direct_avg': 83.88, 'direct_ms': 2.390768, 'hnsw_avg': 83.88, 'hnsw_ms': 0.291274, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.25, 'hnsw_seen': 127.6, 'erng_avg': 83.88, 'erng_ms': 0.289787, 'erng_min_match': 100.0, 'erng_recall': 88.44, 'erng_seen': 127.3, 'centroids': 384, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c384.npz', 'valid': True, 'selection_score_ms': 0.291274}
+[CppBB] ucid q=100 c=512 attacks=26
+[CppBB] ucid q=100 c=512 attack 01/26 original
+[CppBB] ucid q=100 c=512 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=512 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=512 attack 04/26 rotate5
+[CppBB] ucid q=100 c=512 attack 05/26 rotate15
+[CppBB] ucid q=100 c=512 attack 06/26 rotate30
+[CppBB] ucid q=100 c=512 attack 07/26 rotate40
+[CppBB] ucid q=100 c=512 attack 08/26 crop5
+[CppBB] ucid q=100 c=512 attack 09/26 crop10
+[CppBB] ucid q=100 c=512 attack 10/26 crop20
+[CppBB] ucid q=100 c=512 attack 11/26 crop40
+[CppBB] ucid q=100 c=512 attack 12/26 bright_light
+[CppBB] ucid q=100 c=512 attack 13/26 bright
+[CppBB] ucid q=100 c=512 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=512 attack 15/26 flip_h
+[CppBB] ucid q=100 c=512 attack 16/26 flip_v
+[CppBB] ucid q=100 c=512 attack 17/26 flip
+[CppBB] ucid q=100 c=512 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=512 attack 19/26 resize
+[CppBB] ucid q=100 c=512 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=512 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=512 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=512 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=512 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=512 attack 25/26 blur
+[CppBB] ucid q=100 c=512 attack 26/26 contrast
+[CppBBCal] ucid c=512 valid=True row={'direct_avg': 83.67, 'direct_ms': 2.464485, 'hnsw_avg': 83.67, 'hnsw_ms': 0.373599, 'hnsw_min_match': 100.0, 'hnsw_recall': 86.75, 'hnsw_seen': 107.2, 'erng_avg': 83.67, 'erng_ms': 0.373393, 'erng_min_match': 100.0, 'erng_recall': 86.81, 'erng_seen': 106.9, 'centroids': 512, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c512.npz', 'valid': True, 'selection_score_ms': 0.373599}
+[CppBB] ucid q=100 c=768 attacks=26
+[CppBB] ucid q=100 c=768 attack 01/26 original
+[CppBB] ucid q=100 c=768 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=768 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=768 attack 04/26 rotate5
+[CppBB] ucid q=100 c=768 attack 05/26 rotate15
+[CppBB] ucid q=100 c=768 attack 06/26 rotate30
+[CppBB] ucid q=100 c=768 attack 07/26 rotate40
+[CppBB] ucid q=100 c=768 attack 08/26 crop5
+[CppBB] ucid q=100 c=768 attack 09/26 crop10
+[CppBB] ucid q=100 c=768 attack 10/26 crop20
+[CppBB] ucid q=100 c=768 attack 11/26 crop40
+[CppBB] ucid q=100 c=768 attack 12/26 bright_light
+[CppBB] ucid q=100 c=768 attack 13/26 bright
+[CppBB] ucid q=100 c=768 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=768 attack 15/26 flip_h
+[CppBB] ucid q=100 c=768 attack 16/26 flip_v
+[CppBB] ucid q=100 c=768 attack 17/26 flip
+[CppBB] ucid q=100 c=768 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=768 attack 19/26 resize
+[CppBB] ucid q=100 c=768 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=768 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=768 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=768 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=768 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=768 attack 25/26 blur
+[CppBB] ucid q=100 c=768 attack 26/26 contrast
+[CppBBCal] ucid c=768 valid=True row={'direct_avg': 83.54, 'direct_ms': 2.35652, 'hnsw_avg': 83.54, 'hnsw_ms': 0.511754, 'hnsw_min_match': 100.0, 'hnsw_recall': 86.85, 'hnsw_seen': 85.0, 'erng_avg': 83.54, 'erng_ms': 0.503478, 'erng_min_match': 100.0, 'erng_recall': 86.87, 'erng_seen': 84.5, 'centroids': 768, 'centroid_file': '/home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroids_c768.npz', 'valid': True, 'selection_score_ms': 0.511754}
+[CppBB] selected ds=ucid c=128
+[CppBB] ucid q=100 c=128 attacks=26
+[CppBB] ucid q=100 c=128 attack 01/26 original
+[CppBB] ucid q=100 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=100 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=100 c=128 attack 04/26 rotate5
+[CppBB] ucid q=100 c=128 attack 05/26 rotate15
+[CppBB] ucid q=100 c=128 attack 06/26 rotate30
+[CppBB] ucid q=100 c=128 attack 07/26 rotate40
+[CppBB] ucid q=100 c=128 attack 08/26 crop5
+[CppBB] ucid q=100 c=128 attack 09/26 crop10
+[CppBB] ucid q=100 c=128 attack 10/26 crop20
+[CppBB] ucid q=100 c=128 attack 11/26 crop40
+[CppBB] ucid q=100 c=128 attack 12/26 bright_light
+[CppBB] ucid q=100 c=128 attack 13/26 bright
+[CppBB] ucid q=100 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=100 c=128 attack 15/26 flip_h
+[CppBB] ucid q=100 c=128 attack 16/26 flip_v
+[CppBB] ucid q=100 c=128 attack 17/26 flip
+[CppBB] ucid q=100 c=128 attack 18/26 resize_compress
+[CppBB] ucid q=100 c=128 attack 19/26 resize
+[CppBB] ucid q=100 c=128 attack 20/26 watermark_text
+[CppBB] ucid q=100 c=128 attack 21/26 watermark_asset
+[CppBB] ucid q=100 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=100 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=100 c=128 attack 24/26 bg_color_change
+[CppBB] ucid q=100 c=128 attack 25/26 blur
+[CppBB] ucid q=100 c=128 attack 26/26 contrast
+[CppBBSummary] ucid q=100 {'direct_avg': 84.13, 'direct_ms': 2.338434, 'hnsw_avg': 84.13, 'hnsw_ms': 0.212594, 'hnsw_min_match': 100.0, 'hnsw_recall': 88.88, 'hnsw_seen': 243.1, 'erng_avg': 84.13, 'erng_ms': 0.206352, 'erng_min_match': 100.0, 'erng_recall': 88.87, 'erng_seen': 243.1}
+[CppBB] ucid q=200 c=128 attacks=26
+[CppBB] ucid q=200 c=128 attack 01/26 original
+[CppBB] ucid q=200 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=200 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=200 c=128 attack 04/26 rotate5
+[CppBB] ucid q=200 c=128 attack 05/26 rotate15
+[CppBB] ucid q=200 c=128 attack 06/26 rotate30
+[CppBB] ucid q=200 c=128 attack 07/26 rotate40
+[CppBB] ucid q=200 c=128 attack 08/26 crop5
+[CppBB] ucid q=200 c=128 attack 09/26 crop10
+[CppBB] ucid q=200 c=128 attack 10/26 crop20
+[CppBB] ucid q=200 c=128 attack 11/26 crop40
+[CppBB] ucid q=200 c=128 attack 12/26 bright_light
+[CppBB] ucid q=200 c=128 attack 13/26 bright
+[CppBB] ucid q=200 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=200 c=128 attack 15/26 flip_h
+[CppBB] ucid q=200 c=128 attack 16/26 flip_v
+[CppBB] ucid q=200 c=128 attack 17/26 flip
+[CppBB] ucid q=200 c=128 attack 18/26 resize_compress
+[CppBB] ucid q=200 c=128 attack 19/26 resize
+[CppBB] ucid q=200 c=128 attack 20/26 watermark_text
+[CppBB] ucid q=200 c=128 attack 21/26 watermark_asset
+[CppBB] ucid q=200 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=200 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=200 c=128 attack 24/26 bg_color_change
+[CppBB] ucid q=200 c=128 attack 25/26 blur
+[CppBB] ucid q=200 c=128 attack 26/26 contrast
+[CppBBSummary] ucid q=200 {'direct_avg': 83.87, 'direct_ms': 2.302154, 'hnsw_avg': 83.87, 'hnsw_ms': 0.207348, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.58, 'hnsw_seen': 241.7, 'erng_avg': 83.87, 'erng_ms': 0.204183, 'erng_min_match': 100.0, 'erng_recall': 87.56, 'erng_seen': 241.4}
+[CppBB] ucid q=500 c=128 attacks=26
+[CppBB] ucid q=500 c=128 attack 01/26 original
+[CppBB] ucid q=500 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=500 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=500 c=128 attack 04/26 rotate5
+[CppBB] ucid q=500 c=128 attack 05/26 rotate15
+[CppBB] ucid q=500 c=128 attack 06/26 rotate30
+[CppBB] ucid q=500 c=128 attack 07/26 rotate40
+[CppBB] ucid q=500 c=128 attack 08/26 crop5
+[CppBB] ucid q=500 c=128 attack 09/26 crop10
+[CppBB] ucid q=500 c=128 attack 10/26 crop20
+[CppBB] ucid q=500 c=128 attack 11/26 crop40
+[CppBB] ucid q=500 c=128 attack 12/26 bright_light
+[CppBB] ucid q=500 c=128 attack 13/26 bright
+[CppBB] ucid q=500 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=500 c=128 attack 15/26 flip_h
+[CppBB] ucid q=500 c=128 attack 16/26 flip_v
+[CppBB] ucid q=500 c=128 attack 17/26 flip
+[CppBB] ucid q=500 c=128 attack 18/26 resize_compress
+[CppBB] ucid q=500 c=128 attack 19/26 resize
+[CppBB] ucid q=500 c=128 attack 20/26 watermark_text
+[CppBB] ucid q=500 c=128 attack 21/26 watermark_asset
+[CppBB] ucid q=500 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=500 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=500 c=128 attack 24/26 bg_color_change
+[CppBB] ucid q=500 c=128 attack 25/26 blur
+[CppBB] ucid q=500 c=128 attack 26/26 contrast
+[CppBBSummary] ucid q=500 {'direct_avg': 84.35, 'direct_ms': 2.294857, 'hnsw_avg': 84.35, 'hnsw_ms': 0.187799, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.52, 'hnsw_seen': 226.1, 'erng_avg': 84.35, 'erng_ms': 0.189814, 'erng_min_match': 100.0, 'erng_recall': 87.52, 'erng_seen': 225.9}
+[CppBB] ucid q=850 c=128 attacks=26
+[CppBB] ucid q=850 c=128 attack 01/26 original
+[CppBB] ucid q=850 c=128 attack 02/26 rotate_m5
+[CppBB] ucid q=850 c=128 attack 03/26 rotate_m10
+[CppBB] ucid q=850 c=128 attack 04/26 rotate5
+[CppBB] ucid q=850 c=128 attack 05/26 rotate15
+[CppBB] ucid q=850 c=128 attack 06/26 rotate30
+[CppBB] ucid q=850 c=128 attack 07/26 rotate40
+[CppBB] ucid q=850 c=128 attack 08/26 crop5
+[CppBB] ucid q=850 c=128 attack 09/26 crop10
+[CppBB] ucid q=850 c=128 attack 10/26 crop20
+[CppBB] ucid q=850 c=128 attack 11/26 crop40
+[CppBB] ucid q=850 c=128 attack 12/26 bright_light
+[CppBB] ucid q=850 c=128 attack 13/26 bright
+[CppBB] ucid q=850 c=128 attack 14/26 heavy_bright
+[CppBB] ucid q=850 c=128 attack 15/26 flip_h
+[CppBB] ucid q=850 c=128 attack 16/26 flip_v
+[CppBB] ucid q=850 c=128 attack 17/26 flip
+[CppBB] ucid q=850 c=128 attack 18/26 resize_compress
+[CppBB] ucid q=850 c=128 attack 19/26 resize
+[CppBB] ucid q=850 c=128 attack 20/26 watermark_text
+[CppBB] ucid q=850 c=128 attack 21/26 watermark_asset
+[CppBB] ucid q=850 c=128 attack 22/26 mix_rotate10_bright
+[CppBB] ucid q=850 c=128 attack 23/26 mix_crop20_watermark
+[CppBB] ucid q=850 c=128 attack 24/26 bg_color_change
+[CppBB] ucid q=850 c=128 attack 25/26 blur
+[CppBB] ucid q=850 c=128 attack 26/26 contrast
+[CppBBSummary] ucid q=850 {'direct_avg': 84.4, 'direct_ms': 2.395057, 'hnsw_avg': 84.4, 'hnsw_ms': 0.204404, 'hnsw_min_match': 100.0, 'hnsw_recall': 87.01, 'hnsw_seen': 223.3, 'erng_avg': 84.4, 'erng_ms': 0.199264, 'erng_min_match': 100.0, 'erng_recall': 87.01, 'erng_seen': 223.2}
+[CppBB] saved /home/saketh/json/final_named_artifacts_20260601/ucid/phase3_cpp_centroid_branchbound/ucid_cpp_centroid_branchbound_timing.json
